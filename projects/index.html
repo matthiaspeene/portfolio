@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore Matthias Peene&#039;s work in audio programming, game audio, sound design, and creative technology.">
+    <meta name="theme-color" content="#111311">
+    <title>Projects — Matthias Peene</title>
+    <link rel="stylesheet" href="../assets/site.css"></head>
+  <body class="projects-page">
+    
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="../index.html" aria-label="Matthias Peene, home">
+        <span>MP</span><i aria-hidden="true"></i>
+      </a>
+      <nav aria-label="Main navigation">
+        <a  href="../index.html">Home</a>
+        <a aria-current="page" href="../projects/">Projects</a>
+        <a class="nav-contact" href="mailto:matthiaspeene@hotmail.nl">Let’s talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main id="main">
+      <!-- <section class="projects-intro section-shell">
+        <p class="eyebrow">Project archive</p>
+        <div>
+          <h1>Work you can<br><em>hear</em> and use.</h1>
+          <p>Explore projects by discipline, skill, technology, or tool. The strongest evidence appears first; filters keep that quality order intact.</p>
+        </div>
+      </section> -->
+
+      <section class="filter-section" aria-labelledby="filter-title">
+        <div class="section-shell">
+          <div class="filter-heading">
+            <div>
+              <p class="eyebrow">Find relevant experience</p>
+              <h2 id="filter-title">What are you looking for?</h2>
+            </div>
+            <button class="filter-clear" id="clear-filters" type="button" hidden>Clear all</button>
+          </div>
+          <div class="filter-controls">
+            <label class="search-field">
+              <span class="visually-hidden">Search projects</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.4A7.75 7.75 0 1 1 3.5 11.25a7.75 7.75 0 0 1 15.5 0Z"/></svg>
+              <input id="project-search" type="search" placeholder="Search projects…" autocomplete="off">
+            </label>
+            <label class="facet-field">
+              <span class="visually-hidden">Add a project filter</span>
+              <select id="facet-select"><option value="">Filter by project, skill, technology, tool…</option></select>
+            </label>
+          </div>
+          <div class="popular-filters" id="popular-filters" aria-label="Popular filters"></div>
+          <div class="active-filters" id="active-filters" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="project-results section-shell" aria-labelledby="results-title">
+        <!-- <div class="results-heading">
+          <h2 id="results-title"><span id="result-count">48</span> projects</h2>
+          <p id="sort-note">Ordered by evidence quality</p>
+        </div> -->
+        <div class="project-list" id="project-list"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <p class="eyebrow">No matches</p>
+          <h2>Try a wider search.</h2>
+          <p>Remove a filter or search for a different skill, technology, or discipline.</p>
+          <button class="button button--primary" type="button" data-clear-filters>Clear filters</button>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="site-footer">
+      <div>
+        <a class="wordmark wordmark--footer" href="../index.html" aria-label="Matthias Peene, home"><span>MP</span><i aria-hidden="true"></i></a>
+        <p>Audio systems, creative tools, and interactive sound.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:matthiaspeene@hotmail.nl">Email</a>
+        <a href="https://github.com/matthiaspeene" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="footer-note">© 2026 Matthias Peene · Built from CareerVault</p>
+    </footer>
+    <script src="../assets/projects-data.js"></script>
+    <script src="../assets/projects.js"></script>
+  </body>
+</html>
