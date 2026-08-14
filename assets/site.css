@@ -364,13 +364,21 @@ select {
   padding-block: 0.9rem;
 }
 
-.ticker > div {
+.ticker__track {
   align-items: center;
   animation: ticker 35s linear infinite;
   display: flex;
-  gap: 1.7rem;
   white-space: nowrap;
   width: max-content;
+}
+
+.ticker__group {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  gap: 1.7rem;
+  justify-content: space-around;
+  min-width: 100vw;
 }
 
 .ticker span {
@@ -1274,7 +1282,7 @@ button.project-card__tag:hover {
     transition-duration: 0.01ms !important;
   }
 
-  .ticker > div,
+  .ticker__track,
   .reveal {
     animation: none !important;
   }
