@@ -502,7 +502,7 @@
     "id": "anno-trailer-music-edit",
     "title": "Anno Trailer Music Edit",
     "description": "Researched, selected, and edited orchestral music to create a new soundtrack for the Anno 1800 trailer. Synchronized the music to the trailer's pacing, mixed it with the original voice-over, and analyzed the musical choices to support the game's historical atmosphere.",
-    "hasMoreDescription": true,
+    "hasMoreDescription": false,
     "context": "MTS4 - Music for Games",
     "role": "Interactive Music Designer",
     "status": "complete",
@@ -542,7 +542,7 @@
     "links": [],
     "images": [],
     "descriptionSummaryHtml": "Researched, selected, and edited orchestral music to create a new soundtrack for the *Anno 1800* trailer. Synchronized the music to the trailer&#039;s pacing, mixed it with the original voice-over, and analyzed the musical choices to support the game&#039;s historical atmosphere.",
-    "descriptionHtml": "<p>Researched, selected, and edited orchestral music to create a new soundtrack for the *Anno 1800* trailer. Synchronized the music to the trailer&#039;s pacing, mixed it with the original voice-over, and analyzed the musical choices to support the game&#039;s historical atmosphere.</p>\n<h5>Techniques Used</h5>"
+    "descriptionHtml": "<p>Researched, selected, and edited orchestral music to create a new soundtrack for the *Anno 1800* trailer. Synchronized the music to the trailer&#039;s pacing, mixed it with the original voice-over, and analyzed the musical choices to support the game&#039;s historical atmosphere.</p>"
   },
   {
     "id": "beats-from-the-deep",
@@ -658,7 +658,7 @@
     "id": "boney-boogaloo-enhanced",
     "title": "Boney Boogaloo Enhanced",
     "description": "Re-implemented the existing audio of Boney Boogaloo Enhanced in Unity using FMOD and expanded it with parameter-driven audio behavior. Enhanced the implementation with multiple FMOD parameter types, a global game-state parameter, snapshots, and an incremental Perforce workflow.",
-    "hasMoreDescription": true,
+    "hasMoreDescription": false,
     "context": "MTS4 - Sound Integration 2",
     "role": "Technical Sound Designer",
     "status": "complete",
@@ -693,7 +693,7 @@
     "links": [],
     "images": [],
     "descriptionSummaryHtml": "Re-implemented the existing audio of <a href=\"?filter=projects%3ABoney+Boogaloo+Enhanced\">Boney Boogaloo Enhanced</a> in Unity using FMOD and expanded it with parameter-driven audio behavior. Enhanced the implementation with multiple FMOD parameter types, a global game-state parameter, snapshots, and an incremental Perforce workflow.",
-    "descriptionHtml": "<p>Re-implemented the existing audio of <a href=\"?filter=projects%3ABoney+Boogaloo+Enhanced\">Boney Boogaloo Enhanced</a> in Unity using FMOD and expanded it with parameter-driven audio behavior. Enhanced the implementation with multiple FMOD parameter types, a global game-state parameter, snapshots, and an incremental Perforce workflow.</p>\n<h5>Techniques Used</h5>"
+    "descriptionHtml": "<p>Re-implemented the existing audio of <a href=\"?filter=projects%3ABoney+Boogaloo+Enhanced\">Boney Boogaloo Enhanced</a> in Unity using FMOD and expanded it with parameter-driven audio behavior. Enhanced the implementation with multiple FMOD parameter types, a global game-state parameter, snapshots, and an incremental Perforce workflow.</p>"
   },
   {
     "id": "close-combat-sound-design",
@@ -971,7 +971,14 @@
         "youtubeId": null
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "target": "PlayBanner.png",
+        "label": "PlayBanner",
+        "type": "image",
+        "url": "../assets/evidence/63d835cf1ad4fd3b.png"
+      }
+    ],
     "descriptionSummaryHtml": "Designed and developed a 2D puzzle platformer prototype centered around emotions as playable characters, each with unique movement and puzzle-solving abilities. Implemented the core gameplay systems in Unity, including character switching, emotion attraction and repulsion mechanics, checkpoints, platforming abilities, and progression through puzzle-based levels.",
     "descriptionHtml": "<p>Designed and developed a 2D puzzle platformer prototype centered around emotions as playable characters, each with unique movement and puzzle-solving abilities. Implemented the core gameplay systems in Unity, including character switching, emotion attraction and repulsion mechanics, checkpoints, platforming abilities, and progression through puzzle-based levels.</p>"
   },
@@ -979,7 +986,7 @@
     "id": "into-the-deep",
     "title": "Into the Deep",
     "description": "Developed the core rhythm and dynamic music systems for Into the Deep, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.",
-    "hasMoreDescription": true,
+    "hasMoreDescription": false,
     "context": "Group Projects",
     "role": "Technical Sound Designer",
     "status": "complete",
@@ -1031,7 +1038,7 @@
     ],
     "images": [],
     "descriptionSummaryHtml": "Developed the core rhythm and dynamic music systems for <strong><a href=\"?filter=projects%3AInto+the+Deep\">Into the Deep</a></strong>, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.",
-    "descriptionHtml": "<p>Developed the core rhythm and dynamic music systems for <strong><a href=\"?filter=projects%3AInto+the+Deep\">Into the Deep</a></strong>, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.</p>\n<h5>Techniques Used</h5>"
+    "descriptionHtml": "<p>Developed the core rhythm and dynamic music systems for <strong><a href=\"?filter=projects%3AInto+the+Deep\">Into the Deep</a></strong>, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.</p>"
   },
   {
     "id": "john-lemon",
@@ -1090,7 +1097,7 @@
     "id": "lego-databasing",
     "title": "LEGO - Databasing",
     "description": "Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.",
-    "hasMoreDescription": false,
+    "hasMoreDescription": true,
     "context": "Internship",
     "role": "Software Developer",
     "status": "complete",
@@ -1130,13 +1137,13 @@
       }
     ],
     "descriptionSummaryHtml": "Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.",
-    "descriptionHtml": "<p>Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.</p>"
+    "descriptionHtml": "<p>Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
   },
   {
     "id": "lego-psycho-acoustic-analysis",
     "title": "LEGO - Psycho-acoustic Analysis",
     "description": "Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.",
-    "hasMoreDescription": false,
+    "hasMoreDescription": true,
     "context": "Internship",
     "role": "Audio Programmer",
     "status": "complete",
@@ -1180,13 +1187,13 @@
       }
     ],
     "descriptionSummaryHtml": "Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.",
-    "descriptionHtml": "<p>Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.</p>"
+    "descriptionHtml": "<p>Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
   },
   {
     "id": "lego-ui-sound-design",
     "title": "LEGO - UI Sound Design",
     "description": "Contributed UI sound design for a LEGO application, creating interface audio to support user interaction and feedback within the app.",
-    "hasMoreDescription": false,
+    "hasMoreDescription": true,
     "context": "Internship",
     "role": "Sound Designer",
     "status": "complete",
@@ -1221,7 +1228,7 @@
       }
     ],
     "descriptionSummaryHtml": "Contributed UI sound design for a LEGO application, creating interface audio to support user interaction and feedback within the app.",
-    "descriptionHtml": "<p>Contributed UI sound design for a LEGO application, creating interface audio to support user interaction and feedback within the app.</p>"
+    "descriptionHtml": "<p>Contributed UI sound design for a LEGO application, creating interface audio to support user interaction and feedback within the app.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
   },
   {
     "id": "ohm",
@@ -1644,7 +1651,7 @@
     "id": "anno-gameplay-horizontal-playlists-in-wwise",
     "title": "Anno Gameplay Horizontal Playlists in Wwise",
     "description": "Designed and implemented adaptive music systems in Wwise for Anno 1800 using horizontal resequencing techniques. Built separate playlists for calm and high-intensity gameplay with seamless looping, randomization, and musical variation to reduce repetition during extended play sessions.",
-    "hasMoreDescription": true,
+    "hasMoreDescription": false,
     "context": "MTS4 - Music for Games",
     "role": "Interactive Music Designer",
     "status": "complete",
@@ -1677,9 +1684,9 @@
     "videos": [
       {
         "label": "A Suitable Suitor",
-        "url": "https://youtu.be/J7v4WC7AqYY?si=r-jgXPOiEOD55-5P",
+        "url": "https://youtu.be/TzBuFCxi0qU",
         "type": "youtube",
-        "youtubeId": "J7v4WC7AqYY"
+        "youtubeId": "TzBuFCxi0qU"
       },
       {
         "label": "Ominous Violin",
@@ -1691,7 +1698,7 @@
     "links": [],
     "images": [],
     "descriptionSummaryHtml": "Designed and implemented adaptive music systems in Wwise for *Anno 1800* using horizontal resequencing techniques. Built separate playlists for calm and high-intensity gameplay with seamless looping, randomization, and musical variation to reduce repetition during extended play sessions.",
-    "descriptionHtml": "<p>Designed and implemented adaptive music systems in Wwise for *Anno 1800* using horizontal resequencing techniques. Built separate playlists for calm and high-intensity gameplay with seamless looping, randomization, and musical variation to reduce repetition during extended play sessions.</p>\n<h5>Techniques Used</h5>"
+    "descriptionHtml": "<p>Designed and implemented adaptive music systems in Wwise for *Anno 1800* using horizontal resequencing techniques. Built separate playlists for calm and high-intensity gameplay with seamless looping, randomization, and musical variation to reduce repetition during extended play sessions.</p>"
   },
   {
     "id": "car",
@@ -1739,7 +1746,7 @@
     "id": "dungeons-of-apostacy",
     "title": "Dungeons of Apostacy",
     "description": "Re-implemented the audio for the opening section of Dungeon of Apostasy in Unreal Engine using Wwise and C++. Refactored existing Blueprint-driven audio into C++ systems for interactive objects, player and enemy footsteps, music, and ambience, while using Wwise game syncs and Unreal event systems to drive dynamic audio behaviour.",
-    "hasMoreDescription": true,
+    "hasMoreDescription": false,
     "context": "MTS4 - Sound Integration 2",
     "role": "Technical Sound Designer",
     "status": "complete",
@@ -1778,13 +1785,13 @@
     "links": [],
     "images": [],
     "descriptionSummaryHtml": "Re-implemented the audio for the opening section of <strong>Dungeon of Apostasy</strong> in Unreal Engine using Wwise and C++. Refactored existing Blueprint-driven audio into C++ systems for interactive objects, player and enemy footsteps, music, and ambience, while using Wwise game syncs and Unreal event systems to drive dynamic audio behaviour.",
-    "descriptionHtml": "<p>Re-implemented the audio for the opening section of <strong>Dungeon of Apostasy</strong> in Unreal Engine using Wwise and C++. Refactored existing Blueprint-driven audio into C++ systems for interactive objects, player and enemy footsteps, music, and ambience, while using Wwise game syncs and Unreal event systems to drive dynamic audio behaviour.</p>\n<h5>Techniques Used</h5>"
+    "descriptionHtml": "<p>Re-implemented the audio for the opening section of <strong>Dungeon of Apostasy</strong> in Unreal Engine using Wwise and C++. Refactored existing Blueprint-driven audio into C++ systems for interactive objects, player and enemy footsteps, music, and ambience, while using Wwise game syncs and Unreal event systems to drive dynamic audio behaviour.</p>"
   },
   {
     "id": "flooded-grounds",
     "title": "Flooded Grounds",
     "description": "Implemented the audio for the Flooded Grounds walking-simulator prototype across two Unity scenes using Wwise. Created location-specific ambiences, volumetric river audio, surface-dependent footsteps, interior and exterior auxiliary routing, scene transitions, and optimized soundbank loading.",
-    "hasMoreDescription": true,
+    "hasMoreDescription": false,
     "context": "No file",
     "role": "Technical Sound Designer",
     "status": "complete",
@@ -1819,7 +1826,7 @@
     "links": [],
     "images": [],
     "descriptionSummaryHtml": "Implemented the audio for the *Flooded Grounds* walking-simulator prototype across two Unity scenes using Wwise. Created location-specific ambiences, volumetric river audio, surface-dependent footsteps, interior and exterior auxiliary routing, scene transitions, and optimized soundbank loading.",
-    "descriptionHtml": "<p>Implemented the audio for the *Flooded Grounds* walking-simulator prototype across two Unity scenes using Wwise. Created location-specific ambiences, volumetric river audio, surface-dependent footsteps, interior and exterior auxiliary routing, scene transitions, and optimized soundbank loading.</p>\n<h5>Techniques Used</h5>"
+    "descriptionHtml": "<p>Implemented the audio for the *Flooded Grounds* walking-simulator prototype across two Unity scenes using Wwise. Created location-specific ambiences, volumetric river audio, surface-dependent footsteps, interior and exterior auxiliary routing, scene transitions, and optimized soundbank loading.</p>"
   },
   {
     "id": "immersive-soundscapes",
@@ -1873,7 +1880,7 @@
     "id": "lego-smart-play-sound-design",
     "title": "LEGO - Smart Play Sound Design",
     "description": "Contributed sound design to LEGO SMART Play, creating sounds within its synth-based audio system. Worked within the project's existing audio framework to design sounds suited to the interactive experience.",
-    "hasMoreDescription": false,
+    "hasMoreDescription": true,
     "context": "Internship",
     "role": "Sound Designer",
     "status": "complete",
@@ -1908,7 +1915,7 @@
       }
     ],
     "descriptionSummaryHtml": "Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within its synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds suited to the interactive experience.",
-    "descriptionHtml": "<p>Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within its synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds suited to the interactive experience.</p>"
+    "descriptionHtml": "<p>Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within its synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds suited to the interactive experience.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
   },
   {
     "id": "luna",
@@ -1963,7 +1970,7 @@
     "id": "music-composition-and-vertical-re-orchestration",
     "title": "Music composition and vertical re-orchestration",
     "description": "Composed and implemented an adaptive music system featuring original music with multiple interactive variations. Combined horizontal resequencing, vertical re-orchestration, MIDI-driven drum playback, and Wwise samplers to create a dynamic soundtrack with seamless transitions, randomized musical layers, and reduced memory usage.",
-    "hasMoreDescription": true,
+    "hasMoreDescription": false,
     "context": "MTS4 - Music for Games",
     "role": "Composer",
     "status": "complete",
@@ -2006,7 +2013,7 @@
     "links": [],
     "images": [],
     "descriptionSummaryHtml": "Composed and implemented an adaptive music system featuring original music with multiple interactive variations. Combined horizontal resequencing, vertical re-orchestration, MIDI-driven drum playback, and Wwise samplers to create a dynamic soundtrack with seamless transitions, randomized musical layers, and reduced memory usage.",
-    "descriptionHtml": "<p>Composed and implemented an adaptive music system featuring original music with multiple interactive variations. Combined horizontal resequencing, vertical re-orchestration, MIDI-driven drum playback, and Wwise samplers to create a dynamic soundtrack with seamless transitions, randomized musical layers, and reduced memory usage.</p>\n<h5>Techniques Used</h5>"
+    "descriptionHtml": "<p>Composed and implemented an adaptive music system featuring original music with multiple interactive variations. Combined horizontal resequencing, vertical re-orchestration, MIDI-driven drum playback, and Wwise samplers to create a dynamic soundtrack with seamless transitions, randomized musical layers, and reduced memory usage.</p>"
   },
   {
     "id": "spatialization-practical-exam",
@@ -2054,7 +2061,7 @@
     "id": "stomach-aches",
     "title": "Stomach Aches",
     "description": "Implemented a cross-platform Wwise audio pipeline for a first-person shooter prototype, optimizing the project for Windows, macOS, and Android. Developed platform-specific ambience systems, audio LODs, virtual voice behavior, soundbank management, spatial footsteps, environmental routing, and memory-conscious audio implementation across multiple gameplay zones.",
-    "hasMoreDescription": true,
+    "hasMoreDescription": false,
     "context": "No file",
     "role": "Technical Sound Designer",
     "status": "complete",
@@ -2089,7 +2096,7 @@
     "links": [],
     "images": [],
     "descriptionSummaryHtml": "Implemented a cross-platform Wwise audio pipeline for a first-person shooter prototype, optimizing the project for Windows, macOS, and Android. Developed platform-specific ambience systems, audio LODs, virtual voice behavior, soundbank management, spatial footsteps, environmental routing, and memory-conscious audio implementation across multiple gameplay zones.",
-    "descriptionHtml": "<p>Implemented a cross-platform Wwise audio pipeline for a first-person shooter prototype, optimizing the project for Windows, macOS, and Android. Developed platform-specific ambience systems, audio LODs, virtual voice behavior, soundbank management, spatial footsteps, environmental routing, and memory-conscious audio implementation across multiple gameplay zones.</p>\n<h5>Techniques Used</h5>"
+    "descriptionHtml": "<p>Implemented a cross-platform Wwise audio pipeline for a first-person shooter prototype, optimizing the project for Windows, macOS, and Android. Developed platform-specific ambience systems, audio LODs, virtual voice behavior, soundbank management, spatial footsteps, environmental routing, and memory-conscious audio implementation across multiple gameplay zones.</p>"
   },
   {
     "id": "stylised-loop-hero",
@@ -2173,7 +2180,14 @@
     ],
     "quality": "medium",
     "qualityRank": 2,
-    "videos": [],
+    "videos": [
+      {
+        "label": "Trailer",
+        "url": "https://youtu.be/t462maRmqfc?si=HDWwYWF8F1_SVRrl",
+        "type": "youtube",
+        "youtubeId": "t462maRmqfc"
+      }
+    ],
     "links": [
       {
         "label": "Music",
@@ -2235,7 +2249,14 @@
         "youtubeId": null
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "target": "TonyPigeon.png",
+        "label": "TonyPigeon",
+        "type": "image",
+        "url": "../assets/evidence/bd4024b96d90b229.png"
+      }
+    ],
     "descriptionSummaryHtml": "Created the sound design and music for <strong><a href=\"?filter=projects%3ATony+Pigeon+Pro+Skater\">Tony Pigeon Pro Skater</a></strong>, a game jam project built around endless-runner gameplay where the player jumps over obstacles and performs aerial tricks through button combinations.",
     "descriptionHtml": "<p>Created the sound design and music for <strong><a href=\"?filter=projects%3ATony+Pigeon+Pro+Skater\">Tony Pigeon Pro Skater</a></strong>, a game jam project built around endless-runner gameplay where the player jumps over obstacles and performs aerial tricks through button combinations.</p>\n<h5>Highlights</h5>\n<ul><li>A half time version of the song plays during slow mo time. The original song pitches down with a crossfade into it. This creates a great slow mo transition.</li></ul>"
   },
@@ -2274,11 +2295,24 @@
     ],
     "quality": "medium",
     "qualityRank": 2,
-    "videos": [],
+    "videos": [
+      {
+        "label": "M1911",
+        "url": "https://youtu.be/zfYo6-TjNTU",
+        "type": "youtube",
+        "youtubeId": "zfYo6-TjNTU"
+      },
+      {
+        "label": "M16A4",
+        "url": "https://youtu.be/LVbpgv8W1RM",
+        "type": "youtube",
+        "youtubeId": "LVbpgv8W1RM"
+      }
+    ],
     "links": [],
     "images": [],
     "descriptionSummaryHtml": "Created weapon sound effects for a game audio redesign project by combining synthesis, recorded sounds, and library samples. Produced multiple weapon variations and integrated them into gameplay scenes with ambience, reverb, foley, and a polished game-ready mix.",
-    "descriptionHtml": "<p>Created weapon sound effects for a game audio redesign project by combining synthesis, recorded sounds, and library samples. Produced multiple weapon variations and integrated them into gameplay scenes with ambience, reverb, foley, and a polished game-ready mix.</p>\n<p>Guns: M1911 &amp; M16A4</p>\n<p>The biggest challenge was getting the relative power of the guns down. The M16A4 is much stronger and I wanted to convey this with sound. I achieved this at the cost of having the M1911 sound not that strong.</p>"
+    "descriptionHtml": "<p>Created weapon sound effects for a game audio redesign project by combining synthesis, recorded sounds, and library samples. Produced multiple weapon variations and integrated them into gameplay scenes with ambience, reverb, foley, and a polished game-ready mix.</p>\n<p>Guns: M1911 &amp; M16A4</p>\n<p>The biggest challenge was getting the relative power of the guns down. The M16A4 is much stronger and I wanted to convey this with sound. I achieved this at the cost of having the M1911 sound less strong.</p>"
   },
   {
     "id": "cutscene",
