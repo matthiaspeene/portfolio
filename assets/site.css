@@ -377,8 +377,7 @@ select {
   display: flex;
   flex-shrink: 0;
   gap: 1.7rem;
-  justify-content: space-around;
-  min-width: 100vw;
+  padding-right: 1.7rem;
 }
 
 .ticker span {
@@ -396,7 +395,7 @@ select {
 }
 
 @keyframes ticker {
-  to { transform: translateX(-50%); }
+  to { transform: translateX(-6.25%); }
 }
 
 .selected-work {
