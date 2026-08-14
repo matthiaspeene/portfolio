@@ -37,6 +37,7 @@
     ],
     "quality": "excellent",
     "qualityRank": 5,
+    "priority": 99,
     "videos": [
       {
         "label": "Demo Release Trailer",
@@ -100,6 +101,7 @@
     ],
     "quality": "excellent",
     "qualityRank": 5,
+    "priority": 98,
     "videos": [
       {
         "label": "YouTube",
@@ -128,98 +130,63 @@
     "descriptionHtml": "<p>Designed and evaluated a custom data-oriented Unity audio system built with ECS and the Scriptable Audio Pipeline, including a custom ECS Root Output capable of rendering large numbers of voices independently of the GameObject hierarchy. Benchmarked the system against Unity&#039;s traditional GameObject-based audio pipeline and found consistently lower Audio CPU usage, improved scalability, and greater real-time stability under increasing audio workloads.</p>"
   },
   {
-    "id": "sneakers",
-    "title": "Sneakers",
-    "description": "Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.",
-    "hasMoreDescription": true,
-    "context": "MTS3 - Middleware 1",
-    "role": "Technical Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Game Audio",
-      "Audio Implementation"
-    ],
-    "skills": [
-      "FMOD Implementation",
-      "Interactive Audio Systems",
-      "Dynamic Music",
-      "Adaptive Mixing",
-      "Game Audio Prototyping",
-      "Audio State Management"
-    ],
-    "technologies": [
-      "FMOD"
-    ],
-    "tools": [],
-    "concepts": [],
-    "relevantFor": [
-      "Technical Sound Designer",
-      "Game Audio Designer",
-      "Audio Implementer",
-      "Sound Designer"
-    ],
-    "quality": "excellent",
-    "qualityRank": 5,
-    "videos": [
-      {
-        "label": "YouTube",
-        "url": "https://youtu.be/zOlqgxBDris?si=ek_GE4_HjQ9ESYAs",
-        "type": "youtube",
-        "youtubeId": "zOlqgxBDris"
-      }
-    ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.",
-    "descriptionHtml": "<p>Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.</p>\n<p>This also demonstrates the posibility of sketching a concept with sound. Like an audio concept artist.</p>"
-  },
-  {
-    "id": "space-harbor-tycoon",
-    "title": "Space Harbor Tycoon",
-    "description": "Designed and implemented the complete audio palette for Space Harbor Tycoon in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.",
+    "id": "into-the-deep",
+    "title": "Into the Deep",
+    "description": "Developed the core rhythm and dynamic music systems for Into the Deep, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.",
     "hasMoreDescription": false,
-    "context": "MTS3 - Middleware 2",
+    "context": "Group Projects",
     "role": "Technical Sound Designer",
     "status": "complete",
     "collection": "Education",
     "disciplines": [
+      "Game Development",
       "Game Audio",
-      "Audio Implementation"
+      "Audio Programming"
     ],
     "skills": [
-      "Wwise Implementation",
-      "Adaptive Audio",
-      "Interactive Audio Systems",
-      "Audio Mixing",
-      "RTPC Design",
-      "Field Recording"
+      "Audio Programming",
+      "Dynamic Music",
+      "Rhythm System Development",
+      "Sound Design",
+      "Audio Implementation",
+      "Music Mixing",
+      "Unreal Engine Development"
     ],
     "technologies": [
-      "Wwise"
+      "Unreal Engine 5",
+      "C++",
+      "MetaSounds"
     ],
     "tools": [],
     "concepts": [],
     "relevantFor": [
       "Technical Sound Designer",
+      "Audio Programmer",
       "Game Audio Designer",
-      "Audio Implementer",
-      "Sound Designer"
+      "Gameplay Programmer"
     ],
-    "quality": "excellent",
-    "qualityRank": 5,
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 97,
     "videos": [
       {
-        "label": "YouTube",
-        "url": "https://youtu.be/qQ-8B2fn2fI?si=OxRQSlWY_trMcpzF",
+        "label": "Trailer",
+        "url": "https://www.youtube.com/watch?v=dLD2hP4zKM4",
         "type": "youtube",
-        "youtubeId": "qQ-8B2fn2fI"
+        "youtubeId": "dLD2hP4zKM4"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/4612780/Into_The_Deep/",
+        "type": "link",
+        "youtubeId": null
+      }
+    ],
     "images": [],
-    "descriptionSummaryHtml": "Designed and implemented the complete audio palette for <strong>Space Harbor Tycoon</strong> in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.",
-    "descriptionHtml": "<p>Designed and implemented the complete audio palette for <strong>Space Harbor Tycoon</strong> in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.</p>"
+    "descriptionSummaryHtml": "Developed the core rhythm and dynamic music systems for <strong><a href=\"?filter=projects%3AInto+the+Deep\">Into the Deep</a></strong>, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.",
+    "descriptionHtml": "<p>Developed the core rhythm and dynamic music systems for <strong><a href=\"?filter=projects%3AInto+the+Deep\">Into the Deep</a></strong>, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.</p>"
   },
   {
     "id": "space-racer",
@@ -258,6 +225,7 @@
     ],
     "quality": "excellent",
     "qualityRank": 5,
+    "priority": 96,
     "videos": [
       {
         "label": "Youtube",
@@ -270,6 +238,811 @@
     "images": [],
     "descriptionSummaryHtml": "Composed and implemented a fully adaptive soundtrack for a futuristic space racing game using Wwise and original music written in Reaper and FL Studio. The music continuously responds to gameplay through real-time parameters, gameplay states, synchronized sound effects, and memory-efficient implementation techniques while maintaining seamless musical flow and variation.",
     "descriptionHtml": "<p>Composed and implemented a fully adaptive soundtrack for a futuristic space racing game using Wwise and original music written in Reaper and FL Studio. The music continuously responds to gameplay through real-time parameters, gameplay states, synchronized sound effects, and memory-efficient implementation techniques while maintaining seamless musical flow and variation.</p>\n<h5>Highlights</h5>\n<h6>Dynamic Parameters</h6>\n<ul><li><strong>Speed</strong> — Music intensity scales continuously with vehicle speed. At lower speeds the bass is reduced while drum hits become shorter through ADSR manipulation, creating the sensation that the energy of the music slows together with the player.</li></ul>\n<ul><li><strong>Collision</strong> — Crashes drive an ADSR-like gameplay parameter whose value depends on collision strength and gradually decays over time. This parameter feeds glitch-style delay effects, creating a dramatic musical interruption that naturally combines with the reduced intensity caused by the loss of speed, giving immediate musical feedback for impacts.</li></ul>\n<ul><li><strong>Gravity</strong> — Black holes influence a gravity parameter that modulates the pitch of the reverb, producing a shimmering effect that makes the soundtrack react organically to gravitational anomalies within the level.</li></ul>\n<h6>Music States</h6>\n<ul><li><strong>Section State</strong> — Different regions of the race trigger unique musical arrangements:</li><li>Standard racing section</li><li>Intense section with more aggressive instrumentation for technical asteroid tunnel segments</li><li>Gravity section designed around heavy use of the gravity parameter and spatial effects</li></ul>\n<ul><li><strong>Paused State</strong> — Pausing the game transitions the music into a slowed, filtered version by reducing the effective speed parameter to zero while applying additional low-pass filtering.</li></ul>\n<h6>Beat-Synchronised Gameplay</h6>\n<p>Gameplay sound effects were synchronized to the musical beat, ensuring that gameplay events remained rhythmically connected to the soundtrack rather than simply playing independently.</p>\n<h6>Memory Optimisation</h6>\n<p>The entire music system was designed with runtime efficiency in mind.</p>\n<ul><li>Drum performances were converted into sliced breakbeats triggered through MIDI inside Wwise instead of storing multiple rendered loops.</li><li>Approximately twelve drum variations were created using only a handful of short drum slices, dramatically reducing memory consumption.</li><li>Bass lines were generated using Wwise&#039;s internal synthesizer instead of prerecorded audio.</li><li>Musical phrases were intelligently reused and rearranged between sections to maximize variation without increasing asset size.</li></ul>\n<p>The resulting system occupies roughly the memory footprint of a single conventional music track while providing fully adaptive playback with effectively unlimited musical variation.</p>"
+  },
+  {
+    "id": "umbrellas-in-the-sun",
+    "title": "Umbrellas in the Sun",
+    "description": "Created the complete sound design and final mix for the animated short Umbrellas in the Sun, collaborating closely with an animation team and a conservatory composer. Iterated extensively with the team to refine key sounds such as the thunder, integrated orchestral recording stems into the mix, and delivered production-ready assets on schedule while coordinating expectations across multiple disciplines.",
+    "hasMoreDescription": false,
+    "context": "MTS3 - Sound Integration 1",
+    "role": "Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Game Audio",
+      "Audio"
+    ],
+    "skills": [
+      "Sound Design",
+      "Audio Mixing",
+      "Collaboration",
+      "Asset Delivery",
+      "Music Integration",
+      "Audio Production",
+      "Stakeholder Communication",
+      "Audio Editing"
+    ],
+    "technologies": [],
+    "tools": [
+      "Reaper"
+    ],
+    "concepts": [],
+    "relevantFor": [
+      "Sound Designer",
+      "Mix Engineer",
+      "Technical Sound Designer",
+      "Game Audio Designer"
+    ],
+    "quality": "excellent",
+    "qualityRank": 5,
+    "priority": 95,
+    "videos": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/SNGk1JnOUqk?si=aK-X0wLdwHRLIRqU",
+        "type": "youtube",
+        "youtubeId": "SNGk1JnOUqk"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Created the complete sound design and final mix for the animated short <strong>Umbrellas in the Sun</strong>, collaborating closely with an animation team and a conservatory composer. Iterated extensively with the team to refine key sounds such as the thunder, integrated orchestral recording stems into the mix, and delivered production-ready assets on schedule while coordinating expectations across multiple disciplines.",
+    "descriptionHtml": "<p>Created the complete sound design and final mix for the animated short <strong>Umbrellas in the Sun</strong>, collaborating closely with an animation team and a conservatory composer. Iterated extensively with the team to refine key sounds such as the thunder, integrated orchestral recording stems into the mix, and delivered production-ready assets on schedule while coordinating expectations across multiple disciplines.</p>"
+  },
+  {
+    "id": "sneakers",
+    "title": "Sneakers",
+    "description": "Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.",
+    "hasMoreDescription": true,
+    "context": "MTS3 - Middleware 1",
+    "role": "Technical Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Game Audio",
+      "Audio Implementation"
+    ],
+    "skills": [
+      "FMOD Implementation",
+      "Interactive Audio Systems",
+      "Dynamic Music",
+      "Adaptive Mixing",
+      "Game Audio Prototyping",
+      "Audio State Management"
+    ],
+    "technologies": [
+      "FMOD"
+    ],
+    "tools": [],
+    "concepts": [],
+    "relevantFor": [
+      "Technical Sound Designer",
+      "Game Audio Designer",
+      "Audio Implementer",
+      "Sound Designer"
+    ],
+    "quality": "excellent",
+    "qualityRank": 5,
+    "priority": 94,
+    "videos": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/zOlqgxBDris?si=ek_GE4_HjQ9ESYAs",
+        "type": "youtube",
+        "youtubeId": "zOlqgxBDris"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.",
+    "descriptionHtml": "<p>Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.</p>\n<p>This also demonstrates the posibility of sketching a concept with sound. Like an audio concept artist.</p>"
+  },
+  {
+    "id": "unity-granular-synth",
+    "title": "Unity Granular Synth",
+    "description": "Created a granular synth package in Unity using the scriptable audio pipeline. The synth was made using data oriented principles for performance. It uses a custom Unity UI on a scriptable object to make configuration easy.",
+    "hasMoreDescription": true,
+    "context": "MTS4 - Audiolab",
+    "role": "Audio Programmer",
+    "status": "complete",
+    "collection": "Personal",
+    "disciplines": [
+      "Audio Programming",
+      "Interactive Audio",
+      "Music Technology"
+    ],
+    "skills": [
+      "Audio Plugin Development",
+      "Audio Programming",
+      "Unity Development",
+      "Unity Plugin Development"
+    ],
+    "technologies": [
+      "Unity"
+    ],
+    "tools": [],
+    "concepts": [
+      "Granular Synthesis",
+      "Data-Oriented Design",
+      "Scriptable Audio Pipeline"
+    ],
+    "relevantFor": [
+      "Audio Programmer",
+      "Audio Software Developer",
+      "DSP Engineer",
+      "Technical Sound Designer"
+    ],
+    "quality": "excellent",
+    "qualityRank": 5,
+    "priority": 93,
+    "videos": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/ev3UDn1Lr18?si=Y_Z4-cFAbL5eNFfC",
+        "type": "youtube",
+        "youtubeId": "ev3UDn1Lr18"
+      }
+    ],
+    "links": [
+      {
+        "label": "Package",
+        "url": "https://marketplace.unity.com/packages/tools/granular-synth-3703711",
+        "type": "link",
+        "youtubeId": null
+      }
+    ],
+    "images": [],
+    "descriptionSummaryHtml": "Created a granular synth package in Unity using the scriptable audio pipeline. The synth was made using data oriented principles for performance. It uses a custom Unity UI on a scriptable object to make configuration easy.",
+    "descriptionHtml": "<p>Created a granular synth package in Unity using the scriptable audio pipeline. The synth was made using data oriented principles for performance. It uses a custom Unity UI on a scriptable object to make configuration easy.</p>\n<p><strong>Features:</strong></p>\n<ul><li>Granular Synth, configurable as a ScriptableObject.</li><li>Controls: Rate, Playback Position Range, Pitch Range, Volume Range, Pan Range, Grain Size Range.</li><li>Configurable Grain Shape.</li><li>Stereo Sample Support.</li><li>Live Preview.</li><li>Toggle-able Anti-Phasing.</li><li>Modulation Matrix for easily assigning multi parameter changes.</li></ul>"
+  },
+  {
+    "id": "lego-psycho-acoustic-analysis",
+    "title": "LEGO - Psycho-acoustic Analysis",
+    "description": "Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.",
+    "hasMoreDescription": true,
+    "context": "Internship",
+    "role": "Audio Programmer",
+    "status": "complete",
+    "collection": "Professional",
+    "disciplines": [
+      "Audio Programming",
+      "Software Development"
+    ],
+    "skills": [
+      "Audio Analysis",
+      "Python Programming",
+      "Psychoacoustic Analysis",
+      "Database Design",
+      "Automation",
+      "Data Visualization"
+    ],
+    "technologies": [
+      "Python",
+      "MOSQITO",
+      "SQLite",
+      "HTML"
+    ],
+    "tools": [],
+    "concepts": [],
+    "relevantFor": [
+      "Audio Programmer",
+      "Audio Software Developer",
+      "Tools Programmer",
+      "Audio Engineer"
+    ],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 92,
+    "videos": [],
+    "links": [],
+    "images": [
+      {
+        "target": "LEGO.jpg",
+        "label": "LEGO",
+        "type": "image",
+        "url": "../assets/evidence/2d987d06dcc4be90.jpg"
+      }
+    ],
+    "descriptionSummaryHtml": "Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.",
+    "descriptionHtml": "<p>Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
+  },
+  {
+    "id": "lego-databasing",
+    "title": "LEGO - Databasing",
+    "description": "Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.",
+    "hasMoreDescription": true,
+    "context": "Internship",
+    "role": "Software Developer",
+    "status": "complete",
+    "collection": "Professional",
+    "disciplines": [
+      "Software Development",
+      "Developer Tools"
+    ],
+    "skills": [
+      "Python Programming",
+      "Database Design",
+      "Codebase Analysis",
+      "Automation",
+      "Tool Development"
+    ],
+    "technologies": [
+      "Python",
+      "SQLite"
+    ],
+    "tools": [],
+    "concepts": [],
+    "relevantFor": [
+      "Software Developer",
+      "Tools Programmer",
+      "Technical Developer"
+    ],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 91,
+    "videos": [],
+    "links": [],
+    "images": [
+      {
+        "target": "LEGO.jpg",
+        "label": "LEGO",
+        "type": "image",
+        "url": "../assets/evidence/2d987d06dcc4be90.jpg"
+      }
+    ],
+    "descriptionSummaryHtml": "Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.",
+    "descriptionHtml": "<p>Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
+  },
+  {
+    "id": "beats-from-the-deep",
+    "title": "Beats From the Deep",
+    "description": "Developed the audio systems for Beats from the Deep, a four-player cooperative rhythm game in which players work together to defeat a cosmic horror boss. Composed the music, designed the sound effects, programmed a custom DSP-driven rhythm system in Unreal Engine that exposed timing events to gameplay systems, and authored the project's Sound Bible while contributing to the broader technical documentation.",
+    "hasMoreDescription": false,
+    "context": "MTS4 - Game Projects",
+    "role": "Technical Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Game Development",
+      "Game Audio",
+      "Audio Programming"
+    ],
+    "skills": [
+      "Audio Programming",
+      "Music Composition",
+      "Sound Design",
+      "Rhythm System Development",
+      "Unreal Engine Development",
+      "Technical Documentation",
+      "Agile Development"
+    ],
+    "technologies": [
+      "Unreal Engine 5",
+      "C++"
+    ],
+    "tools": [
+      "P4V",
+      "HacknPlan"
+    ],
+    "concepts": [],
+    "relevantFor": [
+      "Technical Sound Designer",
+      "Audio Programmer",
+      "Gameplay Programmer",
+      "Game Audio Designer"
+    ],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 90,
+    "videos": [
+      {
+        "label": "Trailer",
+        "url": "https://youtu.be/VdTjcHlZi-M?si=LA1cCuAdvzUmQQX6",
+        "type": "youtube",
+        "youtubeId": "VdTjcHlZi-M"
+      },
+      {
+        "label": "Song - Youtube",
+        "url": "https://www.youtube.com/watch?v=mQ5pfvzBCjk",
+        "type": "youtube",
+        "youtubeId": "mQ5pfvzBCjk"
+      }
+    ],
+    "links": [
+      {
+        "label": "Itch.io",
+        "url": "https://matthiaspeene.itch.io/beatsfromthedeep",
+        "type": "link",
+        "youtubeId": null
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/track/7KKYKuDI19gEslgAfRcWcQ?si=2d041d4cfdbd4d5c",
+        "type": "link",
+        "youtubeId": null
+      }
+    ],
+    "images": [],
+    "descriptionSummaryHtml": "Developed the audio systems for <strong>Beats from the Deep</strong>, a four-player cooperative rhythm game in which players work together to defeat a cosmic horror boss. Composed the music, designed the sound effects, programmed a custom DSP-driven rhythm system in Unreal Engine that exposed timing events to gameplay systems, and authored the project&#039;s <strong>Sound Bible</strong> while contributing to the broader technical documentation.",
+    "descriptionHtml": "<p>Developed the audio systems for <strong>Beats from the Deep</strong>, a four-player cooperative rhythm game in which players work together to defeat a cosmic horror boss. Composed the music, designed the sound effects, programmed a custom DSP-driven rhythm system in Unreal Engine that exposed timing events to gameplay systems, and authored the project&#039;s <strong>Sound Bible</strong> while contributing to the broader technical documentation.</p>"
+  },
+  {
+    "id": "rain-granular-synth",
+    "title": "Rain Granular Synth",
+    "description": "Designed and developed Grainy Day, a New Interface for Musical Expression (NIME) consisting of a JUCE-based granular synthesizer controlled wirelessly via OSC from a custom Unity mobile application. Researched, documented, and presented the project in the format of an academic NIME paper, demonstrating the use of data-oriented design and multithreading to achieve responsive real-time granular synthesis.",
+    "hasMoreDescription": false,
+    "context": "MTS4 - Audiolab",
+    "role": "Audio Programmer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Audio Programming",
+      "Interactive Audio",
+      "Music Technology"
+    ],
+    "skills": [
+      "Audio Plugin Development",
+      "OSC Communication",
+      "Multithreaded Programming",
+      "Technical Research",
+      "Technical Writing"
+    ],
+    "technologies": [
+      "JUCE",
+      "C++",
+      "Unity",
+      "OSC"
+    ],
+    "tools": [
+      "Zotero"
+    ],
+    "concepts": [
+      "Granular Synthesis",
+      "Data-Oriented Design"
+    ],
+    "relevantFor": [
+      "Audio Programmer",
+      "Audio Software Developer",
+      "DSP Engineer",
+      "Technical Sound Designer"
+    ],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 89,
+    "videos": [],
+    "links": [],
+    "images": [
+      {
+        "target": "Fig 1. Simplified Overview.png",
+        "label": "Fig 1. Simplified Overview",
+        "type": "image",
+        "url": "../assets/evidence/5b934097887f9e4f.png"
+      },
+      {
+        "target": "Fig 2. Grain Scheduling.png",
+        "label": "Fig 2. Grain Scheduling",
+        "type": "image",
+        "url": "../assets/evidence/e5d10a0a9294914a.png"
+      },
+      {
+        "target": "Fig 3. Thread Safety.png",
+        "label": "Fig 3. Thread Safety",
+        "type": "image",
+        "url": "../assets/evidence/50e7daf7701fec0d.png"
+      }
+    ],
+    "descriptionSummaryHtml": "Designed and developed <strong>Grainy Day</strong>, a New Interface for Musical Expression (NIME) consisting of a JUCE-based granular synthesizer controlled wirelessly via OSC from a custom Unity mobile application. Researched, documented, and presented the project in the format of an academic NIME paper, demonstrating the use of data-oriented design and multithreading to achieve responsive real-time granular synthesis.",
+    "descriptionHtml": "<p>Designed and developed <strong>Grainy Day</strong>, a New Interface for Musical Expression (NIME) consisting of a JUCE-based granular synthesizer controlled wirelessly via OSC from a custom Unity mobile application. Researched, documented, and presented the project in the format of an academic NIME paper, demonstrating the use of data-oriented design and multithreading to achieve responsive real-time granular synthesis.</p>"
+  },
+  {
+    "id": "space-harbor-tycoon",
+    "title": "Space Harbor Tycoon",
+    "description": "Designed and implemented the complete audio palette for Space Harbor Tycoon in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.",
+    "hasMoreDescription": false,
+    "context": "MTS3 - Middleware 2",
+    "role": "Technical Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Game Audio",
+      "Audio Implementation"
+    ],
+    "skills": [
+      "Wwise Implementation",
+      "Adaptive Audio",
+      "Interactive Audio Systems",
+      "Audio Mixing",
+      "RTPC Design",
+      "Field Recording"
+    ],
+    "technologies": [
+      "Wwise"
+    ],
+    "tools": [],
+    "concepts": [],
+    "relevantFor": [
+      "Technical Sound Designer",
+      "Game Audio Designer",
+      "Audio Implementer",
+      "Sound Designer"
+    ],
+    "quality": "excellent",
+    "qualityRank": 5,
+    "priority": 87,
+    "videos": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/qQ-8B2fn2fI?si=OxRQSlWY_trMcpzF",
+        "type": "youtube",
+        "youtubeId": "qQ-8B2fn2fI"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Designed and implemented the complete audio palette for <strong>Space Harbor Tycoon</strong> in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.",
+    "descriptionHtml": "<p>Designed and implemented the complete audio palette for <strong>Space Harbor Tycoon</strong> in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.</p>"
+  },
+  {
+    "id": "luna",
+    "title": "Luna",
+    "description": "Reworked the audio implementation of Luna, an educational Unity game used to teach children how to write, replacing its existing native audio solution with a clean FMOD integration. Worked within an existing codebase and development workflow to remove legacy audio functionality, integrate and version the new audio system through Perforce, and redesign the project's soundscape while preserving existing functionality.",
+    "hasMoreDescription": false,
+    "context": "MTS4 - Sound Integration 2",
+    "role": "Technical Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Game Audio",
+      "Audio Programming"
+    ],
+    "skills": [
+      "FMOD Integration",
+      "Game Audio Implementation",
+      "Audio Programming",
+      "Sound Design",
+      "Unity Development"
+    ],
+    "technologies": [
+      "Unity",
+      "FMOD"
+    ],
+    "tools": [
+      "Perforce"
+    ],
+    "concepts": [],
+    "relevantFor": [
+      "Technical Sound Designer",
+      "Audio Programmer",
+      "Game Audio Designer",
+      "Audio Implementer"
+    ],
+    "quality": "medium",
+    "qualityRank": 2,
+    "priority": 86,
+    "videos": [
+      {
+        "label": "Demo",
+        "url": "https://youtu.be/SN4Ivl6NoKU",
+        "type": "youtube",
+        "youtubeId": "SN4Ivl6NoKU"
+      }
+    ],
+    "links": [],
+    "images": [
+      {
+        "target": "Luna.png",
+        "label": "Luna",
+        "type": "image",
+        "url": "../assets/evidence/61de94e0dd326022.png"
+      }
+    ],
+    "descriptionSummaryHtml": "Reworked the audio implementation of <a href=\"https://play.google.com/store/apps/details?id=be.diekeure.luna\" target=\"_blank\" rel=\"noreferrer\"><strong>Luna</strong></a>, an educational Unity game used to teach children how to write, replacing its existing native audio solution with a clean FMOD integration. Worked within an existing codebase and development workflow to remove legacy audio functionality, integrate and version the new audio system through Perforce, and redesign the project&#039;s soundscape while preserving existing functionality.",
+    "descriptionHtml": "<p>Reworked the audio implementation of <a href=\"https://play.google.com/store/apps/details?id=be.diekeure.luna\" target=\"_blank\" rel=\"noreferrer\"><strong>Luna</strong></a>, an educational Unity game used to teach children how to write, replacing its existing native audio solution with a clean FMOD integration. Worked within an existing codebase and development workflow to remove legacy audio functionality, integrate and version the new audio system through Perforce, and redesign the project&#039;s soundscape while preserving existing functionality.</p>"
+  },
+  {
+    "id": "cropout",
+    "title": "Cropout",
+    "description": "Implemented the complete audio experience for Epic Games' Cropout sample project in Unreal Engine 5, focusing on scalable audio architecture, interactive mixing, and custom spatial audio solutions. The project included ambience, sound effects, UI audio, dynamic mixing, and reusable Blueprint systems designed to support a top-down strategy game.",
+    "hasMoreDescription": true,
+    "context": "MTS3 - Audio Implimentation 2",
+    "role": "Technical Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Game Audio",
+      "Audio Implementation"
+    ],
+    "skills": [
+      "Unreal Engine Audio",
+      "Blueprint Programming",
+      "Audio Systems Design",
+      "Spatial Audio",
+      "Audio Mixing",
+      "Tool Development"
+    ],
+    "technologies": [
+      "Unreal Engine 5",
+      "Blueprints",
+      "MetaSounds"
+    ],
+    "tools": [
+      "Audio Insights"
+    ],
+    "concepts": [],
+    "relevantFor": [
+      "Technical Sound Designer",
+      "Game Audio Programmer",
+      "Unreal Engine Developer",
+      "Sound Designer"
+    ],
+    "quality": "medium",
+    "qualityRank": 2,
+    "priority": 85,
+    "videos": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/GTCGhrOoxfg",
+        "type": "youtube",
+        "youtubeId": "GTCGhrOoxfg"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Implemented the complete audio experience for Epic Games&#039; <strong>Cropout</strong> sample project in Unreal Engine 5, focusing on scalable audio architecture, interactive mixing, and custom spatial audio solutions. The project included ambience, sound effects, UI audio, dynamic mixing, and reusable Blueprint systems designed to support a top-down strategy game.",
+    "descriptionHtml": "<p>Implemented the complete audio experience for Epic Games&#039; <strong>Cropout</strong> sample project in Unreal Engine 5, focusing on scalable audio architecture, interactive mixing, and custom spatial audio solutions. The project included ambience, sound effects, UI audio, dynamic mixing, and reusable Blueprint systems designed to support a top-down strategy game.</p>\n<p>A major technical contribution was the development of a custom <strong>2D top-down attenuation system</strong>. Traditional 3D attenuation did not provide the desired behaviour for the game&#039;s elevated camera, so a custom solution was implemented that dynamically adjusted both panning and gain based on the camera&#039;s angle and height relative to audio sources. As the camera zoomed out, sounds remained intelligible over larger distances, while zooming in naturally reduced the audible range, creating a more consistent listening experience.</p>\n<p>The environmental ambience was also made fully adaptive by linking its behaviour to the camera height. As the player zoomed between gameplay perspectives, the ambience responded dynamically, reinforcing the sense of scale while maintaining a balanced mix throughout the game.</p>\n<p>Beyond the custom attenuation system, the project explored Unreal Engine&#039;s modern audio pipeline through sound classes, submixes, effects, Audio Insights, Blueprint-based implementation, and interactive mixing techniques. The implementation emphasized reusable systems, debugging workflows, and maintainable project architecture while balancing technical correctness with an engaging player experience.</p>"
+  },
+  {
+    "id": "ellen-on-a-strange-planet-fmod",
+    "title": "Ellen on a Strange Planet (FMOD)",
+    "description": "Implemented the complete audio experience for Ellen on a Strange Planet, integrating all gameplay, UI, ambient, and enemy audio into an existing game build using FMOD. Created a polished interactive mix with adaptive reverb, spatial audio, optimized event structures, and responsive gameplay-driven audio systems suitable for a production-quality game prototype.",
+    "hasMoreDescription": true,
+    "context": "MTS3 - Middleware 1",
+    "role": "Technical Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Game Audio",
+      "Audio Implementation"
+    ],
+    "skills": [
+      "FMOD Implementation",
+      "Interactive Audio Systems",
+      "Spatial Audio",
+      "Adaptive Mixing",
+      "Audio Optimization",
+      "Game Audio Integration"
+    ],
+    "technologies": [
+      "FMOD"
+    ],
+    "tools": [],
+    "concepts": [],
+    "relevantFor": [
+      "Technical Sound Designer",
+      "Game Audio Designer",
+      "Audio Implementer",
+      "Sound Designer"
+    ],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 83,
+    "videos": [
+      {
+        "label": "Youtube",
+        "url": "https://youtu.be/VPvLwMprJls",
+        "type": "youtube",
+        "youtubeId": "VPvLwMprJls"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Implemented the complete audio experience for <strong>Ellen on a Strange Planet</strong>, integrating all gameplay, UI, ambient, and enemy audio into an existing game build using FMOD. Created a polished interactive mix with adaptive reverb, spatial audio, optimized event structures, and responsive gameplay-driven audio systems suitable for a production-quality game prototype.",
+    "descriptionHtml": "<p>Implemented the complete audio experience for <strong>Ellen on a Strange Planet</strong>, integrating all gameplay, UI, ambient, and enemy audio into an existing game build using FMOD. Created a polished interactive mix with adaptive reverb, spatial audio, optimized event structures, and responsive gameplay-driven audio systems suitable for a production-quality game prototype.</p>\n<h6>Highlights</h6>\n<ul><li>Dynamic Music System</li><li>Reverb Regions</li><li>I listened to a slowed down version of jungle birds, then imitated those sounds with my own voice and sped my voice up. This gave me new clean alien bird sounds for the ambiance system.</li></ul>"
+  },
+  {
+    "id": "john-lemon",
+    "title": "John Lemon",
+    "description": "Implemented a complete audio system for the John Lemon Unity project, integrating sound effects, music, and spatial audio while creating additional gameplay features. Expanded the game's audio experience by programming new interactive systems, implementing custom sound behaviour, and balancing the mix using Unity's built-in audio tools.",
+    "hasMoreDescription": true,
+    "context": "MTS2 - Audio Implementation",
+    "role": "Technical Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Game Audio",
+      "Audio Programming"
+    ],
+    "skills": [
+      "Audio Implementation",
+      "Unity Audio",
+      "Audio Mixing",
+      "Spatial Audio",
+      "Audio Systems Design",
+      "Sound Design",
+      "C Sharp Programming",
+      "Music Composition"
+    ],
+    "technologies": [
+      "Unity",
+      "C Sharp"
+    ],
+    "tools": [
+      "Unity Audio Mixer"
+    ],
+    "concepts": [],
+    "relevantFor": [
+      "Technical Sound Designer",
+      "Game Audio Programmer",
+      "Audio Programmer",
+      "Sound Designer",
+      "Composer"
+    ],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 80,
+    "videos": [
+      {
+        "label": "Youtube",
+        "url": "https://www.youtube.com/watch?v=QqSboUd9BHU",
+        "type": "youtube",
+        "youtubeId": "QqSboUd9BHU"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Implemented a complete audio system for the John Lemon Unity project, integrating sound effects, music, and spatial audio while creating additional gameplay features. Expanded the game&#039;s audio experience by programming new interactive systems, implementing custom sound behaviour, and balancing the mix using Unity&#039;s built-in audio tools.",
+    "descriptionHtml": "<p>Implemented a complete audio system for the John Lemon Unity project, integrating sound effects, music, and spatial audio while creating additional gameplay features. Expanded the game&#039;s audio experience by programming new interactive systems, implementing custom sound behaviour, and balancing the mix using Unity&#039;s built-in audio tools.</p>\n<h5>Highlights</h5>\n<ul><li>Different sounds for different surfaces</li><li>Wrote music based on Abigale</li><li>Ghost sings together with the music (0:29)</li><li>Created own scriptable audio object for audio randomization</li><li>Use of reverb zones</li></ul>"
+  },
+  {
+    "id": "adapta-solva-legacy",
+    "title": "Adapta Solva Legacy",
+    "description": "Created the sound design, music, and FMOD implementation for Adapta Solva, a Unity graduation project that I joined voluntarily during my first year of study. Produced 2 music tracks, implemented a simple dynamic music system, and handled the game's sound effects and audio integration using FMOD.",
+    "hasMoreDescription": false,
+    "context": "Para Fauna",
+    "role": "Technical Sound Designer",
+    "status": "complete",
+    "collection": "Professional",
+    "disciplines": [
+      "Game Audio",
+      "Audio Implementation"
+    ],
+    "skills": [
+      "Sound Design",
+      "FMOD Implementation",
+      "Dynamic Music",
+      "Music Production",
+      "Audio Implementation"
+    ],
+    "technologies": [
+      "FMOD",
+      "Unity"
+    ],
+    "tools": [],
+    "concepts": [],
+    "relevantFor": [
+      "Technical Sound Designer",
+      "Game Audio Designer",
+      "Sound Designer",
+      "Audio Implementer"
+    ],
+    "quality": "good",
+    "qualityRank": 3,
+    "priority": 74,
+    "videos": [
+      {
+        "label": "Gameplay Video",
+        "url": "https://www.youtube.com/watch?v=P9J9BqLZnYg",
+        "type": "youtube",
+        "youtubeId": "P9J9BqLZnYg"
+      }
+    ],
+    "links": [
+      {
+        "label": "Song 1 - Grass Field at Night",
+        "url": "https://soundcloud.com/dreams_music/grass-field?si=caf2e7fac28e427d92561149b027c583&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+        "type": "link",
+        "youtubeId": null
+      },
+      {
+        "label": "Song 2 - Forrest Frogs",
+        "url": "https://soundcloud.com/dreams_music/forrest?si=9a850d5868664328a844707da302bea3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+        "type": "link",
+        "youtubeId": null
+      },
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/2752680/Adapta_Solva_Legacy/",
+        "type": "link",
+        "youtubeId": null
+      }
+    ],
+    "images": [],
+    "descriptionSummaryHtml": "Created the sound design, music, and FMOD implementation for <strong><a href=\"https://store.steampowered.com/app/2752680/Adapta_Solva_Legacy/\" target=\"_blank\" rel=\"noreferrer\">Adapta Solva</a></strong>, a Unity graduation project that I joined voluntarily during my first year of study. Produced 2 music tracks, implemented a simple dynamic music system, and handled the game&#039;s sound effects and audio integration using FMOD.",
+    "descriptionHtml": "<p>Created the sound design, music, and FMOD implementation for <strong><a href=\"https://store.steampowered.com/app/2752680/Adapta_Solva_Legacy/\" target=\"_blank\" rel=\"noreferrer\">Adapta Solva</a></strong>, a Unity graduation project that I joined voluntarily during my first year of study. Produced 2 music tracks, implemented a simple dynamic music system, and handled the game&#039;s sound effects and audio integration using FMOD.</p>"
+  },
+  {
+    "id": "lego-ui-sound-design",
+    "title": "LEGO - UI Sound Design",
+    "description": "Contributed UI sound design for a LEGO application, creating interface audio to support user interaction and feedback within the app.",
+    "hasMoreDescription": true,
+    "context": "Internship",
+    "role": "Sound Designer",
+    "status": "complete",
+    "collection": "Professional",
+    "disciplines": [
+      "Game Audio",
+      "Interactive Audio"
+    ],
+    "skills": [
+      "UI Sound Design",
+      "Sound Design",
+      "Interactive Audio"
+    ],
+    "technologies": [],
+    "tools": [],
+    "concepts": [],
+    "relevantFor": [
+      "Sound Designer",
+      "Game Audio Designer",
+      "Technical Sound Designer"
+    ],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 73,
+    "videos": [],
+    "links": [],
+    "images": [
+      {
+        "target": "LEGO.jpg",
+        "label": "LEGO",
+        "type": "image",
+        "url": "../assets/evidence/2d987d06dcc4be90.jpg"
+      }
+    ],
+    "descriptionSummaryHtml": "Contributed UI sound design for a LEGO application, creating interface audio to support user interaction and feedback within the app.",
+    "descriptionHtml": "<p>Contributed UI sound design for a LEGO application, creating interface audio to support user interaction and feedback within the app.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
+  },
+  {
+    "id": "lego-smart-play-sound-design",
+    "title": "LEGO - Smart Play Sound Design",
+    "description": "Contributed sound design to LEGO SMART Play, creating sounds within its synth-based audio system. Worked within the project's existing audio framework to design sounds suited to the interactive experience.",
+    "hasMoreDescription": true,
+    "context": "Internship",
+    "role": "Sound Designer",
+    "status": "complete",
+    "collection": "Professional",
+    "disciplines": [
+      "Game Audio",
+      "Interactive Audio"
+    ],
+    "skills": [
+      "Sound Design",
+      "Synthesizer Programming",
+      "Interactive Audio"
+    ],
+    "technologies": [],
+    "tools": [],
+    "concepts": [],
+    "relevantFor": [
+      "Sound Designer",
+      "Game Audio Designer",
+      "Technical Sound Designer"
+    ],
+    "quality": "medium",
+    "qualityRank": 2,
+    "priority": 72,
+    "videos": [],
+    "links": [],
+    "images": [
+      {
+        "target": "LEGO.jpg",
+        "label": "LEGO",
+        "type": "image",
+        "url": "../assets/evidence/2d987d06dcc4be90.jpg"
+      }
+    ],
+    "descriptionSummaryHtml": "Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within its synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds suited to the interactive experience.",
+    "descriptionHtml": "<p>Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within its synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds suited to the interactive experience.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
   },
   {
     "id": "spell-sound-design",
@@ -305,6 +1078,7 @@
     ],
     "quality": "excellent",
     "qualityRank": 5,
+    "priority": 71,
     "videos": [
       {
         "label": "Maelstrom",
@@ -355,6 +1129,7 @@
     ],
     "quality": "excellent",
     "qualityRank": 5,
+    "priority": 70,
     "videos": [],
     "links": [
       {
@@ -400,787 +1175,56 @@
     "descriptionHtml": "<p>Created a 5.1 surround mix for <a href=\"?filter=projects%3AUmbrellas+in+the+Sun\">Umbrellas in the Sun</a>, using spatial positioning, automation, and effects to produce an immersive and balanced mix.</p>\n<h5>Techniques Used</h5>\n<p>I spatialized the audio using reapers own spatialization tools routing audio to the corresponding channels. For extra immersion I also spatialized the reverb. During the thunder I made the echo of the thunder travel around the listener to give the sound extra size. Lastly I used spatialized layering, under the umbrella I had 1 hard panned umbrella rain layer for example and a broad rain layer. It&#039;s important to spatialize the ambience to make the space feel real.</p>"
   },
   {
-    "id": "umbrellas-in-the-sun",
-    "title": "Umbrellas in the Sun",
-    "description": "Created the complete sound design and final mix for the animated short Umbrellas in the Sun, collaborating closely with an animation team and a conservatory composer. Iterated extensively with the team to refine key sounds such as the thunder, integrated orchestral recording stems into the mix, and delivered production-ready assets on schedule while coordinating expectations across multiple disciplines.",
-    "hasMoreDescription": false,
-    "context": "MTS3 - Sound Integration 1",
+    "id": "sci-fi-vehicle-sound-design",
+    "title": "Sci-Fi Vehicle Sound Design",
+    "description": "Redesigned the audio for a gameplay sequence from WipeOut Omega Collection, creating original sci-fi vehicle, weapon, UI, collision, and environmental sound effects from scratch. Produced a cohesive game-ready mix and exported organized audio stems for the different sound categories.",
+    "hasMoreDescription": true,
+    "context": "MTS2 - Digital Audio Workstations 2",
     "role": "Sound Designer",
     "status": "complete",
     "collection": "Education",
     "disciplines": [
-      "Game Audio",
-      "Audio"
+      "Audio",
+      "Game Audio"
     ],
     "skills": [
+      "Vehicle Sound Design",
       "Sound Design",
+      "Synthesizer Programming",
       "Audio Mixing",
-      "Collaboration",
-      "Asset Delivery",
-      "Music Integration",
-      "Audio Production",
-      "Stakeholder Communication",
-      "Audio Editing"
-    ],
-    "technologies": [],
-    "tools": [
-      "Reaper"
-    ],
-    "concepts": [],
-    "relevantFor": [
-      "Sound Designer",
-      "Mix Engineer",
-      "Technical Sound Designer",
-      "Game Audio Designer"
-    ],
-    "quality": "excellent",
-    "qualityRank": 5,
-    "videos": [
-      {
-        "label": "YouTube",
-        "url": "https://youtu.be/SNGk1JnOUqk?si=aK-X0wLdwHRLIRqU",
-        "type": "youtube",
-        "youtubeId": "SNGk1JnOUqk"
-      }
-    ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Created the complete sound design and final mix for the animated short <strong>Umbrellas in the Sun</strong>, collaborating closely with an animation team and a conservatory composer. Iterated extensively with the team to refine key sounds such as the thunder, integrated orchestral recording stems into the mix, and delivered production-ready assets on schedule while coordinating expectations across multiple disciplines.",
-    "descriptionHtml": "<p>Created the complete sound design and final mix for the animated short <strong>Umbrellas in the Sun</strong>, collaborating closely with an animation team and a conservatory composer. Iterated extensively with the team to refine key sounds such as the thunder, integrated orchestral recording stems into the mix, and delivered production-ready assets on schedule while coordinating expectations across multiple disciplines.</p>"
-  },
-  {
-    "id": "unity-granular-synth",
-    "title": "Unity Granular Synth",
-    "description": "Created a granular synth package in Unity using the scriptable audio pipeline. The synth was made using data oriented principles for performance. It uses a custom Unity UI on a scriptable object to make configuration easy.",
-    "hasMoreDescription": true,
-    "context": "MTS4 - Audiolab",
-    "role": "Audio Programmer",
-    "status": "complete",
-    "collection": "Personal",
-    "disciplines": [
-      "Audio Programming",
+      "Layering",
       "Interactive Audio",
-      "Music Technology"
-    ],
-    "skills": [
-      "Audio Plugin Development",
-      "Audio Programming",
-      "Unity Development",
-      "Unity Plugin Development"
-    ],
-    "technologies": [
-      "Unity"
-    ],
-    "tools": [],
-    "concepts": [
-      "Granular Synthesis",
-      "Data-Oriented Design",
-      "Scriptable Audio Pipeline"
-    ],
-    "relevantFor": [
-      "Audio Programmer",
-      "Audio Software Developer",
-      "DSP Engineer",
-      "Technical Sound Designer"
-    ],
-    "quality": "excellent",
-    "qualityRank": 5,
-    "videos": [
-      {
-        "label": "YouTube",
-        "url": "https://youtu.be/ev3UDn1Lr18?si=Y_Z4-cFAbL5eNFfC",
-        "type": "youtube",
-        "youtubeId": "ev3UDn1Lr18"
-      }
-    ],
-    "links": [
-      {
-        "label": "Package",
-        "url": "https://marketplace.unity.com/packages/tools/granular-synth-3703711",
-        "type": "link",
-        "youtubeId": null
-      }
-    ],
-    "images": [],
-    "descriptionSummaryHtml": "Created a granular synth package in Unity using the scriptable audio pipeline. The synth was made using data oriented principles for performance. It uses a custom Unity UI on a scriptable object to make configuration easy.",
-    "descriptionHtml": "<p>Created a granular synth package in Unity using the scriptable audio pipeline. The synth was made using data oriented principles for performance. It uses a custom Unity UI on a scriptable object to make configuration easy.</p>\n<p><strong>Features:</strong></p>\n<ul><li>Granular Synth, configurable as a ScriptableObject.</li><li>Controls: Rate, Playback Position Range, Pitch Range, Volume Range, Pan Range, Grain Size Range.</li><li>Configurable Grain Shape.</li><li>Stereo Sample Support.</li><li>Live Preview.</li><li>Toggle-able Anti-Phasing.</li><li>Modulation Matrix for easily assigning multi parameter changes.</li></ul>"
-  },
-  {
-    "id": "anno-trailer-music-edit",
-    "title": "Anno Trailer Music Edit",
-    "description": "Researched, selected, and edited orchestral music to create a new soundtrack for the Anno 1800 trailer. Synchronized the music to the trailer's pacing, mixed it with the original voice-over, and analyzed the musical choices to support the game's historical atmosphere.",
-    "hasMoreDescription": false,
-    "context": "MTS4 - Music for Games",
-    "role": "Interactive Music Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Game Audio",
-      "Interactive Music"
-    ],
-    "skills": [
-      "Music Editing",
-      "Music Supervision",
-      "Trailer Music Editing",
-      "Musical Analysis",
-      "Audio Mixing"
+      "Music Arrangement",
+      "Voice Acting"
     ],
     "technologies": [],
     "tools": [
-      "Reaper"
-    ],
-    "concepts": [],
-    "relevantFor": [
-      "Interactive Music Designer",
-      "Game Audio Designer",
-      "Music Editor",
-      "Sound Designer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "videos": [
-      {
-        "label": "YouTube",
-        "url": "https://youtu.be/NTmlbj92EAk",
-        "type": "youtube",
-        "youtubeId": "NTmlbj92EAk"
-      }
-    ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Researched, selected, and edited orchestral music to create a new soundtrack for the *Anno 1800* trailer. Synchronized the music to the trailer&#039;s pacing, mixed it with the original voice-over, and analyzed the musical choices to support the game&#039;s historical atmosphere.",
-    "descriptionHtml": "<p>Researched, selected, and edited orchestral music to create a new soundtrack for the *Anno 1800* trailer. Synchronized the music to the trailer&#039;s pacing, mixed it with the original voice-over, and analyzed the musical choices to support the game&#039;s historical atmosphere.</p>"
-  },
-  {
-    "id": "beats-from-the-deep",
-    "title": "Beats From the Deep",
-    "description": "Developed the audio systems for Beats from the Deep, a four-player cooperative rhythm game in which players work together to defeat a cosmic horror boss. Composed the music, designed the sound effects, programmed a custom DSP-driven rhythm system in Unreal Engine that exposed timing events to gameplay systems, and authored the project's Sound Bible while contributing to the broader technical documentation.",
-    "hasMoreDescription": false,
-    "context": "MTS4 - Game Projects",
-    "role": "Technical Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Game Development",
-      "Game Audio",
-      "Audio Programming"
-    ],
-    "skills": [
-      "Audio Programming",
-      "Music Composition",
-      "Sound Design",
-      "Rhythm System Development",
-      "Unreal Engine Development",
-      "Technical Documentation",
-      "Agile Development"
-    ],
-    "technologies": [
-      "Unreal Engine 5",
-      "C++"
-    ],
-    "tools": [
-      "P4V",
-      "HacknPlan"
-    ],
-    "concepts": [],
-    "relevantFor": [
-      "Technical Sound Designer",
-      "Audio Programmer",
-      "Gameplay Programmer",
-      "Game Audio Designer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "videos": [
-      {
-        "label": "Trailer",
-        "url": "https://youtu.be/VdTjcHlZi-M?si=LA1cCuAdvzUmQQX6",
-        "type": "youtube",
-        "youtubeId": "VdTjcHlZi-M"
-      },
-      {
-        "label": "Song - Youtube",
-        "url": "https://www.youtube.com/watch?v=mQ5pfvzBCjk",
-        "type": "youtube",
-        "youtubeId": "mQ5pfvzBCjk"
-      }
-    ],
-    "links": [
-      {
-        "label": "Itch.io",
-        "url": "https://matthiaspeene.itch.io/beatsfromthedeep",
-        "type": "link",
-        "youtubeId": null
-      },
-      {
-        "label": "Spotify",
-        "url": "https://open.spotify.com/track/7KKYKuDI19gEslgAfRcWcQ?si=2d041d4cfdbd4d5c",
-        "type": "link",
-        "youtubeId": null
-      }
-    ],
-    "images": [],
-    "descriptionSummaryHtml": "Developed the audio systems for <strong>Beats from the Deep</strong>, a four-player cooperative rhythm game in which players work together to defeat a cosmic horror boss. Composed the music, designed the sound effects, programmed a custom DSP-driven rhythm system in Unreal Engine that exposed timing events to gameplay systems, and authored the project&#039;s <strong>Sound Bible</strong> while contributing to the broader technical documentation.",
-    "descriptionHtml": "<p>Developed the audio systems for <strong>Beats from the Deep</strong>, a four-player cooperative rhythm game in which players work together to defeat a cosmic horror boss. Composed the music, designed the sound effects, programmed a custom DSP-driven rhythm system in Unreal Engine that exposed timing events to gameplay systems, and authored the project&#039;s <strong>Sound Bible</strong> while contributing to the broader technical documentation.</p>"
-  },
-  {
-    "id": "close-combat-sound-design",
-    "title": "Close Combat Sound Design",
-    "description": "Redesigned a close-combat sequence from Mortal Kombat X featuring Tremor and Triborg using only original recordings and synthesis. Built reusable combat assets triggered through a MIDI-driven system with intensity parameters to demonstrate a dynamic workflow suitable for real-time game audio implementation rather than linear foley.",
-    "hasMoreDescription": false,
-    "context": "MTS3 - Sound 3",
-    "role": "Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Audio",
-      "Game Audio"
-    ],
-    "skills": [
-      "Combat Sound Design",
-      "Foley Recording",
-      "Vocal Sound Design",
-      "Procedural Audio Design",
-      "MIDI Implementation",
-      "Audio Mixing"
-    ],
-    "technologies": [],
-    "tools": [
-      "Reaper"
+      "Reaper",
+      "Vital"
     ],
     "concepts": [],
     "relevantFor": [
       "Sound Designer",
       "Game Audio Designer",
       "Technical Sound Designer",
-      "Foley Artist"
+      "Audio Engineer",
+      "Music Producer"
     ],
     "quality": "strong",
     "qualityRank": 4,
-    "videos": [
-      {
-        "label": "YouTube",
-        "url": "https://youtu.be/MmCYLgQF4n8",
-        "type": "youtube",
-        "youtubeId": "MmCYLgQF4n8"
-      }
-    ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Redesigned a close-combat sequence from *Mortal Kombat X* featuring Tremor and Triborg using only original recordings and synthesis. Built reusable combat assets triggered through a MIDI-driven system with intensity parameters to demonstrate a dynamic workflow suitable for real-time game audio implementation rather than linear foley.",
-    "descriptionHtml": "<p>Redesigned a close-combat sequence from *Mortal Kombat X* featuring Tremor and Triborg using only original recordings and synthesis. Built reusable combat assets triggered through a MIDI-driven system with intensity parameters to demonstrate a dynamic workflow suitable for real-time game audio implementation rather than linear foley.</p>"
-  },
-  {
-    "id": "creature-sound-design",
-    "title": "Creature Sound Design",
-    "description": "Redesigned the audio for Hræzlyr, the dragon from God of War, creating original creature vocalizations and foley synchronized to gameplay footage. Combined recorded source material, layered processing, and custom movement sounds into a cohesive cinematic soundscape with a polished final mix.",
-    "hasMoreDescription": true,
-    "context": "MTS3 - Sound 3",
-    "role": "Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Audio",
-      "Game Audio"
-    ],
-    "skills": [
-      "Creature Sound Design",
-      "Vocal Sound Design",
-      "Foley Recording",
-      "Sound Design",
-      "Audio Mixing",
-      "Layering"
-    ],
-    "technologies": [],
-    "tools": [
-      "Reaper"
-    ],
-    "concepts": [],
-    "relevantFor": [
-      "Sound Designer",
-      "Game Audio Designer",
-      "Creature Sound Designer",
-      "Audio Engineer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "videos": [
-      {
-        "label": "YouTube",
-        "url": "https://youtu.be/clwDGbqRaEc?si=kzsV1uZVYsdOb7eP",
-        "type": "youtube",
-        "youtubeId": "clwDGbqRaEc"
-      }
-    ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Redesigned the audio for <strong>Hræzlyr</strong>, the dragon from *God of War*, creating original creature vocalizations and foley synchronized to gameplay footage. Combined recorded source material, layered processing, and custom movement sounds into a cohesive cinematic soundscape with a polished final mix.",
-    "descriptionHtml": "<p>Redesigned the audio for <strong>Hræzlyr</strong>, the dragon from *God of War*, creating original creature vocalizations and foley synchronized to gameplay footage. Combined recorded source material, layered processing, and custom movement sounds into a cohesive cinematic soundscape with a polished final mix.</p>\n<h5>Highlights</h5>\n<ul><li>Recorded myself and my friend doing inhale screams as dragon layers.</li><li>Used panned granular synthesis for the gravel flying past.</li><li>Used granular triggered layering technique as a layer for the foley footsteps.</li></ul>"
-  },
-  {
-    "id": "ellen-on-a-strange-planet-fmod",
-    "title": "Ellen on a Strange Planet (FMOD)",
-    "description": "Implemented the complete audio experience for Ellen on a Strange Planet, integrating all gameplay, UI, ambient, and enemy audio into an existing game build using FMOD. Created a polished interactive mix with adaptive reverb, spatial audio, optimized event structures, and responsive gameplay-driven audio systems suitable for a production-quality game prototype.",
-    "hasMoreDescription": true,
-    "context": "MTS3 - Middleware 1",
-    "role": "Technical Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Game Audio",
-      "Audio Implementation"
-    ],
-    "skills": [
-      "FMOD Implementation",
-      "Interactive Audio Systems",
-      "Spatial Audio",
-      "Adaptive Mixing",
-      "Audio Optimization",
-      "Game Audio Integration"
-    ],
-    "technologies": [
-      "FMOD"
-    ],
-    "tools": [],
-    "concepts": [],
-    "relevantFor": [
-      "Technical Sound Designer",
-      "Game Audio Designer",
-      "Audio Implementer",
-      "Sound Designer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
+    "priority": 69,
     "videos": [
       {
         "label": "Youtube",
-        "url": "https://youtu.be/VPvLwMprJls",
+        "url": "https://youtu.be/mYsRoOPQuyg?si=xUSknjHeSh5V6LY9",
         "type": "youtube",
-        "youtubeId": "VPvLwMprJls"
+        "youtubeId": "mYsRoOPQuyg"
       }
     ],
     "links": [],
     "images": [],
-    "descriptionSummaryHtml": "Implemented the complete audio experience for <strong>Ellen on a Strange Planet</strong>, integrating all gameplay, UI, ambient, and enemy audio into an existing game build using FMOD. Created a polished interactive mix with adaptive reverb, spatial audio, optimized event structures, and responsive gameplay-driven audio systems suitable for a production-quality game prototype.",
-    "descriptionHtml": "<p>Implemented the complete audio experience for <strong>Ellen on a Strange Planet</strong>, integrating all gameplay, UI, ambient, and enemy audio into an existing game build using FMOD. Created a polished interactive mix with adaptive reverb, spatial audio, optimized event structures, and responsive gameplay-driven audio systems suitable for a production-quality game prototype.</p>\n<h6>Highlights</h6>\n<ul><li>Dynamic Music System</li><li>Reverb Regions</li><li>I listened to a slowed down version of jungle birds, then imitated those sounds with my own voice and sped my voice up. This gave me new clean alien bird sounds for the ambiance system.</li></ul>"
-  },
-  {
-    "id": "emotions-platformer",
-    "title": "Emotions Platformer",
-    "description": "Designed and developed a 2D puzzle platformer prototype centered around emotions as playable characters, each with unique movement and puzzle-solving abilities. Implemented the core gameplay systems in Unity, including character switching, emotion attraction and repulsion mechanics, checkpoints, platforming abilities, and progression through puzzle-based levels.",
-    "hasMoreDescription": false,
-    "context": "MTS3 - Game Engine Fundamentals",
-    "role": "Gameplay Programmer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Game Development",
-      "Gameplay Programming"
-    ],
-    "skills": [
-      "Gameplay Programming",
-      "Unity Development",
-      "Puzzle Design",
-      "Platformer Development",
-      "C Sharp Programming",
-      "Game Systems Design"
-    ],
-    "technologies": [
-      "Unity",
-      "C Sharp"
-    ],
-    "tools": [],
-    "concepts": [],
-    "relevantFor": [
-      "Gameplay Programmer",
-      "Unity Developer",
-      "Game Programmer",
-      "Technical Game Designer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "videos": [],
-    "links": [
-      {
-        "label": "Itch.io",
-        "url": "https://matthiaspeene.itch.io/colourfull-emotions",
-        "type": "link",
-        "youtubeId": null
-      }
-    ],
-    "images": [
-      {
-        "target": "PlayBanner.png",
-        "label": "PlayBanner",
-        "type": "image",
-        "url": "../assets/evidence/63d835cf1ad4fd3b.png"
-      }
-    ],
-    "descriptionSummaryHtml": "Designed and developed a 2D puzzle platformer prototype centered around emotions as playable characters, each with unique movement and puzzle-solving abilities. Implemented the core gameplay systems in Unity, including character switching, emotion attraction and repulsion mechanics, checkpoints, platforming abilities, and progression through puzzle-based levels.",
-    "descriptionHtml": "<p>Designed and developed a 2D puzzle platformer prototype centered around emotions as playable characters, each with unique movement and puzzle-solving abilities. Implemented the core gameplay systems in Unity, including character switching, emotion attraction and repulsion mechanics, checkpoints, platforming abilities, and progression through puzzle-based levels.</p>"
-  },
-  {
-    "id": "into-the-deep",
-    "title": "Into the Deep",
-    "description": "Developed the core rhythm and dynamic music systems for Into the Deep, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.",
-    "hasMoreDescription": false,
-    "context": "Group Projects",
-    "role": "Technical Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Game Development",
-      "Game Audio",
-      "Audio Programming"
-    ],
-    "skills": [
-      "Audio Programming",
-      "Dynamic Music",
-      "Rhythm System Development",
-      "Sound Design",
-      "Audio Implementation",
-      "Music Mixing",
-      "Unreal Engine Development"
-    ],
-    "technologies": [
-      "Unreal Engine 5",
-      "C++",
-      "MetaSounds"
-    ],
-    "tools": [],
-    "concepts": [],
-    "relevantFor": [
-      "Technical Sound Designer",
-      "Audio Programmer",
-      "Game Audio Designer",
-      "Gameplay Programmer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "videos": [
-      {
-        "label": "Trailer",
-        "url": "https://www.youtube.com/watch?v=dLD2hP4zKM4",
-        "type": "youtube",
-        "youtubeId": "dLD2hP4zKM4"
-      }
-    ],
-    "links": [
-      {
-        "label": "Steam",
-        "url": "https://store.steampowered.com/app/4612780/Into_The_Deep/",
-        "type": "link",
-        "youtubeId": null
-      }
-    ],
-    "images": [],
-    "descriptionSummaryHtml": "Developed the core rhythm and dynamic music systems for <strong><a href=\"?filter=projects%3AInto+the+Deep\">Into the Deep</a></strong>, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.",
-    "descriptionHtml": "<p>Developed the core rhythm and dynamic music systems for <strong><a href=\"?filter=projects%3AInto+the+Deep\">Into the Deep</a></strong>, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.</p>"
-  },
-  {
-    "id": "john-lemon",
-    "title": "John Lemon",
-    "description": "Implemented a complete audio system for the John Lemon Unity project, integrating sound effects, music, and spatial audio while creating additional gameplay features. Expanded the game's audio experience by programming new interactive systems, implementing custom sound behaviour, and balancing the mix using Unity's built-in audio tools.",
-    "hasMoreDescription": true,
-    "context": "MTS2 - Audio Implementation",
-    "role": "Technical Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Game Audio",
-      "Audio Programming"
-    ],
-    "skills": [
-      "Audio Implementation",
-      "Unity Audio",
-      "Audio Mixing",
-      "Spatial Audio",
-      "Audio Systems Design",
-      "Sound Design",
-      "C Sharp Programming",
-      "Music Composition"
-    ],
-    "technologies": [
-      "Unity",
-      "C Sharp"
-    ],
-    "tools": [
-      "Unity Audio Mixer"
-    ],
-    "concepts": [],
-    "relevantFor": [
-      "Technical Sound Designer",
-      "Game Audio Programmer",
-      "Audio Programmer",
-      "Sound Designer",
-      "Composer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "videos": [
-      {
-        "label": "Youtube",
-        "url": "https://www.youtube.com/watch?v=QqSboUd9BHU",
-        "type": "youtube",
-        "youtubeId": "QqSboUd9BHU"
-      }
-    ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Implemented a complete audio system for the John Lemon Unity project, integrating sound effects, music, and spatial audio while creating additional gameplay features. Expanded the game&#039;s audio experience by programming new interactive systems, implementing custom sound behaviour, and balancing the mix using Unity&#039;s built-in audio tools.",
-    "descriptionHtml": "<p>Implemented a complete audio system for the John Lemon Unity project, integrating sound effects, music, and spatial audio while creating additional gameplay features. Expanded the game&#039;s audio experience by programming new interactive systems, implementing custom sound behaviour, and balancing the mix using Unity&#039;s built-in audio tools.</p>\n<h5>Highlights</h5>\n<ul><li>Different sounds for different surfaces</li><li>Wrote music based on Abigale</li><li>Ghost sings together with the music (0:29)</li><li>Created own scriptable audio object for audio randomization</li><li>Use of reverb zones</li></ul>"
-  },
-  {
-    "id": "lego-databasing",
-    "title": "LEGO - Databasing",
-    "description": "Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.",
-    "hasMoreDescription": true,
-    "context": "Internship",
-    "role": "Software Developer",
-    "status": "complete",
-    "collection": "Professional",
-    "disciplines": [
-      "Software Development",
-      "Developer Tools"
-    ],
-    "skills": [
-      "Python Programming",
-      "Database Design",
-      "Codebase Analysis",
-      "Automation",
-      "Tool Development"
-    ],
-    "technologies": [
-      "Python",
-      "SQLite"
-    ],
-    "tools": [],
-    "concepts": [],
-    "relevantFor": [
-      "Software Developer",
-      "Tools Programmer",
-      "Technical Developer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "videos": [],
-    "links": [],
-    "images": [
-      {
-        "target": "LEGO.jpg",
-        "label": "LEGO",
-        "type": "image",
-        "url": "../assets/evidence/2d987d06dcc4be90.jpg"
-      }
-    ],
-    "descriptionSummaryHtml": "Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.",
-    "descriptionHtml": "<p>Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
-  },
-  {
-    "id": "lego-psycho-acoustic-analysis",
-    "title": "LEGO - Psycho-acoustic Analysis",
-    "description": "Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.",
-    "hasMoreDescription": true,
-    "context": "Internship",
-    "role": "Audio Programmer",
-    "status": "complete",
-    "collection": "Professional",
-    "disciplines": [
-      "Audio Programming",
-      "Software Development"
-    ],
-    "skills": [
-      "Audio Analysis",
-      "Python Programming",
-      "Psychoacoustic Analysis",
-      "Database Design",
-      "Automation",
-      "Data Visualization"
-    ],
-    "technologies": [
-      "Python",
-      "MOSQITO",
-      "SQLite",
-      "HTML"
-    ],
-    "tools": [],
-    "concepts": [],
-    "relevantFor": [
-      "Audio Programmer",
-      "Audio Software Developer",
-      "Tools Programmer",
-      "Audio Engineer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "videos": [],
-    "links": [],
-    "images": [
-      {
-        "target": "LEGO.jpg",
-        "label": "LEGO",
-        "type": "image",
-        "url": "../assets/evidence/2d987d06dcc4be90.jpg"
-      }
-    ],
-    "descriptionSummaryHtml": "Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.",
-    "descriptionHtml": "<p>Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
-  },
-  {
-    "id": "lego-ui-sound-design",
-    "title": "LEGO - UI Sound Design",
-    "description": "Contributed UI sound design for a LEGO application, creating interface audio to support user interaction and feedback within the app.",
-    "hasMoreDescription": true,
-    "context": "Internship",
-    "role": "Sound Designer",
-    "status": "complete",
-    "collection": "Professional",
-    "disciplines": [
-      "Game Audio",
-      "Interactive Audio"
-    ],
-    "skills": [
-      "UI Sound Design",
-      "Sound Design",
-      "Interactive Audio"
-    ],
-    "technologies": [],
-    "tools": [],
-    "concepts": [],
-    "relevantFor": [
-      "Sound Designer",
-      "Game Audio Designer",
-      "Technical Sound Designer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "videos": [],
-    "links": [],
-    "images": [
-      {
-        "target": "LEGO.jpg",
-        "label": "LEGO",
-        "type": "image",
-        "url": "../assets/evidence/2d987d06dcc4be90.jpg"
-      }
-    ],
-    "descriptionSummaryHtml": "Contributed UI sound design for a LEGO application, creating interface audio to support user interaction and feedback within the app.",
-    "descriptionHtml": "<p>Contributed UI sound design for a LEGO application, creating interface audio to support user interaction and feedback within the app.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
-  },
-  {
-    "id": "ohm",
-    "title": "Ohm",
-    "description": "Created the complete sound design and final mix for the animated short Ohm, combining ambience, foley, sound effects, and extensively edited production music into a cohesive soundtrack. Processed and synchronized existing music to the animation through granular effects, spatial processing, and evolving instrumentation to reinforce the film's abstract narrative and emotional progression.",
-    "hasMoreDescription": false,
-    "context": "MTS3 - Sound Integration 1",
-    "role": "Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Audio",
-      "Game Audio"
-    ],
-    "skills": [
-      "Sound Design",
-      "Audio Mixing",
-      "Music Editing",
-      "Music Synchronization",
-      "Audio Production",
-      "Creative Audio Processing",
-      "Granular Audio Processing"
-    ],
-    "technologies": [],
-    "tools": [
-      "Reaper"
-    ],
-    "concepts": [],
-    "relevantFor": [
-      "Sound Designer",
-      "Mix Engineer",
-      "Game Audio Designer",
-      "Audio Editor"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "videos": [
-      {
-        "label": "YouTube",
-        "url": "https://youtu.be/T7iZfOwwqAw",
-        "type": "youtube",
-        "youtubeId": "T7iZfOwwqAw"
-      }
-    ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Created the complete sound design and final mix for the animated short <strong>Ohm</strong>, combining ambience, foley, sound effects, and extensively edited production music into a cohesive soundtrack. Processed and synchronized existing music to the animation through granular effects, spatial processing, and evolving instrumentation to reinforce the film&#039;s abstract narrative and emotional progression.",
-    "descriptionHtml": "<p>Created the complete sound design and final mix for the animated short <strong>Ohm</strong>, combining ambience, foley, sound effects, and extensively edited production music into a cohesive soundtrack. Processed and synchronized existing music to the animation through granular effects, spatial processing, and evolving instrumentation to reinforce the film&#039;s abstract narrative and emotional progression.</p>"
-  },
-  {
-    "id": "rain-granular-synth",
-    "title": "Rain Granular Synth",
-    "description": "Designed and developed Grainy Day, a New Interface for Musical Expression (NIME) consisting of a JUCE-based granular synthesizer controlled wirelessly via OSC from a custom Unity mobile application. Researched, documented, and presented the project in the format of an academic NIME paper, demonstrating the use of data-oriented design and multithreading to achieve responsive real-time granular synthesis.",
-    "hasMoreDescription": false,
-    "context": "MTS4 - Audiolab",
-    "role": "Audio Programmer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Audio Programming",
-      "Interactive Audio",
-      "Music Technology"
-    ],
-    "skills": [
-      "Audio Plugin Development",
-      "OSC Communication",
-      "Multithreaded Programming",
-      "Technical Research",
-      "Technical Writing"
-    ],
-    "technologies": [
-      "JUCE",
-      "C++",
-      "Unity",
-      "OSC"
-    ],
-    "tools": [
-      "Zotero"
-    ],
-    "concepts": [
-      "Granular Synthesis",
-      "Data-Oriented Design"
-    ],
-    "relevantFor": [
-      "Audio Programmer",
-      "Audio Software Developer",
-      "DSP Engineer",
-      "Technical Sound Designer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "videos": [],
-    "links": [],
-    "images": [
-      {
-        "target": "Fig 1. Simplified Overview.png",
-        "label": "Fig 1. Simplified Overview",
-        "type": "image",
-        "url": "../assets/evidence/5b934097887f9e4f.png"
-      },
-      {
-        "target": "Fig 2. Grain Scheduling.png",
-        "label": "Fig 2. Grain Scheduling",
-        "type": "image",
-        "url": "../assets/evidence/e5d10a0a9294914a.png"
-      },
-      {
-        "target": "Fig 3. Thread Safety.png",
-        "label": "Fig 3. Thread Safety",
-        "type": "image",
-        "url": "../assets/evidence/50e7daf7701fec0d.png"
-      }
-    ],
-    "descriptionSummaryHtml": "Designed and developed <strong>Grainy Day</strong>, a New Interface for Musical Expression (NIME) consisting of a JUCE-based granular synthesizer controlled wirelessly via OSC from a custom Unity mobile application. Researched, documented, and presented the project in the format of an academic NIME paper, demonstrating the use of data-oriented design and multithreading to achieve responsive real-time granular synthesis.",
-    "descriptionHtml": "<p>Designed and developed <strong>Grainy Day</strong>, a New Interface for Musical Expression (NIME) consisting of a JUCE-based granular synthesizer controlled wirelessly via OSC from a custom Unity mobile application. Researched, documented, and presented the project in the format of an academic NIME paper, demonstrating the use of data-oriented design and multithreading to achieve responsive real-time granular synthesis.</p>"
+    "descriptionSummaryHtml": "Redesigned the audio for a gameplay sequence from *WipeOut Omega Collection*, creating original sci-fi vehicle, weapon, UI, collision, and environmental sound effects from scratch. Produced a cohesive game-ready mix and exported organized audio stems for the different sound categories.",
+    "descriptionHtml": "<p>Redesigned the audio for a gameplay sequence from *WipeOut Omega Collection*, creating original sci-fi vehicle, weapon, UI, collision, and environmental sound effects from scratch. Produced a cohesive game-ready mix and exported organized audio stems for the different sound categories.</p>\n<h5>Highlights</h5>\n<ul><li>Made a randomized collision machine using reapers sampler with tweak-able collision strength.</li><li>Made the vehicle sound using synthesis so that the speed of the vehicle could change the sound with a parameter.</li><li>Made Own Music using sample based aproach </li><li>Music Ducked on impact.</li><li>Arcade sounds in tune with music</li></ul>"
   },
   {
     "id": "righter",
@@ -1224,6 +1268,7 @@
     ],
     "quality": "strong",
     "qualityRank": 4,
+    "priority": 68,
     "videos": [
       {
         "label": "SFX Only",
@@ -1244,11 +1289,11 @@
     "descriptionHtml": "<p>Designed the complete soundscape for the short film *Richter*, creating every sound from scratch using original field recordings and synthesis without relying on commercial sound libraries. Produced a custom sound library with organized metadata alongside a polished cinematic mix featuring vehicles, environmental effects, impacts, drones, alarms, and other designed assets. For the voices we had to come up with our own story line.</p>\n<p>Note: Used AI for the female voice.</p>"
   },
   {
-    "id": "sci-fi-vehicle-sound-design",
-    "title": "Sci-Fi Vehicle Sound Design",
-    "description": "Redesigned the audio for a gameplay sequence from WipeOut Omega Collection, creating original sci-fi vehicle, weapon, UI, collision, and environmental sound effects from scratch. Produced a cohesive game-ready mix and exported organized audio stems for the different sound categories.",
+    "id": "creature-sound-design",
+    "title": "Creature Sound Design",
+    "description": "Redesigned the audio for Hræzlyr, the dragon from God of War, creating original creature vocalizations and foley synchronized to gameplay footage. Combined recorded source material, layered processing, and custom movement sounds into a cohesive cinematic soundscape with a polished final mix.",
     "hasMoreDescription": true,
-    "context": "MTS2 - Digital Audio Workstations 2",
+    "context": "MTS3 - Sound 3",
     "role": "Sound Designer",
     "status": "complete",
     "collection": "Education",
@@ -1257,42 +1302,136 @@
       "Game Audio"
     ],
     "skills": [
-      "Vehicle Sound Design",
+      "Creature Sound Design",
+      "Vocal Sound Design",
+      "Foley Recording",
       "Sound Design",
-      "Synthesizer Programming",
       "Audio Mixing",
-      "Layering",
-      "Interactive Audio",
-      "Music Arrangement",
-      "Voice Acting"
+      "Layering"
     ],
     "technologies": [],
     "tools": [
-      "Reaper",
-      "Vital"
+      "Reaper"
+    ],
+    "concepts": [],
+    "relevantFor": [
+      "Sound Designer",
+      "Game Audio Designer",
+      "Creature Sound Designer",
+      "Audio Engineer"
+    ],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 67,
+    "videos": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/clwDGbqRaEc?si=kzsV1uZVYsdOb7eP",
+        "type": "youtube",
+        "youtubeId": "clwDGbqRaEc"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Redesigned the audio for <strong>Hræzlyr</strong>, the dragon from *God of War*, creating original creature vocalizations and foley synchronized to gameplay footage. Combined recorded source material, layered processing, and custom movement sounds into a cohesive cinematic soundscape with a polished final mix.",
+    "descriptionHtml": "<p>Redesigned the audio for <strong>Hræzlyr</strong>, the dragon from *God of War*, creating original creature vocalizations and foley synchronized to gameplay footage. Combined recorded source material, layered processing, and custom movement sounds into a cohesive cinematic soundscape with a polished final mix.</p>\n<h5>Highlights</h5>\n<ul><li>Recorded myself and my friend doing inhale screams as dragon layers.</li><li>Used panned granular synthesis for the gravel flying past.</li><li>Used granular triggered layering technique as a layer for the foley footsteps.</li></ul>"
+  },
+  {
+    "id": "close-combat-sound-design",
+    "title": "Close Combat Sound Design",
+    "description": "Redesigned a close-combat sequence from Mortal Kombat X featuring Tremor and Triborg using only original recordings and synthesis. Built reusable combat assets triggered through a MIDI-driven system with intensity parameters to demonstrate a dynamic workflow suitable for real-time game audio implementation rather than linear foley.",
+    "hasMoreDescription": false,
+    "context": "MTS3 - Sound 3",
+    "role": "Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Audio",
+      "Game Audio"
+    ],
+    "skills": [
+      "Combat Sound Design",
+      "Foley Recording",
+      "Vocal Sound Design",
+      "Procedural Audio Design",
+      "MIDI Implementation",
+      "Audio Mixing"
+    ],
+    "technologies": [],
+    "tools": [
+      "Reaper"
     ],
     "concepts": [],
     "relevantFor": [
       "Sound Designer",
       "Game Audio Designer",
       "Technical Sound Designer",
-      "Audio Engineer",
-      "Music Producer"
+      "Foley Artist"
     ],
     "quality": "strong",
     "qualityRank": 4,
+    "priority": 66,
     "videos": [
       {
-        "label": "Youtube",
-        "url": "https://youtu.be/mYsRoOPQuyg?si=xUSknjHeSh5V6LY9",
+        "label": "YouTube",
+        "url": "https://youtu.be/MmCYLgQF4n8",
         "type": "youtube",
-        "youtubeId": "mYsRoOPQuyg"
+        "youtubeId": "MmCYLgQF4n8"
       }
     ],
     "links": [],
     "images": [],
-    "descriptionSummaryHtml": "Redesigned the audio for a gameplay sequence from *WipeOut Omega Collection*, creating original sci-fi vehicle, weapon, UI, collision, and environmental sound effects from scratch. Produced a cohesive game-ready mix and exported organized audio stems for the different sound categories.",
-    "descriptionHtml": "<p>Redesigned the audio for a gameplay sequence from *WipeOut Omega Collection*, creating original sci-fi vehicle, weapon, UI, collision, and environmental sound effects from scratch. Produced a cohesive game-ready mix and exported organized audio stems for the different sound categories.</p>\n<h5>Highlights</h5>\n<ul><li>Made a randomized collision machine using reapers sampler with tweak-able collision strength.</li><li>Made the vehicle sound using synthesis so that the speed of the vehicle could change the sound with a parameter.</li><li>Made Own Music using sample based aproach </li><li>Music Ducked on impact.</li><li>Arcade sounds in tune with music</li></ul>"
+    "descriptionSummaryHtml": "Redesigned a close-combat sequence from *Mortal Kombat X* featuring Tremor and Triborg using only original recordings and synthesis. Built reusable combat assets triggered through a MIDI-driven system with intensity parameters to demonstrate a dynamic workflow suitable for real-time game audio implementation rather than linear foley.",
+    "descriptionHtml": "<p>Redesigned a close-combat sequence from *Mortal Kombat X* featuring Tremor and Triborg using only original recordings and synthesis. Built reusable combat assets triggered through a MIDI-driven system with intensity parameters to demonstrate a dynamic workflow suitable for real-time game audio implementation rather than linear foley.</p>"
+  },
+  {
+    "id": "ohm",
+    "title": "Ohm",
+    "description": "Created the complete sound design and final mix for the animated short Ohm, combining ambience, foley, sound effects, and extensively edited production music into a cohesive soundtrack. Processed and synchronized existing music to the animation through granular effects, spatial processing, and evolving instrumentation to reinforce the film's abstract narrative and emotional progression.",
+    "hasMoreDescription": false,
+    "context": "MTS3 - Sound Integration 1",
+    "role": "Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Audio",
+      "Game Audio"
+    ],
+    "skills": [
+      "Sound Design",
+      "Audio Mixing",
+      "Music Editing",
+      "Music Synchronization",
+      "Audio Production",
+      "Creative Audio Processing",
+      "Granular Audio Processing"
+    ],
+    "technologies": [],
+    "tools": [
+      "Reaper"
+    ],
+    "concepts": [],
+    "relevantFor": [
+      "Sound Designer",
+      "Mix Engineer",
+      "Game Audio Designer",
+      "Audio Editor"
+    ],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 65,
+    "videos": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/T7iZfOwwqAw",
+        "type": "youtube",
+        "youtubeId": "T7iZfOwwqAw"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Created the complete sound design and final mix for the animated short <strong>Ohm</strong>, combining ambience, foley, sound effects, and extensively edited production music into a cohesive soundtrack. Processed and synchronized existing music to the animation through granular effects, spatial processing, and evolving instrumentation to reinforce the film&#039;s abstract narrative and emotional progression.",
+    "descriptionHtml": "<p>Created the complete sound design and final mix for the animated short <strong>Ohm</strong>, combining ambience, foley, sound effects, and extensively edited production music into a cohesive soundtrack. Processed and synchronized existing music to the animation through granular effects, spatial processing, and evolving instrumentation to reinforce the film&#039;s abstract narrative and emotional progression.</p>"
   },
   {
     "id": "weapon-sound-design-sci-fi",
@@ -1329,6 +1468,7 @@
     ],
     "quality": "strong",
     "qualityRank": 4,
+    "priority": 64,
     "videos": [
       {
         "label": "L-Star",
@@ -1349,116 +1489,51 @@
     "descriptionHtml": "<p>Created sci-fi weapon sound effects for a game audio redesign project by combining synthesis, recorded sounds, and library samples. Produced multiple weapon variations and integrated them into gameplay scenes with ambience, reverb, foley, and a polished game-ready mix.</p>\n<p>Guns: <a href=\"https://youtu.be/4oZPqHV9on0?si=RUmY5F6yksmWF9DE\" target=\"_blank\" rel=\"noreferrer\">Titanfall L-Star</a> &amp; <a href=\"https://youtu.be/416eBPZkhHI?si=NGBKgPjO5oYYqQMf\" target=\"_blank\" rel=\"noreferrer\">Wolfenstein LaserKraftwerk</a></p>\n<h4>Highlights</h4>\n<p>Created my own granular synth by stacking and delaying a bunch of reaper samplers. Used to make the electric fire sound in the LaserKraftwerk. Electric Fire render 003.wav</p>"
   },
   {
-    "id": "adapta-solva-legacy",
-    "title": "Adapta Solva Legacy",
-    "description": "Created the sound design, music, and FMOD implementation for Adapta Solva, a Unity graduation project that I joined voluntarily during my first year of study. Produced 2 music tracks, implemented a simple dynamic music system, and handled the game's sound effects and audio integration using FMOD.",
+    "id": "anno-trailer-music-edit",
+    "title": "Anno Trailer Music Edit",
+    "description": "Researched, selected, and edited orchestral music to create a new soundtrack for the Anno 1800 trailer. Synchronized the music to the trailer's pacing, mixed it with the original voice-over, and analyzed the musical choices to support the game's historical atmosphere.",
     "hasMoreDescription": false,
-    "context": "Para Fauna",
-    "role": "Technical Sound Designer",
-    "status": "complete",
-    "collection": "Professional",
-    "disciplines": [
-      "Game Audio",
-      "Audio Implementation"
-    ],
-    "skills": [
-      "Sound Design",
-      "FMOD Implementation",
-      "Dynamic Music",
-      "Music Production",
-      "Audio Implementation"
-    ],
-    "technologies": [
-      "FMOD",
-      "Unity"
-    ],
-    "tools": [],
-    "concepts": [],
-    "relevantFor": [
-      "Technical Sound Designer",
-      "Game Audio Designer",
-      "Sound Designer",
-      "Audio Implementer"
-    ],
-    "quality": "good",
-    "qualityRank": 3,
-    "videos": [
-      {
-        "label": "Gameplay Video",
-        "url": "https://www.youtube.com/watch?v=P9J9BqLZnYg",
-        "type": "youtube",
-        "youtubeId": "P9J9BqLZnYg"
-      }
-    ],
-    "links": [
-      {
-        "label": "Song 1 - Grass Field at Night",
-        "url": "https://soundcloud.com/dreams_music/grass-field?si=caf2e7fac28e427d92561149b027c583&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-        "type": "link",
-        "youtubeId": null
-      },
-      {
-        "label": "Song 2 - Forrest Frogs",
-        "url": "https://soundcloud.com/dreams_music/forrest?si=9a850d5868664328a844707da302bea3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-        "type": "link",
-        "youtubeId": null
-      },
-      {
-        "label": "Steam",
-        "url": "https://store.steampowered.com/app/2752680/Adapta_Solva_Legacy/",
-        "type": "link",
-        "youtubeId": null
-      }
-    ],
-    "images": [],
-    "descriptionSummaryHtml": "Created the sound design, music, and FMOD implementation for <strong><a href=\"https://store.steampowered.com/app/2752680/Adapta_Solva_Legacy/\" target=\"_blank\" rel=\"noreferrer\">Adapta Solva</a></strong>, a Unity graduation project that I joined voluntarily during my first year of study. Produced 2 music tracks, implemented a simple dynamic music system, and handled the game&#039;s sound effects and audio integration using FMOD.",
-    "descriptionHtml": "<p>Created the sound design, music, and FMOD implementation for <strong><a href=\"https://store.steampowered.com/app/2752680/Adapta_Solva_Legacy/\" target=\"_blank\" rel=\"noreferrer\">Adapta Solva</a></strong>, a Unity graduation project that I joined voluntarily during my first year of study. Produced 2 music tracks, implemented a simple dynamic music system, and handled the game&#039;s sound effects and audio integration using FMOD.</p>"
-  },
-  {
-    "id": "adapta-solva-linear",
-    "title": "Adapta Solva Linear",
-    "description": "This video demonstrates one of my procceses. Using linear audio as proof of concept. During this assignment I had already seeked out the Adapta Solva Legacy team and they where working on their game. This reaper video is a demonstration where I designed the sounds and added them under a gameplay video. These sounds where later adjusted based on feedback, exported and implimented using FMOD.",
-    "hasMoreDescription": false,
-    "context": "MTS1 - Digital Audio Workstations",
-    "role": "Sound Designer",
+    "context": "MTS4 - Music for Games",
+    "role": "Interactive Music Designer",
     "status": "complete",
     "collection": "Education",
     "disciplines": [
-      "Audio",
-      "Game Audio"
+      "Game Audio",
+      "Interactive Music"
     ],
     "skills": [
-      "Sound Design",
-      "Game Audio",
-      "Foley Recording",
-      "Audio Mixing",
-      "MIDI Composition",
-      "Dialogue Editing"
+      "Music Editing",
+      "Music Supervision",
+      "Trailer Music Editing",
+      "Musical Analysis",
+      "Audio Mixing"
     ],
     "technologies": [],
     "tools": [
-      "Reaper",
-      "ReaSynth",
-      "ReaSamplOmatic5000",
-      "TAL-NoiseMaker",
-      "Vital",
-      "Spitfire LABS",
-      "Spitfire BBC Symphony Orchestra Discover"
+      "Reaper"
     ],
     "concepts": [],
     "relevantFor": [
-      "Sound Designer",
-      "Technical Sound Designer",
+      "Interactive Music Designer",
       "Game Audio Designer",
-      "Audio Engineer"
+      "Music Editor",
+      "Sound Designer"
     ],
-    "quality": "good",
-    "qualityRank": 3,
-    "videos": [],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 63,
+    "videos": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/NTmlbj92EAk",
+        "type": "youtube",
+        "youtubeId": "NTmlbj92EAk"
+      }
+    ],
     "links": [],
     "images": [],
-    "descriptionSummaryHtml": "This video demonstrates one of my procceses. Using linear audio as proof of concept. During this assignment I had already seeked out the <a href=\"?filter=projects%3AAdapta+Solva+Legacy\">Adapta Solva Legacy</a> team and they where working on their game. This reaper video is a demonstration where I designed the sounds and added them under a gameplay video. These sounds where later adjusted based on feedback, exported and implimented using FMOD.",
-    "descriptionHtml": "<p>This video demonstrates one of my procceses. Using linear audio as proof of concept. During this assignment I had already seeked out the <a href=\"?filter=projects%3AAdapta+Solva+Legacy\">Adapta Solva Legacy</a> team and they where working on their game. This reaper video is a demonstration where I designed the sounds and added them under a gameplay video. These sounds where later adjusted based on feedback, exported and implimented using FMOD.</p>"
+    "descriptionSummaryHtml": "Researched, selected, and edited orchestral music to create a new soundtrack for the *Anno 1800* trailer. Synchronized the music to the trailer&#039;s pacing, mixed it with the original voice-over, and analyzed the musical choices to support the game&#039;s historical atmosphere.",
+    "descriptionHtml": "<p>Researched, selected, and edited orchestral music to create a new soundtrack for the *Anno 1800* trailer. Synchronized the music to the trailer&#039;s pacing, mixed it with the original voice-over, and analyzed the musical choices to support the game&#039;s historical atmosphere.</p>"
   },
   {
     "id": "the-investigation",
@@ -1494,6 +1569,7 @@
     ],
     "quality": "good",
     "qualityRank": 3,
+    "priority": 62,
     "videos": [
       {
         "label": "Youtube",
@@ -1506,6 +1582,56 @@
     "images": [],
     "descriptionSummaryHtml": "Created the FMOD audio direction and implementation for *The Investigation*, a noir detective game focused on atmosphere and environmental storytelling. Built dynamic ambience, spatialized point sounds, encounter monologues, dialogue playback logic, reverb, randomized sound behaviour, and a structured mixer with separate music, voice, and effects controls.",
     "descriptionHtml": "<p>Created the FMOD audio direction and implementation for *The Investigation*, a noir detective game focused on atmosphere and environmental storytelling. Built dynamic ambience, spatialized point sounds, encounter monologues, dialogue playback logic, reverb, randomized sound behaviour, and a structured mixer with separate music, voice, and effects controls.</p>\n<h4>Highlights</h4>\n<ul><li>Menu Open Mixer Snapshot</li><li>Change Ambience depending on height</li><li>Audio Synced with in game video</li><li>Random Audio Encounters in Ambience</li></ul>"
+  },
+  {
+    "id": "music-composition-and-vertical-re-orchestration",
+    "title": "Music composition and vertical re-orchestration",
+    "description": "Composed and implemented an adaptive music system featuring original music with multiple interactive variations. Combined horizontal resequencing, vertical re-orchestration, MIDI-driven drum playback, and Wwise samplers to create a dynamic soundtrack with seamless transitions, randomized musical layers, and reduced memory usage.",
+    "hasMoreDescription": false,
+    "context": "MTS4 - Music for Games",
+    "role": "Composer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Game Audio",
+      "Interactive Music"
+    ],
+    "skills": [
+      "Music Composition",
+      "Interactive Music",
+      "Vertical Remixing",
+      "Horizontal Resequencing",
+      "MIDI Programming",
+      "Adaptive Music Design"
+    ],
+    "technologies": [
+      "Wwise"
+    ],
+    "tools": [
+      "Reaper"
+    ],
+    "concepts": [],
+    "relevantFor": [
+      "Game Composer",
+      "Technical Sound Designer",
+      "Interactive Music Designer",
+      "Game Audio Designer"
+    ],
+    "quality": "medium",
+    "qualityRank": 2,
+    "priority": 61,
+    "videos": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/0WiEICj7iW0",
+        "type": "youtube",
+        "youtubeId": "0WiEICj7iW0"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Composed and implemented an adaptive music system featuring original music with multiple interactive variations. Combined horizontal resequencing, vertical re-orchestration, MIDI-driven drum playback, and Wwise samplers to create a dynamic soundtrack with seamless transitions, randomized musical layers, and reduced memory usage.",
+    "descriptionHtml": "<p>Composed and implemented an adaptive music system featuring original music with multiple interactive variations. Combined horizontal resequencing, vertical re-orchestration, MIDI-driven drum playback, and Wwise samplers to create a dynamic soundtrack with seamless transitions, randomized musical layers, and reduced memory usage.</p>"
   },
   {
     "id": "anno-gameplay-horizontal-playlists-in-wwise",
@@ -1541,6 +1667,7 @@
     ],
     "quality": "medium",
     "qualityRank": 2,
+    "priority": 60,
     "videos": [
       {
         "label": "A Suitable Suitor",
@@ -1559,112 +1686,6 @@
     "images": [],
     "descriptionSummaryHtml": "Designed and implemented adaptive music systems in Wwise for *Anno 1800* using horizontal resequencing techniques. Built separate playlists for calm and high-intensity gameplay with seamless looping, randomization, and musical variation to reduce repetition during extended play sessions.",
     "descriptionHtml": "<p>Designed and implemented adaptive music systems in Wwise for *Anno 1800* using horizontal resequencing techniques. Built separate playlists for calm and high-intensity gameplay with seamless looping, randomization, and musical variation to reduce repetition during extended play sessions.</p>"
-  },
-  {
-    "id": "car",
-    "title": "Car",
-    "description": "A 3D model of an old Volkswagen-style van converted into a small camper. Next to it a bathtub, some logs and some plant pots. The model and UV maps were created in Blender, with textures produced in Photoshop.",
-    "hasMoreDescription": false,
-    "context": "MTS2 - 3D 1",
-    "role": "3D Artist",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "3D",
-      "Game Art"
-    ],
-    "skills": [
-      "3D Modelling",
-      "Texturing",
-      "UV Unwrapping"
-    ],
-    "technologies": [],
-    "tools": [
-      "Blender",
-      "Photoshop"
-    ],
-    "concepts": [],
-    "relevantFor": [
-      "3D Artist"
-    ],
-    "quality": "medium",
-    "qualityRank": 2,
-    "videos": [],
-    "links": [
-      {
-        "label": "Sketchfab model",
-        "url": "https://sketchfab.com/3d-models/dae-5-finished-props-forrest-loner-ba8a94c25ae34a53929a8eedb45f4d81",
-        "type": "link",
-        "youtubeId": null
-      }
-    ],
-    "images": [
-      {
-        "target": "Car_Front.png",
-        "label": "Car_Front",
-        "type": "image",
-        "url": "../assets/evidence/444c05821ae9fc60.png"
-      },
-      {
-        "target": "Car_Back.png",
-        "label": "Car_Back",
-        "type": "image",
-        "url": "../assets/evidence/a5b2069175ae094e.png"
-      }
-    ],
-    "descriptionSummaryHtml": "A 3D model of an old Volkswagen-style van converted into a small camper. Next to it a bathtub, some logs and some plant pots. The model and UV maps were created in Blender, with textures produced in Photoshop.",
-    "descriptionHtml": "<p>A 3D model of an old Volkswagen-style van converted into a small camper. Next to it a bathtub, some logs and some plant pots. The model and UV maps were created in Blender, with textures produced in Photoshop.</p>"
-  },
-  {
-    "id": "cropout",
-    "title": "Cropout",
-    "description": "Implemented the complete audio experience for Epic Games' Cropout sample project in Unreal Engine 5, focusing on scalable audio architecture, interactive mixing, and custom spatial audio solutions. The project included ambience, sound effects, UI audio, dynamic mixing, and reusable Blueprint systems designed to support a top-down strategy game.",
-    "hasMoreDescription": true,
-    "context": "MTS3 - Audio Implimentation 2",
-    "role": "Technical Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Game Audio",
-      "Audio Implementation"
-    ],
-    "skills": [
-      "Unreal Engine Audio",
-      "Blueprint Programming",
-      "Audio Systems Design",
-      "Spatial Audio",
-      "Audio Mixing",
-      "Tool Development"
-    ],
-    "technologies": [
-      "Unreal Engine 5",
-      "Blueprints",
-      "MetaSounds"
-    ],
-    "tools": [
-      "Audio Insights"
-    ],
-    "concepts": [],
-    "relevantFor": [
-      "Technical Sound Designer",
-      "Game Audio Programmer",
-      "Unreal Engine Developer",
-      "Sound Designer"
-    ],
-    "quality": "medium",
-    "qualityRank": 2,
-    "videos": [
-      {
-        "label": "YouTube",
-        "url": "https://youtu.be/GTCGhrOoxfg",
-        "type": "youtube",
-        "youtubeId": "GTCGhrOoxfg"
-      }
-    ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Implemented the complete audio experience for Epic Games&#039; <strong>Cropout</strong> sample project in Unreal Engine 5, focusing on scalable audio architecture, interactive mixing, and custom spatial audio solutions. The project included ambience, sound effects, UI audio, dynamic mixing, and reusable Blueprint systems designed to support a top-down strategy game.",
-    "descriptionHtml": "<p>Implemented the complete audio experience for Epic Games&#039; <strong>Cropout</strong> sample project in Unreal Engine 5, focusing on scalable audio architecture, interactive mixing, and custom spatial audio solutions. The project included ambience, sound effects, UI audio, dynamic mixing, and reusable Blueprint systems designed to support a top-down strategy game.</p>\n<p>A major technical contribution was the development of a custom <strong>2D top-down attenuation system</strong>. Traditional 3D attenuation did not provide the desired behaviour for the game&#039;s elevated camera, so a custom solution was implemented that dynamically adjusted both panning and gain based on the camera&#039;s angle and height relative to audio sources. As the camera zoomed out, sounds remained intelligible over larger distances, while zooming in naturally reduced the audible range, creating a more consistent listening experience.</p>\n<p>The environmental ambience was also made fully adaptive by linking its behaviour to the camera height. As the player zoomed between gameplay perspectives, the ambience responded dynamically, reinforcing the sense of scale while maintaining a balanced mix throughout the game.</p>\n<p>Beyond the custom attenuation system, the project explored Unreal Engine&#039;s modern audio pipeline through sound classes, submixes, effects, Audio Insights, Blueprint-based implementation, and interactive mixing techniques. The implementation emphasized reusable systems, debugging workflows, and maintainable project architecture while balancing technical correctness with an engaging player experience.</p>"
   },
   {
     "id": "immersive-soundscapes",
@@ -1708,6 +1729,7 @@
     ],
     "quality": "medium",
     "qualityRank": 2,
+    "priority": 59,
     "videos": [],
     "links": [],
     "images": [
@@ -1720,152 +1742,6 @@
     ],
     "descriptionSummaryHtml": "Created an immersive horror-themed soundscape and produced channel-based, ambisonic, binaural, object-based, and Wwise spatial audio mixes. The project demonstrated sound design, spatial positioning, multiformat mixing, rendering, and organized audio production workflows.",
     "descriptionHtml": "<p>Created an immersive horror-themed soundscape and produced channel-based, ambisonic, binaural, object-based, and Wwise spatial audio mixes. The project demonstrated sound design, spatial positioning, multiformat mixing, rendering, and organized audio production workflows.</p>"
-  },
-  {
-    "id": "lego-smart-play-sound-design",
-    "title": "LEGO - Smart Play Sound Design",
-    "description": "Contributed sound design to LEGO SMART Play, creating sounds within its synth-based audio system. Worked within the project's existing audio framework to design sounds suited to the interactive experience.",
-    "hasMoreDescription": true,
-    "context": "Internship",
-    "role": "Sound Designer",
-    "status": "complete",
-    "collection": "Professional",
-    "disciplines": [
-      "Game Audio",
-      "Interactive Audio"
-    ],
-    "skills": [
-      "Sound Design",
-      "Synthesizer Programming",
-      "Interactive Audio"
-    ],
-    "technologies": [],
-    "tools": [],
-    "concepts": [],
-    "relevantFor": [
-      "Sound Designer",
-      "Game Audio Designer",
-      "Technical Sound Designer"
-    ],
-    "quality": "medium",
-    "qualityRank": 2,
-    "videos": [],
-    "links": [],
-    "images": [
-      {
-        "target": "LEGO.jpg",
-        "label": "LEGO",
-        "type": "image",
-        "url": "../assets/evidence/2d987d06dcc4be90.jpg"
-      }
-    ],
-    "descriptionSummaryHtml": "Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within its synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds suited to the interactive experience.",
-    "descriptionHtml": "<p>Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within its synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds suited to the interactive experience.</p>\n<p>*For more information, reach out to designtalent@lego.com.</p>"
-  },
-  {
-    "id": "luna",
-    "title": "Luna",
-    "description": "Reworked the audio implementation of Luna, an educational Unity game used to teach children how to write, replacing its existing native audio solution with a clean FMOD integration. Worked within an existing codebase and development workflow to remove legacy audio functionality, integrate and version the new audio system through Perforce, and redesign the project's soundscape while preserving existing functionality.",
-    "hasMoreDescription": false,
-    "context": "MTS4 - Sound Integration 2",
-    "role": "Technical Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Game Audio",
-      "Audio Programming"
-    ],
-    "skills": [
-      "FMOD Integration",
-      "Game Audio Implementation",
-      "Audio Programming",
-      "Sound Design",
-      "Unity Development"
-    ],
-    "technologies": [
-      "Unity",
-      "FMOD"
-    ],
-    "tools": [
-      "Perforce"
-    ],
-    "concepts": [],
-    "relevantFor": [
-      "Technical Sound Designer",
-      "Audio Programmer",
-      "Game Audio Designer",
-      "Audio Implementer"
-    ],
-    "quality": "medium",
-    "qualityRank": 2,
-    "videos": [
-      {
-        "label": "Demo",
-        "url": "https://youtu.be/SN4Ivl6NoKU",
-        "type": "youtube",
-        "youtubeId": "SN4Ivl6NoKU"
-      }
-    ],
-    "links": [],
-    "images": [
-      {
-        "target": "Luna.png",
-        "label": "Luna",
-        "type": "image",
-        "url": "../assets/evidence/61de94e0dd326022.png"
-      }
-    ],
-    "descriptionSummaryHtml": "Reworked the audio implementation of <a href=\"https://play.google.com/store/apps/details?id=be.diekeure.luna\" target=\"_blank\" rel=\"noreferrer\"><strong>Luna</strong></a>, an educational Unity game used to teach children how to write, replacing its existing native audio solution with a clean FMOD integration. Worked within an existing codebase and development workflow to remove legacy audio functionality, integrate and version the new audio system through Perforce, and redesign the project&#039;s soundscape while preserving existing functionality.",
-    "descriptionHtml": "<p>Reworked the audio implementation of <a href=\"https://play.google.com/store/apps/details?id=be.diekeure.luna\" target=\"_blank\" rel=\"noreferrer\"><strong>Luna</strong></a>, an educational Unity game used to teach children how to write, replacing its existing native audio solution with a clean FMOD integration. Worked within an existing codebase and development workflow to remove legacy audio functionality, integrate and version the new audio system through Perforce, and redesign the project&#039;s soundscape while preserving existing functionality.</p>"
-  },
-  {
-    "id": "music-composition-and-vertical-re-orchestration",
-    "title": "Music composition and vertical re-orchestration",
-    "description": "Composed and implemented an adaptive music system featuring original music with multiple interactive variations. Combined horizontal resequencing, vertical re-orchestration, MIDI-driven drum playback, and Wwise samplers to create a dynamic soundtrack with seamless transitions, randomized musical layers, and reduced memory usage.",
-    "hasMoreDescription": false,
-    "context": "MTS4 - Music for Games",
-    "role": "Composer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Game Audio",
-      "Interactive Music"
-    ],
-    "skills": [
-      "Music Composition",
-      "Interactive Music",
-      "Vertical Remixing",
-      "Horizontal Resequencing",
-      "MIDI Programming",
-      "Adaptive Music Design"
-    ],
-    "technologies": [
-      "Wwise"
-    ],
-    "tools": [
-      "Reaper"
-    ],
-    "concepts": [],
-    "relevantFor": [
-      "Game Composer",
-      "Technical Sound Designer",
-      "Interactive Music Designer",
-      "Game Audio Designer"
-    ],
-    "quality": "medium",
-    "qualityRank": 2,
-    "videos": [
-      {
-        "label": "YouTube",
-        "url": "https://youtu.be/0WiEICj7iW0",
-        "type": "youtube",
-        "youtubeId": "0WiEICj7iW0"
-      }
-    ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Composed and implemented an adaptive music system featuring original music with multiple interactive variations. Combined horizontal resequencing, vertical re-orchestration, MIDI-driven drum playback, and Wwise samplers to create a dynamic soundtrack with seamless transitions, randomized musical layers, and reduced memory usage.",
-    "descriptionHtml": "<p>Composed and implemented an adaptive music system featuring original music with multiple interactive variations. Combined horizontal resequencing, vertical re-orchestration, MIDI-driven drum playback, and Wwise samplers to create a dynamic soundtrack with seamless transitions, randomized musical layers, and reduced memory usage.</p>"
   },
   {
     "id": "spatialization-practical-exam",
@@ -1903,6 +1779,7 @@
     ],
     "quality": "medium",
     "qualityRank": 2,
+    "priority": 58,
     "videos": [],
     "links": [],
     "images": [],
@@ -1945,6 +1822,7 @@
     ],
     "quality": "medium",
     "qualityRank": 2,
+    "priority": 57,
     "videos": [
       {
         "label": "YouTube",
@@ -1957,6 +1835,61 @@
     "images": [],
     "descriptionSummaryHtml": "Developed a complete sound palette and sound design bible for <strong>LoopHero</strong>, defining a cohesive audio identity independent of the original soundtrack. Wrote a new soundtrack. Redesigned the game&#039;s menu and gameplay audio with original processed sounds, synthesis, and layered recordings, and presented the creative vision as a sound lead pitch.",
     "descriptionHtml": "<p>Developed a complete sound palette and sound design bible for <strong>LoopHero</strong>, defining a cohesive audio identity independent of the original soundtrack. Wrote a new soundtrack. Redesigned the game&#039;s menu and gameplay audio with original processed sounds, synthesis, and layered recordings, and presented the creative vision as a sound lead pitch.</p>\n<h5>Highlights</h5>\n<ul><li>During slow mode a half time version of the music plays. This is always a great slow down effect that you can crossfade right into.</li></ul>"
+  },
+  {
+    "id": "weapon-sound-design-realistic",
+    "title": "Weapon Sound Design - Realistic",
+    "description": "Created weapon sound effects for a game audio redesign project by combining synthesis, recorded sounds, and library samples. Produced multiple weapon variations and integrated them into gameplay scenes with ambience, reverb, foley, and a polished game-ready mix.",
+    "hasMoreDescription": true,
+    "context": "MTS2 - Digital Audio Workstations 2",
+    "role": "Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Audio",
+      "Game Audio"
+    ],
+    "skills": [
+      "Weapon Sound Design",
+      "Sound Design",
+      "Audio Mixing",
+      "Foley Recording",
+      "Synthesizer Programming",
+      "Layering"
+    ],
+    "technologies": [],
+    "tools": [
+      "Reaper",
+      "Vital"
+    ],
+    "concepts": [],
+    "relevantFor": [
+      "Sound Designer",
+      "Game Audio Designer",
+      "Technical Sound Designer",
+      "Audio Engineer"
+    ],
+    "quality": "medium",
+    "qualityRank": 2,
+    "priority": 56,
+    "videos": [
+      {
+        "label": "M1911",
+        "url": "https://youtu.be/zfYo6-TjNTU",
+        "type": "youtube",
+        "youtubeId": "zfYo6-TjNTU"
+      },
+      {
+        "label": "M16A4",
+        "url": "https://youtu.be/LVbpgv8W1RM",
+        "type": "youtube",
+        "youtubeId": "LVbpgv8W1RM"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Created weapon sound effects for a game audio redesign project by combining synthesis, recorded sounds, and library samples. Produced multiple weapon variations and integrated them into gameplay scenes with ambience, reverb, foley, and a polished game-ready mix.",
+    "descriptionHtml": "<p>Created weapon sound effects for a game audio redesign project by combining synthesis, recorded sounds, and library samples. Produced multiple weapon variations and integrated them into gameplay scenes with ambience, reverb, foley, and a polished game-ready mix.</p>\n<p>Guns: M1911 &amp; M16A4</p>\n<p>The biggest challenge was getting the relative power of the guns down. The M16A4 is much stronger and I wanted to convey this with sound. I achieved this at the cost of having the M1911 sound less strong.</p>"
   },
   {
     "id": "to-bee-or-not-to-bee",
@@ -1991,6 +1924,7 @@
     ],
     "quality": "medium",
     "qualityRank": 2,
+    "priority": 55,
     "videos": [
       {
         "label": "Trailer",
@@ -2045,6 +1979,7 @@
     ],
     "quality": "medium",
     "qualityRank": 2,
+    "priority": 54,
     "videos": [],
     "links": [
       {
@@ -2072,11 +2007,67 @@
     "descriptionHtml": "<p>Created the sound design and music for <strong><a href=\"?filter=projects%3ATony+Pigeon+Pro+Skater\">Tony Pigeon Pro Skater</a></strong>, a game jam project built around endless-runner gameplay where the player jumps over obstacles and performs aerial tricks through button combinations.</p>\n<h5>Highlights</h5>\n<ul><li>A half time version of the song plays during slow mo time. The original song pitches down with a crossfade into it. This creates a great slow mo transition.</li></ul>"
   },
   {
-    "id": "weapon-sound-design-realistic",
-    "title": "Weapon Sound Design - Realistic",
-    "description": "Created weapon sound effects for a game audio redesign project by combining synthesis, recorded sounds, and library samples. Produced multiple weapon variations and integrated them into gameplay scenes with ambience, reverb, foley, and a polished game-ready mix.",
-    "hasMoreDescription": true,
-    "context": "MTS2 - Digital Audio Workstations 2",
+    "id": "emotions-platformer",
+    "title": "Emotions Platformer",
+    "description": "Designed and developed a 2D puzzle platformer prototype centered around emotions as playable characters, each with unique movement and puzzle-solving abilities. Implemented the core gameplay systems in Unity, including character switching, emotion attraction and repulsion mechanics, checkpoints, platforming abilities, and progression through puzzle-based levels.",
+    "hasMoreDescription": false,
+    "context": "MTS3 - Game Engine Fundamentals",
+    "role": "Gameplay Programmer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Game Development",
+      "Gameplay Programming"
+    ],
+    "skills": [
+      "Gameplay Programming",
+      "Unity Development",
+      "Puzzle Design",
+      "Platformer Development",
+      "C Sharp Programming",
+      "Game Systems Design"
+    ],
+    "technologies": [
+      "Unity",
+      "C Sharp"
+    ],
+    "tools": [],
+    "concepts": [],
+    "relevantFor": [
+      "Gameplay Programmer",
+      "Unity Developer",
+      "Game Programmer",
+      "Technical Game Designer"
+    ],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 53,
+    "videos": [],
+    "links": [
+      {
+        "label": "Itch.io",
+        "url": "https://matthiaspeene.itch.io/colourfull-emotions",
+        "type": "link",
+        "youtubeId": null
+      }
+    ],
+    "images": [
+      {
+        "target": "PlayBanner.png",
+        "label": "PlayBanner",
+        "type": "image",
+        "url": "../assets/evidence/63d835cf1ad4fd3b.png"
+      }
+    ],
+    "descriptionSummaryHtml": "Designed and developed a 2D puzzle platformer prototype centered around emotions as playable characters, each with unique movement and puzzle-solving abilities. Implemented the core gameplay systems in Unity, including character switching, emotion attraction and repulsion mechanics, checkpoints, platforming abilities, and progression through puzzle-based levels.",
+    "descriptionHtml": "<p>Designed and developed a 2D puzzle platformer prototype centered around emotions as playable characters, each with unique movement and puzzle-solving abilities. Implemented the core gameplay systems in Unity, including character switching, emotion attraction and repulsion mechanics, checkpoints, platforming abilities, and progression through puzzle-based levels.</p>"
+  },
+  {
+    "id": "adapta-solva-linear",
+    "title": "Adapta Solva Linear",
+    "description": "This video demonstrates one of my procceses. Using linear audio as proof of concept. During this assignment I had already seeked out the Adapta Solva Legacy team and they where working on their game. This reaper video is a demonstration where I designed the sounds and added them under a gameplay video. These sounds where later adjusted based on feedback, exported and implimented using FMOD.",
+    "hasMoreDescription": false,
+    "context": "MTS1 - Digital Audio Workstations",
     "role": "Sound Designer",
     "status": "complete",
     "collection": "Education",
@@ -2085,45 +2076,94 @@
       "Game Audio"
     ],
     "skills": [
-      "Weapon Sound Design",
       "Sound Design",
-      "Audio Mixing",
+      "Game Audio",
       "Foley Recording",
-      "Synthesizer Programming",
-      "Layering"
+      "Audio Mixing",
+      "MIDI Composition",
+      "Dialogue Editing"
     ],
     "technologies": [],
     "tools": [
       "Reaper",
-      "Vital"
+      "ReaSynth",
+      "ReaSamplOmatic5000",
+      "TAL-NoiseMaker",
+      "Vital",
+      "Spitfire LABS",
+      "Spitfire BBC Symphony Orchestra Discover"
     ],
     "concepts": [],
     "relevantFor": [
       "Sound Designer",
-      "Game Audio Designer",
       "Technical Sound Designer",
+      "Game Audio Designer",
       "Audio Engineer"
+    ],
+    "quality": "good",
+    "qualityRank": 3,
+    "priority": 51,
+    "videos": [],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "This video demonstrates one of my procceses. Using linear audio as proof of concept. During this assignment I had already seeked out the <a href=\"?filter=projects%3AAdapta+Solva+Legacy\">Adapta Solva Legacy</a> team and they where working on their game. This reaper video is a demonstration where I designed the sounds and added them under a gameplay video. These sounds where later adjusted based on feedback, exported and implimented using FMOD.",
+    "descriptionHtml": "<p>This video demonstrates one of my procceses. Using linear audio as proof of concept. During this assignment I had already seeked out the <a href=\"?filter=projects%3AAdapta+Solva+Legacy\">Adapta Solva Legacy</a> team and they where working on their game. This reaper video is a demonstration where I designed the sounds and added them under a gameplay video. These sounds where later adjusted based on feedback, exported and implimented using FMOD.</p>"
+  },
+  {
+    "id": "car",
+    "title": "Car",
+    "description": "A 3D model of an old Volkswagen-style van converted into a small camper. Next to it a bathtub, some logs and some plant pots. The model and UV maps were created in Blender, with textures produced in Photoshop.",
+    "hasMoreDescription": false,
+    "context": "MTS2 - 3D 1",
+    "role": "3D Artist",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "3D",
+      "Game Art"
+    ],
+    "skills": [
+      "3D Modelling",
+      "Texturing",
+      "UV Unwrapping"
+    ],
+    "technologies": [],
+    "tools": [
+      "Blender",
+      "Photoshop"
+    ],
+    "concepts": [],
+    "relevantFor": [
+      "3D Artist"
     ],
     "quality": "medium",
     "qualityRank": 2,
-    "videos": [
+    "priority": 48,
+    "videos": [],
+    "links": [
       {
-        "label": "M1911",
-        "url": "https://youtu.be/zfYo6-TjNTU",
-        "type": "youtube",
-        "youtubeId": "zfYo6-TjNTU"
-      },
-      {
-        "label": "M16A4",
-        "url": "https://youtu.be/LVbpgv8W1RM",
-        "type": "youtube",
-        "youtubeId": "LVbpgv8W1RM"
+        "label": "Sketchfab model",
+        "url": "https://sketchfab.com/3d-models/dae-5-finished-props-forrest-loner-ba8a94c25ae34a53929a8eedb45f4d81",
+        "type": "link",
+        "youtubeId": null
       }
     ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Created weapon sound effects for a game audio redesign project by combining synthesis, recorded sounds, and library samples. Produced multiple weapon variations and integrated them into gameplay scenes with ambience, reverb, foley, and a polished game-ready mix.",
-    "descriptionHtml": "<p>Created weapon sound effects for a game audio redesign project by combining synthesis, recorded sounds, and library samples. Produced multiple weapon variations and integrated them into gameplay scenes with ambience, reverb, foley, and a polished game-ready mix.</p>\n<p>Guns: M1911 &amp; M16A4</p>\n<p>The biggest challenge was getting the relative power of the guns down. The M16A4 is much stronger and I wanted to convey this with sound. I achieved this at the cost of having the M1911 sound less strong.</p>"
+    "images": [
+      {
+        "target": "Car_Front.png",
+        "label": "Car_Front",
+        "type": "image",
+        "url": "../assets/evidence/444c05821ae9fc60.png"
+      },
+      {
+        "target": "Car_Back.png",
+        "label": "Car_Back",
+        "type": "image",
+        "url": "../assets/evidence/a5b2069175ae094e.png"
+      }
+    ],
+    "descriptionSummaryHtml": "A 3D model of an old Volkswagen-style van converted into a small camper. Next to it a bathtub, some logs and some plant pots. The model and UV maps were created in Blender, with textures produced in Photoshop.",
+    "descriptionHtml": "<p>A 3D model of an old Volkswagen-style van converted into a small camper. Next to it a bathtub, some logs and some plant pots. The model and UV maps were created in Blender, with textures produced in Photoshop.</p>"
   },
   {
     "id": "house-diorama",
@@ -2154,6 +2194,7 @@
     ],
     "quality": "beginner",
     "qualityRank": 1,
+    "priority": 47,
     "videos": [],
     "links": [
       {
