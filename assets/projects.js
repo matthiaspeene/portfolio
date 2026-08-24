@@ -1,10 +1,12 @@
 (() => {
   const projects = Array.isArray(window.PORTFOLIO_PROJECTS) ? window.PORTFOLIO_PROJECTS : [];
+  const filterConfig = window.PORTFOLIO_PROJECT_FILTERS || { focus: [], tools_and_technology: [] };
   const projectList = document.querySelector("#project-list");
   const searchInput = document.querySelector("#project-search");
-  const facetSelect = document.querySelector("#facet-select");
   const activeFiltersElement = document.querySelector("#active-filters");
-  const popularFiltersElement = document.querySelector("#popular-filters");
+  const curatedFiltersElement = document.querySelector("#curated-filters");
+  const focusFiltersElement = document.querySelector("#focus-filters");
+  const stackFiltersElement = document.querySelector("#stack-filters");
   const resultCount = document.querySelector("#result-count");
   const emptyState = document.querySelector("#empty-state");
   const clearButton = document.querySelector("#clear-filters");
@@ -12,6 +14,7 @@
 
   const facetDefinitions = [
     ["projects", "Projects"],
+    ["focus", "Focus"],
     ["disciplines", "Disciplines"],
     ["skills", "Skills"],
     ["technologies", "Technologies"],
@@ -49,38 +52,39 @@
     facetLookup.set(facetKey(group.category, value), { category: group.category, categoryLabel: group.label, value, count });
   }));
 
-  function buildFacetPicker() {
-    facetGroups.forEach((group) => {
-      const optgroup = document.createElement("optgroup");
-      optgroup.label = group.label;
-      group.values.forEach(([value, count]) => {
-        const option = document.createElement("option");
-        option.value = facetKey(group.category, value);
-        option.textContent = `${value} (${count})`;
-        optgroup.append(option);
-      });
-      facetSelect.append(optgroup);
-    });
-
-    const preferred = ["Unity", "Sound Design", "Audio Programming", "Game Audio", "Wwise", "Reaper"];
-    const available = [];
-    preferred.forEach((name) => {
-      const entry = [...facetLookup.values()].find((facet) => facet.value === name);
-      if (entry && !available.some((facet) => facet.value === name)) available.push(entry);
-    });
-
-    available.slice(0, 6).forEach((facet) => {
+  function buildCuratedGroup(element, definitions) {
+    definitions.forEach(({ label, category, value }) => {
+      const key = facetKey(category, value);
+      const facet = facetLookup.get(key);
+      if (!facet) return;
       const button = document.createElement("button");
       button.className = "filter-chip";
       button.type = "button";
-      button.dataset.facet = facetKey(facet.category, facet.value);
+      button.dataset.facet = key;
+      button.dataset.curatedFacet = "";
+      button.dataset.filterLabel = label;
       button.setAttribute("aria-pressed", "false");
-      button.textContent = `${facet.value} · ${facet.count}`;
-      popularFiltersElement.append(button);
+      const labelElement = document.createElement("span");
+      labelElement.textContent = label;
+      const countElement = document.createElement("span");
+      countElement.className = "filter-chip__count";
+      countElement.dataset.filterCount = "";
+      countElement.textContent = String(facet.count);
+      button.append(labelElement, countElement);
+      element.append(button);
     });
   }
 
-  function matches(project, query) {
+  function buildCuratedFilters() {
+    buildCuratedGroup(focusFiltersElement, filterConfig.focus.map((value) => ({
+      label: value,
+      category: "focus",
+      value,
+    })));
+    buildCuratedGroup(stackFiltersElement, filterConfig.tools_and_technology);
+  }
+
+  function matches(project, query, facets = selectedFacets.values()) {
     const normalizedQuery = query.trim().toLocaleLowerCase();
     if (normalizedQuery) {
       const searchable = [
@@ -88,6 +92,7 @@
         project.description,
         project.context,
         project.role,
+        ...project.focus,
         ...project.disciplines,
         ...project.skills,
         ...project.technologies,
@@ -97,7 +102,7 @@
       if (!searchable.includes(normalizedQuery)) return false;
     }
 
-    return [...selectedFacets.values()].every((facet) => facetValues(project, facet.category).includes(facet.value));
+    return [...facets].every((facet) => facetValues(project, facet.category).includes(facet.value));
   }
 
   function mediaMarkup(project) {
@@ -184,8 +189,17 @@
         ${escapeHtml(facet.categoryLabel)}: ${escapeHtml(facet.value)}
       </button>`).join("");
 
-    popularFiltersElement.querySelectorAll("[data-facet]").forEach((button) => {
-      button.setAttribute("aria-pressed", String(selectedFacets.has(button.dataset.facet)));
+    curatedFiltersElement.querySelectorAll("[data-curated-facet]").forEach((button) => {
+      const key = button.dataset.facet;
+      const active = selectedFacets.has(key);
+      const candidateFacets = active
+        ? [...selectedFacets.values()]
+        : [...selectedFacets.values(), facetLookup.get(key)];
+      const count = projects.filter((project) => matches(project, searchInput.value, candidateFacets)).length;
+      button.setAttribute("aria-pressed", String(active));
+      button.setAttribute("aria-label", `${button.dataset.filterLabel}: ${count} ${count === 1 ? "project" : "projects"}`);
+      button.disabled = !active && count === 0;
+      button.querySelector("[data-filter-count]").textContent = String(count);
     });
   }
 
@@ -216,10 +230,18 @@
     render();
   }
 
+  function pivotToFacet(key) {
+    const facet = facetLookup.get(key);
+    if (!facet) return;
+    selectedFacets.clear();
+    searchInput.value = "";
+    selectedFacets.set(key, facet);
+    render();
+  }
+
   function clearFilters() {
     selectedFacets.clear();
     searchInput.value = "";
-    facetSelect.value = "";
     render();
     searchInput.focus();
   }
@@ -239,7 +261,7 @@
   projectList.addEventListener("click", (event) => {
     const facetButton = event.target.closest("[data-add-facet]");
     if (facetButton) {
-      addFacet(facetButton.dataset.addFacet);
+      pivotToFacet(facetButton.dataset.addFacet);
       document.querySelector(".filter-section").scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
@@ -273,11 +295,7 @@
     }
   });
 
-  facetSelect.addEventListener("change", () => {
-    if (facetSelect.value) addFacet(facetSelect.value);
-    facetSelect.value = "";
-  });
-  popularFiltersElement.addEventListener("click", (event) => {
+  curatedFiltersElement.addEventListener("click", (event) => {
     const button = event.target.closest("[data-facet]");
     if (button) addFacet(button.dataset.facet);
   });
@@ -300,7 +318,7 @@
     if (facet) selectedFacets.set(normalizedKey, facet);
   });
 
-  buildFacetPicker();
+  buildCuratedFilters();
   render();
 
   if (location.hash) {

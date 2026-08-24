@@ -13,6 +13,11 @@
       "Audio Implementation",
       "Music"
     ],
+    "focus": [
+      "Sound Design",
+      "Technical Sound Design",
+      "Music Composition"
+    ],
     "skills": [
       "Sound Design",
       "FMOD Implementation",
@@ -26,7 +31,8 @@
     ],
     "technologies": [
       "FMOD",
-      "Unity"
+      "Unity",
+      "Git"
     ],
     "tools": [],
     "concepts": [],
@@ -79,6 +85,9 @@
       "Audio Programming",
       "Game Audio"
     ],
+    "focus": [
+      "Audio Programming"
+    ],
     "skills": [
       "Audio Systems Design",
       "Performance Profiling",
@@ -88,7 +97,8 @@
     "technologies": [
       "Unity",
       "Unity ECS",
-      "Scriptable Audio Pipeline"
+      "Scriptable Audio Pipeline",
+      "Git"
     ],
     "tools": [],
     "concepts": [
@@ -151,6 +161,12 @@
       "Game Audio",
       "Audio Programming"
     ],
+    "focus": [
+      "Sound Design",
+      "Technical Sound Design",
+      "Audio Programming",
+      "Music Composition"
+    ],
     "skills": [
       "Audio Programming",
       "Dynamic Music",
@@ -165,7 +181,9 @@
       "C++",
       "MetaSounds"
     ],
-    "tools": [],
+    "tools": [
+      "Perforce"
+    ],
     "concepts": [],
     "relevantFor": [
       "Technical Sound Designer",
@@ -208,6 +226,10 @@
     "disciplines": [
       "Game Audio",
       "Interactive Music"
+    ],
+    "focus": [
+      "Music Composition",
+      "Technical Sound Design"
     ],
     "skills": [
       "Interactive Music",
@@ -261,6 +283,9 @@
       "Game Audio",
       "Audio"
     ],
+    "focus": [
+      "Sound Design"
+    ],
     "skills": [
       "Sound Design",
       "Audio Mixing",
@@ -311,6 +336,9 @@
       "Game Audio",
       "Audio Implementation"
     ],
+    "focus": [
+      "Technical Sound Design"
+    ],
     "skills": [
       "FMOD Implementation",
       "Interactive Audio Systems",
@@ -360,6 +388,9 @@
       "Interactive Audio",
       "Music Technology"
     ],
+    "focus": [
+      "Audio Programming"
+    ],
     "skills": [
       "Audio Plugin Development",
       "Audio Programming",
@@ -367,7 +398,8 @@
       "Unity Plugin Development"
     ],
     "technologies": [
-      "Unity"
+      "Unity",
+      "Git"
     ],
     "tools": [],
     "concepts": [
@@ -402,7 +434,7 @@
     ],
     "images": [],
     "descriptionSummaryHtml": "Created a granular synth package in Unity using the Scriptable Audio Pipeline. The synth was built using data-oriented principles for performance. It uses a custom Unity UI on a ScriptableObject to make configuration easy.",
-    "descriptionHtml": "<p>Created a granular synth package in Unity using the Scriptable Audio Pipeline. The synth was built using data-oriented principles for performance. It uses a custom Unity UI on a ScriptableObject to make configuration easy.</p>\n<p><strong>Features:</strong></p>\n<ul><li>Granular Synth, configurable as a ScriptableObject.</li><li>Controls: Rate, Playback Position Range, Pitch Range, Volume Range, Pan Range, Grain Size Range.</li><li>Configurable Grain Shape.</li><li>Stereo Sample Support.</li><li>Live Preview.</li><li>Toggleable Anti-Phasing.</li><li>Modulation Matrix for easily assigning multiparameter changes.</li></ul>"
+    "descriptionHtml": "<p>Created a granular synth package in Unity using the Scriptable Audio Pipeline. The synth was built using data-oriented principles for performance. It uses a custom Unity UI on a ScriptableObject to make configuration easy.</p>\n<h5>Vehicle Audio Use</h5>\n<p>The first example in the linked video demonstrates the granular synth as a vehicle-engine audio system. Its modulation and multiparameter controls allow the engine sound to respond dynamically, while the same configurable architecture can be used for other granular-audio applications.</p>\n<p><strong>Features:</strong></p>\n<ul><li>Granular Synth, configurable as a ScriptableObject.</li><li>Controls: Rate, Playback Position Range, Pitch Range, Volume Range, Pan Range, Grain Size Range.</li><li>Configurable Grain Shape.</li><li>Stereo Sample Support.</li><li>Live Preview.</li><li>Toggleable Anti-Phasing.</li><li>Modulation Matrix for easily assigning multiparameter changes.</li></ul>"
   },
   {
     "id": "lego-psycho-acoustic-analysis",
@@ -417,6 +449,9 @@
       "Audio Programming",
       "Software Development"
     ],
+    "focus": [
+      "Audio Programming"
+    ],
     "skills": [
       "Audio Analysis",
       "Python Programming",
@@ -430,7 +465,8 @@
       "Python",
       "MOSQITO",
       "SQLite",
-      "HTML"
+      "HTML",
+      "Git"
     ],
     "tools": [],
     "concepts": [],
@@ -469,6 +505,7 @@
       "Software Development",
       "Developer Tools"
     ],
+    "focus": [],
     "skills": [
       "Python Programming",
       "Database Design",
@@ -479,7 +516,8 @@
     ],
     "technologies": [
       "Python",
-      "SQLite"
+      "SQLite",
+      "Git"
     ],
     "tools": [],
     "concepts": [],
@@ -518,6 +556,12 @@
       "Game Audio",
       "Audio Programming"
     ],
+    "focus": [
+      "Sound Design",
+      "Technical Sound Design",
+      "Audio Programming",
+      "Music Composition"
+    ],
     "skills": [
       "Audio Programming",
       "Music Composition",
@@ -534,7 +578,7 @@
       "MetaSounds"
     ],
     "tools": [
-      "P4V",
+      "Perforce",
       "HacknPlan"
     ],
     "concepts": [],
@@ -593,6 +637,9 @@
       "Interactive Audio",
       "Music Technology"
     ],
+    "focus": [
+      "Audio Programming"
+    ],
     "skills": [
       "Audio Plugin Development",
       "OSC Communication",
@@ -604,7 +651,8 @@
       "JUCE",
       "C++",
       "Unity",
-      "OSC"
+      "OSC",
+      "Git"
     ],
     "tools": [
       "Zotero"
@@ -660,6 +708,9 @@
       "Game Audio",
       "Audio Implementation"
     ],
+    "focus": [
+      "Technical Sound Design"
+    ],
     "skills": [
       "Wwise Implementation",
       "Adaptive Audio",
@@ -707,6 +758,9 @@
     "disciplines": [
       "Game Audio",
       "Audio Implementation"
+    ],
+    "focus": [
+      "Technical Sound Design"
     ],
     "skills": [
       "FMOD Implementation",
@@ -757,6 +811,11 @@
     "disciplines": [
       "Game Audio",
       "Audio Programming"
+    ],
+    "focus": [
+      "Sound Design",
+      "Technical Sound Design",
+      "Music Composition"
     ],
     "skills": [
       "Audio Implementation",
@@ -812,6 +871,11 @@
       "Game Audio",
       "Audio Implementation"
     ],
+    "focus": [
+      "Sound Design",
+      "Technical Sound Design",
+      "Music Composition"
+    ],
     "skills": [
       "Sound Design",
       "FMOD Implementation",
@@ -823,7 +887,8 @@
     ],
     "technologies": [
       "FMOD",
-      "Unity"
+      "Unity",
+      "Git"
     ],
     "tools": [],
     "concepts": [],
@@ -881,6 +946,10 @@
       "Game Audio",
       "Interactive Audio"
     ],
+    "focus": [
+      "Sound Design",
+      "Technical Sound Design"
+    ],
     "skills": [
       "UI Sound Design",
       "Sound Design",
@@ -888,7 +957,9 @@
       "Stakeholder Communication"
     ],
     "technologies": [],
-    "tools": [],
+    "tools": [
+      "Reaper"
+    ],
     "concepts": [],
     "relevantFor": [
       "Sound Designer",
@@ -923,6 +994,9 @@
     "disciplines": [
       "Audio",
       "Game Audio"
+    ],
+    "focus": [
+      "Sound Design"
     ],
     "skills": [
       "Sound Design",
@@ -974,6 +1048,10 @@
       "Game Audio",
       "Interactive Audio"
     ],
+    "focus": [
+      "Sound Design",
+      "Technical Sound Design"
+    ],
     "skills": [
       "Sound Design",
       "Synthesizer Programming",
@@ -1016,6 +1094,9 @@
     "disciplines": [
       "Audio",
       "Game Audio"
+    ],
+    "focus": [
+      "Sound Design"
     ],
     "skills": [
       "Spell Sound Design",
@@ -1069,6 +1150,9 @@
     "collection": "Education",
     "disciplines": [
       "Audio"
+    ],
+    "focus": [
+      "Sound Design"
     ],
     "skills": [
       "Surround Mixing",
@@ -1147,6 +1231,9 @@
       "Audio",
       "Game Audio"
     ],
+    "focus": [
+      "Sound Design"
+    ],
     "skills": [
       "Vehicle Sound Design",
       "Sound Design",
@@ -1198,6 +1285,10 @@
     "disciplines": [
       "Audio",
       "Game Audio"
+    ],
+    "focus": [
+      "Sound Design",
+      "Music Composition"
     ],
     "skills": [
       "Sound Design",
@@ -1261,6 +1352,9 @@
       "Audio",
       "Game Audio"
     ],
+    "focus": [
+      "Sound Design"
+    ],
     "skills": [
       "Creature Sound Design",
       "Vocal Sound Design",
@@ -1308,6 +1402,9 @@
     "disciplines": [
       "Audio",
       "Game Audio"
+    ],
+    "focus": [
+      "Sound Design"
     ],
     "skills": [
       "Combat Sound Design",
@@ -1357,6 +1454,9 @@
       "Game Audio",
       "Audio Implementation"
     ],
+    "focus": [
+      "Technical Sound Design"
+    ],
     "skills": [
       "Unreal Engine Audio",
       "Blueprint Programming",
@@ -1368,11 +1468,10 @@
     "technologies": [
       "Unreal Engine 5",
       "Blueprints",
-      "MetaSounds"
+      "MetaSounds",
+      "Git"
     ],
-    "tools": [
-      "Audio Insights"
-    ],
+    "tools": [],
     "concepts": [],
     "relevantFor": [
       "Technical Sound Designer",
@@ -1408,6 +1507,9 @@
     "disciplines": [
       "Audio",
       "Game Audio"
+    ],
+    "focus": [
+      "Sound Design"
     ],
     "skills": [
       "Weapon Sound Design",
@@ -1464,6 +1566,9 @@
       "Game Audio",
       "Interactive Music"
     ],
+    "focus": [
+      "Sound Design"
+    ],
     "skills": [
       "Music Editing",
       "Music Supervision",
@@ -1509,6 +1614,9 @@
     "disciplines": [
       "Game Audio",
       "Audio Implementation"
+    ],
+    "focus": [
+      "Technical Sound Design"
     ],
     "skills": [
       "FMOD Implementation",
@@ -1557,6 +1665,10 @@
     "disciplines": [
       "Game Audio",
       "Interactive Music"
+    ],
+    "focus": [
+      "Technical Sound Design",
+      "Music Composition"
     ],
     "skills": [
       "Music Composition",
@@ -1610,6 +1722,9 @@
       "Game Audio",
       "Interactive Music"
     ],
+    "focus": [
+      "Technical Sound Design"
+    ],
     "skills": [
       "Wwise Music Integration",
       "Interactive Music Design",
@@ -1662,6 +1777,10 @@
     "collection": "Education",
     "disciplines": [
       "Audio"
+    ],
+    "focus": [
+      "Sound Design",
+      "Technical Sound Design"
     ],
     "skills": [
       "Sound Design",
@@ -1757,6 +1876,10 @@
       "Audio",
       "Game Audio"
     ],
+    "focus": [
+      "Sound Design",
+      "Technical Sound Design"
+    ],
     "skills": [
       "Spatial Audio",
       "Ambisonics",
@@ -1807,6 +1930,10 @@
       "Audio",
       "Game Audio"
     ],
+    "focus": [
+      "Sound Design",
+      "Music Composition"
+    ],
     "skills": [
       "Sound Palette Design",
       "Sound Design",
@@ -1856,6 +1983,10 @@
     "disciplines": [
       "Game Audio",
       "Audio Programming"
+    ],
+    "focus": [
+      "Sound Design",
+      "Technical Sound Design"
     ],
     "skills": [
       "FMOD Integration",
@@ -1914,6 +2045,9 @@
       "Audio",
       "Game Audio"
     ],
+    "focus": [
+      "Sound Design"
+    ],
     "skills": [
       "Weapon Sound Design",
       "Sound Design",
@@ -1969,6 +2103,10 @@
       "Game Audio",
       "Music"
     ],
+    "focus": [
+      "Music Composition",
+      "Technical Sound Design"
+    ],
     "skills": [
       "Sound Design",
       "Music Composition",
@@ -1977,7 +2115,8 @@
       "Collaboration"
     ],
     "technologies": [
-      "Unity"
+      "Unity",
+      "Git"
     ],
     "tools": [
       "Reaper"
@@ -2030,13 +2169,20 @@
       "Game Audio",
       "Music"
     ],
+    "focus": [
+      "Sound Design",
+      "Music Composition"
+    ],
     "skills": [
       "Sound Design",
       "Music Composition",
       "Audio Mixing",
       "Collaboration"
     ],
-    "technologies": [],
+    "technologies": [
+      "Git",
+      "Unity"
+    ],
     "tools": [],
     "concepts": [],
     "relevantFor": [
@@ -2086,6 +2232,7 @@
       "Game Development",
       "Gameplay Programming"
     ],
+    "focus": [],
     "skills": [
       "Gameplay Programming",
       "Unity Development",
@@ -2096,7 +2243,8 @@
     ],
     "technologies": [
       "Unity",
-      "C Sharp"
+      "C Sharp",
+      "Git"
     ],
     "tools": [],
     "concepts": [],
@@ -2142,6 +2290,10 @@
       "Audio",
       "Game Audio"
     ],
+    "focus": [
+      "Sound Design",
+      "Music Composition"
+    ],
     "skills": [
       "Sound Design",
       "Game Audio",
@@ -2186,6 +2338,7 @@
       "3D",
       "Game Art"
     ],
+    "focus": [],
     "skills": [
       "3D Modelling",
       "Texturing",
@@ -2242,6 +2395,7 @@
       "3D",
       "Game Art"
     ],
+    "focus": [],
     "skills": [
       "3D Modelling",
       "Texturing",

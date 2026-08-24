@@ -44,12 +44,17 @@
               <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.4A7.75 7.75 0 1 1 3.5 11.25a7.75 7.75 0 0 1 15.5 0Z"/></svg>
               <input id="project-search" type="search" placeholder="Search projects…" autocomplete="off">
             </label>
-            <label class="facet-field">
-              <span class="visually-hidden">Add a project filter</span>
-              <select id="facet-select"><option value="">Filter by project, skill, technology, tool…</option></select>
-            </label>
           </div>
-          <div class="popular-filters" id="popular-filters" aria-label="Popular filters"></div>
+          <div class="curated-filters" id="curated-filters">
+            <div class="filter-group" aria-labelledby="focus-filter-label">
+              <p class="filter-group__label" id="focus-filter-label">Focus</p>
+              <div class="filter-options" id="focus-filters"></div>
+            </div>
+            <div class="filter-group" aria-labelledby="stack-filter-label">
+              <p class="filter-group__label" id="stack-filter-label">Tools, Technology &amp; Formats</p>
+              <div class="filter-options" id="stack-filters"></div>
+            </div>
+          </div>
           <div class="active-filters" id="active-filters" aria-live="polite"></div>
         </div>
       </section>

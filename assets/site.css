@@ -689,14 +689,11 @@ select {
 }
 
 .filter-controls {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: minmax(220px, 0.72fr) minmax(320px, 1.28fr);
   margin-top: 2.5rem;
+  max-width: 470px;
 }
 
-.search-field,
-.facet-field {
+.search-field {
   align-items: center;
   background: #222522;
   border: 1px solid #4b4f49;
@@ -705,8 +702,7 @@ select {
   position: relative;
 }
 
-.search-field:focus-within,
-.facet-field:focus-within {
+.search-field:focus-within {
   border-color: var(--acid);
   outline: 1px solid var(--acid);
 }
@@ -721,8 +717,7 @@ select {
   width: 1.15rem;
 }
 
-.search-field input,
-.facet-field select {
+.search-field input {
   background: transparent;
   border: 0;
   color: var(--white);
@@ -736,32 +731,26 @@ select {
   color: #9ba097;
 }
 
-.facet-field::after {
-  content: "↓";
-  pointer-events: none;
-  position: absolute;
-  right: 1.25rem;
-}
-
-.facet-field select {
-  appearance: none;
-  padding-right: 3rem;
-}
-
-.facet-field option,
-.facet-field optgroup {
-  background: #222522;
-}
-
-.popular-filters,
+.filter-options,
 .active-filters {
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
 }
 
-.popular-filters {
-  margin-top: 1.2rem;
+.curated-filters {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.filter-group__label {
+  color: #aeb2aa;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.65rem;
+  text-transform: uppercase;
 }
 
 .active-filters {
@@ -792,6 +781,17 @@ select {
   background: var(--acid);
   border-color: var(--acid);
   color: var(--ink);
+}
+
+.filter-chip:disabled {
+  background: transparent;
+  border-color: #3b3e39;
+  color: #71766e;
+  cursor: not-allowed;
+}
+
+.filter-chip__count::before {
+  content: " · ";
 }
 
 .active-filter::after {
@@ -1268,7 +1268,6 @@ button.project-card__tag:hover {
   .projects-intro h1 { font-size: clamp(3.8rem, 19vw, 6rem); }
   .projects-intro > div > p { margin-top: 2rem; }
   .filter-heading { align-items: start; gap: 2rem; }
-  .filter-controls { grid-template-columns: 1fr; }
   .results-heading { align-items: start; flex-direction: column; gap: 0.6rem; }
   .project-card { padding-block: 3.5rem; }
   .project-card h3 { font-size: clamp(2.6rem, 12vw, 4.2rem); }
