@@ -73,9 +73,9 @@
     "descriptionHtml": "<p>The follow-up of <a href=\"?filter=projects%3AAdapta+Solva+Legacy\">Adapta Solva Legacy</a>, where I handled sound design, original music composition, FMOD implementation, and the organization of the game&#039;s audio pipeline alongside my studies.</p>\n<p>Developed a substantially more advanced dynamic music system, rebuilt and expanded earlier audio work for the new production, and coordinated work for two friends who helped with the project.</p>\n<p>The total workload was about 180 hours. 10 of which my friend helped me with sound design and another 20 of which another friend supported the project with music composition.</p>"
   },
   {
-    "id": "grad-work-data-vs-objects-unity-audio-pipelines-compared",
-    "title": "Grad Work - DATA VS OBJECTS UNITY AUDIO PIPELINES COMPARED",
-    "description": "Designed and evaluated a custom data-oriented Unity audio system built with ECS and the Scriptable Audio Pipeline, including a custom ECS Root Output capable of rendering large numbers of voices independently of the GameObject hierarchy. Benchmarked the system against Unity's traditional GameObject-based audio pipeline and found consistently lower Audio CPU usage, improved scalability, and greater real-time stability under…",
+    "id": "high-performance-unity-ecs-audio-pipeline",
+    "title": "High-performance Unity ECS Audio Pipeline",
+    "description": "Designed and evaluated a custom data-oriented Unity audio system built with ECS and the Scriptable Audio Pipeline. And benchmarked it against the GameObject Audio Pipeline. The results of that show a clear performance benefit in my ECS-based audio pipeline. The game object-based system, runs max 255 looping voices at approximately 15% DSP CPU. While the ECS system plays the same voices at about 4% DSP CPU and can run many…",
     "hasMoreDescription": true,
     "context": "MTS5 - Gradwork",
     "role": "Audio Programmer",
@@ -144,8 +144,8 @@
         "url": "../assets/evidence/443bdd0c63b37101.png"
       }
     ],
-    "descriptionSummaryHtml": "Designed and evaluated a custom data-oriented Unity audio system built with ECS and the Scriptable Audio Pipeline, including a custom ECS Root Output capable of rendering large numbers of voices independently of the GameObject hierarchy. Benchmarked the system against Unity&#039;s traditional GameObject-based audio pipeline and found consistently lower Audio CPU usage, improved scalability, and greater real-time stability under…",
-    "descriptionHtml": "<p>Designed and evaluated a custom data-oriented Unity audio system built with ECS and the Scriptable Audio Pipeline, including a custom ECS Root Output capable of rendering large numbers of voices independently of the GameObject hierarchy. Benchmarked the system against Unity&#039;s traditional GameObject-based audio pipeline and found consistently lower Audio CPU usage, improved scalability, and greater real-time stability under increasing audio workloads.</p>\n<p>Benchmarking was done using the Unity Profiler running standalone next to a release build. Measurements were repeated multiple times in multiple configurations to reduce errors.</p>\n<p>The results of that show a clear performance benefit in my ECS-based audio pipeline. The game object-based system, for example, runs 255 looping voices at approximately 15% DSP CPU. While the ECS system plays the same voices at about 4% DSP CPU. That&#039;s already a 3x performance increase.</p>\n<p>Additional tests also showed that my system could safely be multithreaded, resulting in at least another doubling of performance.</p>"
+    "descriptionSummaryHtml": "Designed and evaluated a custom data-oriented Unity audio system built with ECS and the Scriptable Audio Pipeline. And benchmarked it against the GameObject Audio Pipeline. The results of that show a clear performance benefit in my ECS-based audio pipeline. The game object-based system, runs max 255 looping voices at approximately 15% DSP CPU. While the ECS system plays the same voices at about 4% DSP CPU and can run many…",
+    "descriptionHtml": "<p>Designed and evaluated a custom data-oriented Unity audio system built with ECS and the Scriptable Audio Pipeline. And benchmarked it against the GameObject Audio Pipeline. The results of that show a clear performance benefit in my ECS-based audio pipeline. The game object-based system, runs max 255 looping voices at approximately 15% DSP CPU. While the ECS system plays the same voices at about 4% DSP CPU and can run many more total voices. That&#039;s already a 3x performance increase.</p>\n<p>This system used a custom ECS Root Output capable of rendering large numbers of voices independently of the GameObject hierarchy. Benchmarking was done using the Unity Profiler running standalone next to a release build. Measurements were repeated multiple times in multiple configurations to reduce errors. Additional tests also showed that my system could safely be multithreaded, resulting in at least another doubling of performance under higher loads.</p>"
   },
   {
     "id": "into-the-deep",
@@ -215,6 +215,56 @@
     "descriptionHtml": "<p>Developed the core rhythm and dynamic music systems for <strong><a href=\"?filter=projects%3AInto+the+Deep\">Into the Deep</a></strong>, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.</p>\n<h5>Highlights</h5>\n<ul><li>Created a dynamic rhythm system built on MIDI. The music can transition to different sections on request while remaining synchronized for beat prediction.</li><li>Using MIDI makes it easy to program dynamic attack patterns.</li></ul>"
   },
   {
+    "id": "lego-databasing",
+    "title": "LEGO - Databasing",
+    "description": "Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.",
+    "hasMoreDescription": true,
+    "context": "Internship",
+    "role": "Software Developer",
+    "status": "complete",
+    "collection": "Professional",
+    "disciplines": [
+      "Software Development",
+      "Developer Tools"
+    ],
+    "focus": [],
+    "skills": [
+      "Python Programming",
+      "Database Design",
+      "Codebase Analysis",
+      "Automation",
+      "Tool Development",
+      "Stakeholder Communication"
+    ],
+    "technologies": [
+      "Python",
+      "SQLite",
+      "Git"
+    ],
+    "tools": [],
+    "concepts": [],
+    "relevantFor": [
+      "Software Developer",
+      "Tools Programmer",
+      "Technical Developer"
+    ],
+    "quality": "strong",
+    "qualityRank": 4,
+    "priority": 96,
+    "videos": [],
+    "links": [],
+    "images": [
+      {
+        "target": "LEGO.jpg",
+        "label": "LEGO",
+        "type": "image",
+        "url": "../assets/evidence/2d987d06dcc4be90.jpg"
+      }
+    ],
+    "descriptionSummaryHtml": "Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.",
+    "descriptionHtml": "<p>Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.</p>\n<h5>Requirements and Collaboration</h5>\n<p>I initiated the tool after noticing a gap in the available workflow rather than receiving a specific request to build it. I spoke with people across multiple teams about how they wanted to find information in a complex codebase. Although many of them were trying to solve the same underlying problem, their proposed solutions differed substantially.</p>\n<p>I mapped those perspectives back to the shared need and made the tool configurable instead of implementing one person&#039;s requested solution. The resulting browser supported a regular search workflow for less technical users and a queryable interface for advanced users with more specific questions. This reinforced an important working principle for me: what people initially ask for is not always the same as what they need, so good tool development starts by understanding the problem across its users.</p>\n<p>*For more information, reach out to designtalent@lego.com.*</p>"
+  },
+  {
     "id": "space-racer",
     "title": "Space Racer",
     "description": "I composed the music for a futuristic racing game in Reaper and FL Studio, then built the adaptive music system in Wwise. The soundtrack reacts to vehicle speed, collisions, gravity, race sections, and the paused state.",
@@ -256,7 +306,7 @@
     ],
     "quality": "excellent",
     "qualityRank": 5,
-    "priority": 96,
+    "priority": 95,
     "videos": [
       {
         "label": "YouTube",
@@ -324,11 +374,11 @@
     "descriptionHtml": "<p>Created the complete sound design and final mix for the animated short <strong>Umbrellas in the Sun</strong>, collaborating closely with an animation team and a conservatory composer. Iterated extensively with the team to refine key sounds such as the thunder, integrated orchestral recording stems into the mix, and delivered production-ready assets on schedule while coordinating expectations across multiple disciplines.</p>"
   },
   {
-    "id": "sneakers",
-    "title": "Sneakers",
-    "description": "Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.",
-    "hasMoreDescription": true,
-    "context": "MTS3 - Middleware 1",
+    "id": "space-harbor-tycoon",
+    "title": "Space Harbor Tycoon",
+    "description": "Designed and implemented the complete audio palette for Space Harbor Tycoon in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.",
+    "hasMoreDescription": false,
+    "context": "MTS3 - Middleware 2",
     "role": "Technical Sound Designer",
     "status": "complete",
     "collection": "Education",
@@ -340,15 +390,15 @@
       "Technical Sound Design"
     ],
     "skills": [
-      "FMOD Implementation",
+      "Wwise Implementation",
+      "Adaptive Audio",
       "Interactive Audio Systems",
-      "Dynamic Music",
-      "Adaptive Mixing",
-      "Game Audio Prototyping",
-      "Audio State Management"
+      "Audio Mixing",
+      "RTPC Design",
+      "Field Recording"
     ],
     "technologies": [
-      "FMOD"
+      "Wwise"
     ],
     "tools": [],
     "concepts": [],
@@ -364,15 +414,15 @@
     "videos": [
       {
         "label": "YouTube",
-        "url": "https://youtu.be/zOlqgxBDris?si=ek_GE4_HjQ9ESYAs",
+        "url": "https://youtu.be/qQ-8B2fn2fI?si=OxRQSlWY_trMcpzF",
         "type": "youtube",
-        "youtubeId": "zOlqgxBDris"
+        "youtubeId": "qQ-8B2fn2fI"
       }
     ],
     "links": [],
     "images": [],
-    "descriptionSummaryHtml": "Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.",
-    "descriptionHtml": "<p>Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.</p>\n<p>This also demonstrates the possibility of sketching a concept with sound, like an audio concept artist.</p>"
+    "descriptionSummaryHtml": "Designed and implemented the complete audio palette for <strong>Space Harbor Tycoon</strong> in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.",
+    "descriptionHtml": "<p>Designed and implemented the complete audio palette for <strong>Space Harbor Tycoon</strong> in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.</p>"
   },
   {
     "id": "unity-granular-synth",
@@ -491,56 +541,6 @@
     ],
     "descriptionSummaryHtml": "Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.",
     "descriptionHtml": "<p>Developed a mass audio-analysis tool during an internship at LEGO Design that could process hundreds of audio files and evaluate characteristics including loudness, sharpness, and frequency content to support comparison of sound quality. Built the analysis pipeline in Python using MOSQITO, stored results in SQLite, and created a lightweight HTML browser for exploring the analyzed data.</p>\n<p>*For more information, reach out to designtalent@lego.com.*</p>"
-  },
-  {
-    "id": "lego-databasing",
-    "title": "LEGO - Databasing",
-    "description": "Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.",
-    "hasMoreDescription": true,
-    "context": "Internship",
-    "role": "Software Developer",
-    "status": "complete",
-    "collection": "Professional",
-    "disciplines": [
-      "Software Development",
-      "Developer Tools"
-    ],
-    "focus": [],
-    "skills": [
-      "Python Programming",
-      "Database Design",
-      "Codebase Analysis",
-      "Automation",
-      "Tool Development",
-      "Stakeholder Communication"
-    ],
-    "technologies": [
-      "Python",
-      "SQLite",
-      "Git"
-    ],
-    "tools": [],
-    "concepts": [],
-    "relevantFor": [
-      "Software Developer",
-      "Tools Programmer",
-      "Technical Developer"
-    ],
-    "quality": "strong",
-    "qualityRank": 4,
-    "priority": 91,
-    "videos": [],
-    "links": [],
-    "images": [
-      {
-        "target": "LEGO.jpg",
-        "label": "LEGO",
-        "type": "image",
-        "url": "../assets/evidence/2d987d06dcc4be90.jpg"
-      }
-    ],
-    "descriptionSummaryHtml": "Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.",
-    "descriptionHtml": "<p>Developed an internal code-to-database automation tool during my internship at LEGO Design that scanned a codebase with Python and generated an SQLite database. Also created a lightweight browser for exploring the generated data, reducing manual organization work.</p>\n<h5>Requirements and Collaboration</h5>\n<p>I initiated the tool after noticing a gap in the available workflow rather than receiving a specific request to build it. I spoke with people across multiple teams about how they wanted to find information in a complex codebase. Although many of them were trying to solve the same underlying problem, their proposed solutions differed substantially.</p>\n<p>I mapped those perspectives back to the shared need and made the tool configurable instead of implementing one person&#039;s requested solution. The resulting browser supported a regular search workflow for less technical users and a queryable interface for advanced users with more specific questions. This reinforced an important working principle for me: what people initially ask for is not always the same as what they need, so good tool development starts by understanding the problem across its users.</p>\n<p>*For more information, reach out to designtalent@lego.com.*</p>"
   },
   {
     "id": "beats-from-the-deep",
@@ -696,57 +696,6 @@
     "descriptionHtml": "<p>Designed and developed <strong>Grainy Day</strong>, a New Interface for Musical Expression (NIME) consisting of a JUCE-based granular synthesizer controlled wirelessly via OSC from a custom Unity mobile application. Researched, documented, and presented the project in the format of an academic NIME paper, demonstrating the use of data-oriented design and multithreading to achieve responsive real-time granular synthesis.</p>"
   },
   {
-    "id": "space-harbor-tycoon",
-    "title": "Space Harbor Tycoon",
-    "description": "Designed and implemented the complete audio palette for Space Harbor Tycoon in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.",
-    "hasMoreDescription": false,
-    "context": "MTS3 - Middleware 2",
-    "role": "Technical Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Game Audio",
-      "Audio Implementation"
-    ],
-    "focus": [
-      "Technical Sound Design"
-    ],
-    "skills": [
-      "Wwise Implementation",
-      "Adaptive Audio",
-      "Interactive Audio Systems",
-      "Audio Mixing",
-      "RTPC Design",
-      "Field Recording"
-    ],
-    "technologies": [
-      "Wwise"
-    ],
-    "tools": [],
-    "concepts": [],
-    "relevantFor": [
-      "Technical Sound Designer",
-      "Game Audio Designer",
-      "Audio Implementer",
-      "Sound Designer"
-    ],
-    "quality": "excellent",
-    "qualityRank": 5,
-    "priority": 87,
-    "videos": [
-      {
-        "label": "YouTube",
-        "url": "https://youtu.be/qQ-8B2fn2fI?si=OxRQSlWY_trMcpzF",
-        "type": "youtube",
-        "youtubeId": "qQ-8B2fn2fI"
-      }
-    ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Designed and implemented the complete audio palette for <strong>Space Harbor Tycoon</strong> in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.",
-    "descriptionHtml": "<p>Designed and implemented the complete audio palette for <strong>Space Harbor Tycoon</strong> in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.</p>"
-  },
-  {
     "id": "ellen-on-a-strange-planet-fmod",
     "title": "Ellen on a Strange Planet (FMOD)",
     "description": "I used FMOD to implement the gameplay, UI, enemy, music, and ambience audio in an existing build of Ellen on a Strange Planet. I organized the events around game-state changes, added spatial playback and reverb regions, and balanced the systems together in the mix.",
@@ -798,6 +747,57 @@
     "images": [],
     "descriptionSummaryHtml": "I used FMOD to implement the gameplay, UI, enemy, music, and ambience audio in an existing build of <strong>Ellen on a Strange Planet</strong>. I organized the events around game-state changes, added spatial playback and reverb regions, and balanced the systems together in the mix.",
     "descriptionHtml": "<p>I used FMOD to implement the gameplay, UI, enemy, music, and ambience audio in an existing build of <strong>Ellen on a Strange Planet</strong>. I organized the events around game-state changes, added spatial playback and reverb regions, and balanced the systems together in the mix.</p>\n<h5>Highlights</h5>\n<ul><li>Built a dynamic music system.</li><li>Created reverb regions for different spaces.</li><li>Made alien bird calls by listening to slowed-down jungle birds, imitating them with my voice, and speeding the recordings back up.</li></ul>"
+  },
+  {
+    "id": "sneakers",
+    "title": "Sneakers",
+    "description": "Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.",
+    "hasMoreDescription": true,
+    "context": "MTS3 - Middleware 1",
+    "role": "Technical Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Game Audio",
+      "Audio Implementation"
+    ],
+    "focus": [
+      "Technical Sound Design"
+    ],
+    "skills": [
+      "FMOD Implementation",
+      "Interactive Audio Systems",
+      "Dynamic Music",
+      "Adaptive Mixing",
+      "Game Audio Prototyping",
+      "Audio State Management"
+    ],
+    "technologies": [
+      "FMOD"
+    ],
+    "tools": [],
+    "concepts": [],
+    "relevantFor": [
+      "Technical Sound Designer",
+      "Game Audio Designer",
+      "Audio Implementer",
+      "Sound Designer"
+    ],
+    "quality": "excellent",
+    "qualityRank": 5,
+    "priority": 80,
+    "videos": [
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/zOlqgxBDris?si=ek_GE4_HjQ9ESYAs",
+        "type": "youtube",
+        "youtubeId": "zOlqgxBDris"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.",
+    "descriptionHtml": "<p>Created an FMOD proof of concept for a stealth game about a secret agent infiltrating a robot-infested spaceship. Designed simulated main-character, NPC, environment, and music systems that reacted to calm and alerted game states, supported by adaptive mixing, snapshots, sandbox testing, and profiler-based demonstration.</p>\n<p>This also demonstrates the possibility of sketching a concept with sound, like an audio concept artist.</p>"
   },
   {
     "id": "john-lemon",
@@ -983,6 +983,63 @@
     "descriptionHtml": "<p>Contributed UI sound design for a LEGO application. Sounds included clicks, toggles, positive and negative variations. This involved recording source material for the sound design processes. Sound Design in reaper while staying within the LEGO sound brand. Mass exporting variations and talking to the Design team for feedback and iterations.</p>\n<p>*For more information, reach out to designtalent@lego.com.*</p>"
   },
   {
+    "id": "spell-sound-design",
+    "title": "Spell Sound Design",
+    "description": "Redesigned two spell effects from Dragon's Dogma: High Thunder Mine (electric) and Maelstrom (fire meteors). Created original, layered magical effects by combining synthesis, processed recordings, and transformed source material into a cohesive cinematic spell soundscape.",
+    "hasMoreDescription": false,
+    "context": "MTS3 - Sound 3",
+    "role": "Sound Designer",
+    "status": "complete",
+    "collection": "Education",
+    "disciplines": [
+      "Audio",
+      "Game Audio"
+    ],
+    "focus": [
+      "Sound Design"
+    ],
+    "skills": [
+      "Spell Sound Design",
+      "Sound Design",
+      "Synthesizer Programming",
+      "Layering",
+      "Audio Processing",
+      "Audio Mixing"
+    ],
+    "technologies": [],
+    "tools": [
+      "Reaper"
+    ],
+    "concepts": [],
+    "relevantFor": [
+      "Sound Designer",
+      "Game Audio Designer",
+      "Technical Sound Designer",
+      "Cinematic Sound Designer"
+    ],
+    "quality": "excellent",
+    "qualityRank": 5,
+    "priority": 72,
+    "videos": [
+      {
+        "label": "HighThundermine",
+        "url": "https://youtu.be/r1GRWg0QzdY",
+        "type": "youtube",
+        "youtubeId": "r1GRWg0QzdY"
+      },
+      {
+        "label": "Maelstrom",
+        "url": "https://youtu.be/TxzMSbe06TQ",
+        "type": "youtube",
+        "youtubeId": "TxzMSbe06TQ"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "descriptionSummaryHtml": "Redesigned two spell effects from *Dragon&#039;s Dogma*: <strong>High Thunder Mine</strong> (electric) and <strong>Maelstrom</strong> (fire meteors). Created original, layered magical effects by combining synthesis, processed recordings, and transformed source material into a cohesive cinematic spell soundscape.",
+    "descriptionHtml": "<p>Redesigned two spell effects from *Dragon&#039;s Dogma*: <strong>High Thunder Mine</strong> (electric) and <strong>Maelstrom</strong> (fire meteors). Created original, layered magical effects by combining synthesis, processed recordings, and transformed source material into a cohesive cinematic spell soundscape.</p>"
+  },
+  {
     "id": "ohm",
     "title": "Ohm",
     "description": "Created the complete sound design and final mix for the animated short Ohm. Edited a classical piece to fit the theme. Processed and synchronized existing music to the animation through granular effects, spatial processing, and evolving instrumentation to reinforce the film's abstract narrative and emotional progression.",
@@ -1081,63 +1138,6 @@
     ],
     "descriptionSummaryHtml": "Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within a synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds that fit the interactions. My role here was mostly for prototyping and learning the architecture. However I also freely experimented to come up with systems of my own.",
     "descriptionHtml": "<p>Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within a synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds that fit the interactions. My role here was mostly for prototyping and learning the architecture. However I also freely experimented to come up with systems of my own.</p>\n<p>*For more information, reach out to designtalent@lego.com.*</p>"
-  },
-  {
-    "id": "spell-sound-design",
-    "title": "Spell Sound Design",
-    "description": "Redesigned two spell effects from Dragon's Dogma: High Thunder Mine (electric) and Maelstrom (fire meteors). Created original, layered magical effects by combining synthesis, processed recordings, and transformed source material into a cohesive cinematic spell soundscape.",
-    "hasMoreDescription": false,
-    "context": "MTS3 - Sound 3",
-    "role": "Sound Designer",
-    "status": "complete",
-    "collection": "Education",
-    "disciplines": [
-      "Audio",
-      "Game Audio"
-    ],
-    "focus": [
-      "Sound Design"
-    ],
-    "skills": [
-      "Spell Sound Design",
-      "Sound Design",
-      "Synthesizer Programming",
-      "Layering",
-      "Audio Processing",
-      "Audio Mixing"
-    ],
-    "technologies": [],
-    "tools": [
-      "Reaper"
-    ],
-    "concepts": [],
-    "relevantFor": [
-      "Sound Designer",
-      "Game Audio Designer",
-      "Technical Sound Designer",
-      "Cinematic Sound Designer"
-    ],
-    "quality": "excellent",
-    "qualityRank": 5,
-    "priority": 71,
-    "videos": [
-      {
-        "label": "HighThundermine",
-        "url": "https://youtu.be/r1GRWg0QzdY",
-        "type": "youtube",
-        "youtubeId": "r1GRWg0QzdY"
-      },
-      {
-        "label": "Maelstrom",
-        "url": "https://youtu.be/TxzMSbe06TQ",
-        "type": "youtube",
-        "youtubeId": "TxzMSbe06TQ"
-      }
-    ],
-    "links": [],
-    "images": [],
-    "descriptionSummaryHtml": "Redesigned two spell effects from *Dragon&#039;s Dogma*: <strong>High Thunder Mine</strong> (electric) and <strong>Maelstrom</strong> (fire meteors). Created original, layered magical effects by combining synthesis, processed recordings, and transformed source material into a cohesive cinematic spell soundscape.",
-    "descriptionHtml": "<p>Redesigned two spell effects from *Dragon&#039;s Dogma*: <strong>High Thunder Mine</strong> (electric) and <strong>Maelstrom</strong> (fire meteors). Created original, layered magical effects by combining synthesis, processed recordings, and transformed source material into a cohesive cinematic spell soundscape.</p>"
   },
   {
     "id": "umbrellas-5-1-surround-mix",

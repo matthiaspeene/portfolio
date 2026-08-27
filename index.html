@@ -17,13 +17,21 @@
       <nav aria-label="Main navigation">
         <a aria-current="page" href="index.html">Home</a>
         <a  href="projects/">Projects</a>
+        <a href="index.html#services">Services</a>
         <a class="nav-contact" href="mailto:matthias@notjustsound.dev">Let’s talk <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
     <main id="main">
       <section class="hero section-shell">
         <div class="hero__copy">
-          <p class="eyebrow hero__eyebrow"><span class="status-dot" aria-hidden="true"></span>Middelburg, Netherlands</p>
+          <div class="hero__status" aria-label="Availability and mobility">
+            <p class="eyebrow hero__eyebrow"><span class="status-dot" aria-hidden="true"></span>Available for work</p>
+            <ul class="hero__mobility">
+              <li>Based in Netherlands</li>
+              <li>Authorized to work in the EU</li>
+              <li>Open to relocation</li>
+            </ul>
+          </div>
           <h1><span class="headline__line">I build</span> <span class="headline__line">systems</span> <span class="headline__line headline__line--descender">you can</span> <span class="headline__line">feel.</span></h1>
           <p class="hero__summary">Audio programmer specializing in real-time audio systems, DSP, and data-oriented engine architecture. Experienced in shipping full game-audio implementations, building custom audio engines, and developing audio plugins. Comfortable moving between low-level systems work and creative sound design, with a focus on useful tools and cross-disciplinary collaboration.</p>
           <div class="hero__actions">
@@ -67,10 +75,173 @@
         </div>
       </div>
 
+      <section class="services" id="services" aria-labelledby="services-title">
+        <div class="section-shell">
+          <div class="services__heading">
+            <div>
+              <p class="eyebrow">Not Just Sound · Freelance services</p>
+              <h2 id="services-title">Bring me the part that needs to work.</h2>
+            </div>
+            <p>Focused technical-audio engagements for game teams, composers, and audio developers who need to unblock, prove, or finish a specific part of the audio stack.</p>
+          </div>
+          <div class="services__grid">
+            
+          <details class="service-card reveal" style="--delay: 0ms">
+            <summary class="service-card__header">
+              <span class="service-card__number" aria-hidden="true">01</span>
+              <div>
+                <h3>Implementation &amp; performance audit</h3>
+                <p>Find the technical and creative bottlenecks in an existing Unity audio implementation.</p>
+              </div>
+              <span class="service-card__toggle">
+                <span class="service-card__open-label">View scope &amp; terms</span>
+                <span class="service-card__close-label">Hide scope &amp; terms</span>
+                <span class="service-card__toggle-icon" aria-hidden="true">+</span>
+              </span>
+            </summary>
+            <dl class="service-card__details">
+              <div class="service-detail service-detail--half">
+                <dt>Scope</dt>
+                <dd>One Unity project using Unity Audio, FMOD, or Wwise. I review architecture, event setup, routing, runtime behaviour, profiling data, and one agreed target platform.</dd>
+              </div>
+              <div class="service-detail service-detail--half">
+                <dt>Deliverables</dt>
+                <dd><ul><li>Technical review of the project and a reproducible build</li><li>Prioritised findings with evidence, severity, and recommended fixes</li><li>Action plan and one follow-up handoff call</li></ul></dd>
+              </div>
+              <div class="service-detail">
+                <dt>Schedule</dt>
+                <dd>3–5 working days after access and a reproducible build are available.</dd>
+              </div>
+              <div class="service-detail">
+                <dt>Revisions</dt>
+                <dd>One correction and clarification round within 5 working days of delivery.</dd>
+              </div>
+              <div class="service-detail">
+                <dt>Payment</dt>
+                <dd>Fixed fee: 50% to book, 50% when the report is delivered. Invoices are due within 7 days.</dd>
+              </div>
+            </dl>
+          </details>
+          <details class="service-card reveal" style="--delay: 70ms">
+            <summary class="service-card__header">
+              <span class="service-card__number" aria-hidden="true">02</span>
+              <div>
+                <h3>Vertical-slice audio sprint</h3>
+                <p>Take one playable slice from silent or partial to integrated, reviewable audio.</p>
+              </div>
+              <span class="service-card__toggle">
+                <span class="service-card__open-label">View scope &amp; terms</span>
+                <span class="service-card__close-label">Hide scope &amp; terms</span>
+                <span class="service-card__toggle-icon" aria-hidden="true">+</span>
+              </span>
+            </summary>
+            <dl class="service-card__details">
+              <div class="service-detail service-detail--half">
+                <dt>Scope</dt>
+                <dd>One agreed level, encounter, or gameplay loop in Unity with FMOD or Wwise, covering core SFX, ambience, music states, mixer routing, and gameplay hooks. Project access and approved source assets are supplied unless asset creation is included in the proposal.</dd>
+              </div>
+              <div class="service-detail service-detail--half">
+                <dt>Deliverables</dt>
+                <dd><ul><li>An integrated project branch or implementation package</li><li>A representative slice with an initial mix pass</li><li>Handoff notes and a walkthrough for the team</li></ul></dd>
+              </div>
+              <div class="service-detail">
+                <dt>Schedule</dt>
+                <dd>1–2 weeks from kickoff, depending on project and asset readiness.</dd>
+              </div>
+              <div class="service-detail">
+                <dt>Revisions</dt>
+                <dd>One consolidated revision pass against the agreed acceptance criteria.</dd>
+              </div>
+              <div class="service-detail">
+                <dt>Payment</dt>
+                <dd>Fixed fee: 50% at kickoff, 50% after review and before final handoff. Invoices are due within 7 days.</dd>
+              </div>
+            </dl>
+          </details>
+          <details class="service-card reveal" style="--delay: 140ms">
+            <summary class="service-card__header">
+              <span class="service-card__number" aria-hidden="true">03</span>
+              <div>
+                <h3>Adaptive-music or rhythm prototype</h3>
+                <p>Prove the feel and technical shape of an interactive music idea before full production.</p>
+              </div>
+              <span class="service-card__toggle">
+                <span class="service-card__open-label">View scope &amp; terms</span>
+                <span class="service-card__close-label">Hide scope &amp; terms</span>
+                <span class="service-card__toggle-icon" aria-hidden="true">+</span>
+              </span>
+            </summary>
+            <dl class="service-card__details">
+              <div class="service-detail service-detail--half">
+                <dt>Scope</dt>
+                <dd>One core musical interaction, such as layered or stem-based transitions, intensity control, beat-synchronised events, or a rhythm input and scoring loop, built with supplied or placeholder music.</dd>
+              </div>
+              <div class="service-detail service-detail--half">
+                <dt>Deliverables</dt>
+                <dd><ul><li>A playable prototype with source</li><li>Tunable parameters and a lightweight debug view</li><li>A recorded demo, technical notes, and next-step recommendations</li></ul></dd>
+              </div>
+              <div class="service-detail">
+                <dt>Schedule</dt>
+                <dd>1–2 weeks from an approved interaction brief and usable music assets.</dd>
+              </div>
+              <div class="service-detail">
+                <dt>Revisions</dt>
+                <dd>One consolidated tuning pass on the agreed musical interaction.</dd>
+              </div>
+              <div class="service-detail">
+                <dt>Payment</dt>
+                <dd>Fixed fee: 50% at kickoff, 50% after prototype review and before source handoff. Invoices are due within 7 days.</dd>
+              </div>
+            </dl>
+          </details>
+          <details class="service-card reveal" style="--delay: 210ms">
+            <summary class="service-card__header">
+              <span class="service-card__number" aria-hidden="true">04</span>
+              <div>
+                <h3>Custom audio tool or plugin prototype</h3>
+                <p>Turn one repetitive workflow or technical question into something the team can test.</p>
+              </div>
+              <span class="service-card__toggle">
+                <span class="service-card__open-label">View scope &amp; terms</span>
+                <span class="service-card__close-label">Hide scope &amp; terms</span>
+                <span class="service-card__toggle-icon" aria-hidden="true">+</span>
+              </span>
+            </summary>
+            <dl class="service-card__details">
+              <div class="service-detail service-detail--half">
+                <dt>Scope</dt>
+                <dd>One defined workflow in one target environment—for example, a Unity editor tool, Reaper script, JUCE plugin, or standalone utility. Prototype-grade UX is included; production hardening, signing, installers, and multi-platform support are separate scopes.</dd>
+              </div>
+              <div class="service-detail service-detail--half">
+                <dt>Deliverables</dt>
+                <dd><ul><li>A working prototype with source</li><li>An example project or focused test case</li><li>Build and setup notes plus a recorded walkthrough</li></ul></dd>
+              </div>
+              <div class="service-detail">
+                <dt>Schedule</dt>
+                <dd>2–4 weeks from approval of the functional specification.</dd>
+              </div>
+              <div class="service-detail">
+                <dt>Revisions</dt>
+                <dd>One consolidated functional revision pass; new features are scoped separately.</dd>
+              </div>
+              <div class="service-detail">
+                <dt>Payment</dt>
+                <dd>Milestone fee: 40% to book, 30% at working-prototype review, and 30% before source and build handoff. Invoices are due within 7 days.</dd>
+              </div>
+            </dl>
+          </details>
+          </div>
+          <div class="services__footer">
+            <p>These are starting scopes, not off-the-shelf packages. Every engagement begins with a short fit call and a written fixed-fee proposal. Final scope, schedule, and fee are agreed before work begins; additions are quoted separately.</p>
+            <a class="button button--outline" href="mailto:matthias@notjustsound.dev?subject=Freelance%20project%20enquiry">Discuss a project <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
       <section class="selected-work section-shell" aria-labelledby="selected-title">
         <div class="section-heading">
           <div><p class="eyebrow">Selected work</p><h2 id="selected-title">The work behind the feeling.</h2></div>
-          <a class="text-link" href="projects/">View all 41 projects <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="projects/">View 8 selected projects <span aria-hidden="true">→</span></a>
         </div>
         <div class="featured-grid">
     <a class="featured-project reveal" style="--delay: 0ms" href="projects/#adapta-solva">
@@ -85,15 +256,15 @@
         <div class="tag-row"><span>FMOD</span><span>Unity</span><span>Git</span></div>
       </div>
     </a>
-    <a class="featured-project reveal" style="--delay: 90ms" href="projects/#grad-work-data-vs-objects-unity-audio-pipelines-compared">
+    <a class="featured-project reveal" style="--delay: 90ms" href="projects/#high-performance-unity-ecs-audio-pipeline">
       <div class="featured-project__media">
         <img class="featured-project__image" src="https://i.ytimg.com/vi/JaOiaAYL-XI/hqdefault.jpg" alt="" loading="lazy" decoding="async">
         <span class="featured-project__number">02</span>
       </div>
       <div class="featured-project__body">
         <p class="eyebrow">Audio Programmer</p>
-        <h3>Grad Work - DATA VS OBJECTS UNITY AUDIO PIPELINES COMPARED</h3>
-        <p>Designed and evaluated a custom data-oriented Unity audio system built with ECS and the Scriptable Audio Pipeline, including a custom ECS Root Output capable of rendering large numbers of voices independently of the GameObject hierarchy. Benchmarked the system against Unity&#039;s traditional GameObject-based audio pipeline and found consistently lower Audio CPU usage, improved scalability, and greater real-time stability under…</p>
+        <h3>High-performance Unity ECS Audio Pipeline</h3>
+        <p>Designed and evaluated a custom data-oriented Unity audio system built with ECS and the Scriptable Audio Pipeline. And benchmarked it against the GameObject Audio Pipeline. The results of that show a clear performance benefit in my ECS-based audio pipeline. The game object-based system, runs max 255 looping voices at approximately 15% DSP CPU. While the ECS system plays the same voices at about 4% DSP CPU and can run many…</p>
         <div class="tag-row"><span>Unity</span><span>Unity ECS</span><span>Scriptable Audio Pipeline</span></div>
       </div>
     </a>

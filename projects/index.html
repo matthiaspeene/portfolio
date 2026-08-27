@@ -17,26 +17,31 @@
       <nav aria-label="Main navigation">
         <a  href="../index.html">Home</a>
         <a aria-current="page" href="../projects/">Projects</a>
+        <a href="../index.html#services">Services</a>
         <a class="nav-contact" href="mailto:matthias@notjustsound.dev">Let’s talk <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
     <main id="main">
-      <!-- <section class="projects-intro section-shell">
-        <p class="eyebrow">Project archive</p>
+      <section class="projects-intro section-shell" id="selected-intro" aria-labelledby="projects-title">
+        <p class="eyebrow">Selected work</p>
         <div>
-          <h1>Work you can<br><em>hear</em> and use.</h1>
-          <p>Explore projects by discipline, skill, technology, or tool. The strongest evidence appears first; filters keep that quality order intact.</p>
+          <h1 id="projects-title" tabindex="-1">Proof over<br><em>volume.</em></h1>
+          <p>8 projects that best represent my work across audio programming, technical sound design, music, and interactive audio.</p>
+          <a class="button button--outline projects-intro__archive" id="browse-archive" href="?view=archive" aria-controls="archive-tools">Browse all 41 projects <span aria-hidden="true">→</span></a>
         </div>
-      </section> -->
+      </section>
 
-      <section class="filter-section" aria-labelledby="filter-title">
+      <section class="filter-section" id="archive-tools" aria-labelledby="archive-title" hidden>
         <div class="section-shell">
           <div class="filter-heading">
             <div>
-              <p class="eyebrow">Find relevant experience</p>
-              <h2 id="filter-title">What are you looking for?</h2>
+              <p class="eyebrow">Project archive</p>
+              <h2 id="archive-title" tabindex="-1">Find relevant experience.</h2>
             </div>
-            <button class="filter-clear" id="clear-filters" type="button" hidden>Clear all</button>
+            <div class="filter-actions">
+              <a class="filter-back" id="show-selected" href="?">← Back to selected work</a>
+              <button class="filter-clear" id="clear-filters" type="button" hidden>Clear filters</button>
+            </div>
           </div>
           <div class="filter-controls">
             <label class="search-field">
@@ -60,11 +65,7 @@
       </section>
 
       <section class="project-results section-shell" aria-labelledby="results-title">
-        <!-- <div class="results-heading">
-          <h2 id="results-title"><span id="result-count">41</span> projects</h2>
-          <p id="sort-note">Ordered by evidence quality</p>
-        </div> -->
-        <div class="project-list" id="project-list"></div>
+        <div class="project-list" id="project-list" data-selected-project-count="8"></div>
         <div class="empty-state" id="empty-state" hidden>
           <p class="eyebrow">No matches</p>
           <h2>Try a wider search.</h2>

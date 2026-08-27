@@ -2,15 +2,25 @@
   const projects = Array.isArray(window.PORTFOLIO_PROJECTS) ? window.PORTFOLIO_PROJECTS : [];
   const filterConfig = window.PORTFOLIO_PROJECT_FILTERS || { focus: [], tools_and_technology: [] };
   const projectList = document.querySelector("#project-list");
+  const selectedProjectCount = Number(projectList?.dataset.selectedProjectCount || 0);
+  const selectedProjects = projects.slice(0, selectedProjectCount);
+  const selectedProjectIds = new Set(selectedProjects.map((project) => project.id));
+  const selectedIntro = document.querySelector("#selected-intro");
+  const archiveTools = document.querySelector("#archive-tools");
+  const browseArchive = document.querySelector("#browse-archive");
+  const showSelected = document.querySelector("#show-selected");
   const searchInput = document.querySelector("#project-search");
   const activeFiltersElement = document.querySelector("#active-filters");
   const curatedFiltersElement = document.querySelector("#curated-filters");
   const focusFiltersElement = document.querySelector("#focus-filters");
   const stackFiltersElement = document.querySelector("#stack-filters");
   const resultCount = document.querySelector("#result-count");
+  const resultLabel = document.querySelector("#result-label");
+  const sortNote = document.querySelector("#sort-note");
   const emptyState = document.querySelector("#empty-state");
   const clearButton = document.querySelector("#clear-filters");
   const selectedFacets = new Map();
+  let archiveMode = false;
 
   const facetDefinitions = [
     ["projects", "Projects"],
@@ -205,19 +215,31 @@
 
   function updateUrl() {
     const params = new URLSearchParams();
+    if (archiveMode) params.set("view", "archive");
     if (searchInput.value.trim()) params.set("q", searchInput.value.trim());
     selectedFacets.forEach((_, key) => params.append("filter", key));
     const query = params.toString();
-    history.replaceState(null, "", `${location.pathname}${query ? `?${query}` : ""}${location.hash}`);
+    const hashId = decodeHashId();
+    const hash = archiveMode || !hashId || selectedProjectIds.has(hashId) ? location.hash : "";
+    history.replaceState(null, "", `${location.pathname}${query ? `?${query}` : ""}${hash}`);
   }
 
   function render() {
-    const filtered = projects.filter((project) => matches(project, searchInput.value));
+    const availableProjects = archiveMode ? projects : selectedProjects;
+    const filtered = archiveMode
+      ? availableProjects.filter((project) => matches(project, searchInput.value))
+      : availableProjects;
+    selectedIntro.hidden = archiveMode;
+    archiveTools.hidden = !archiveMode;
     projectList.innerHTML = filtered.map(projectMarkup).join("");
     if (resultCount) resultCount.textContent = filtered.length;
+    if (resultLabel) resultLabel.textContent = archiveMode
+      ? `archive ${filtered.length === 1 ? "project" : "projects"}`
+      : `selected ${filtered.length === 1 ? "project" : "projects"}`;
+    if (sortNote) sortNote.textContent = archiveMode ? "Ordered by project priority" : "Highest-priority work";
     projectList.hidden = filtered.length === 0;
     emptyState.hidden = filtered.length !== 0;
-    clearButton.hidden = !(searchInput.value.trim() || selectedFacets.size);
+    clearButton.hidden = !archiveMode || !(searchInput.value.trim() || selectedFacets.size);
     renderActiveFilters();
     updateUrl();
   }
@@ -233,6 +255,7 @@
   function pivotToFacet(key) {
     const facet = facetLookup.get(key);
     if (!facet) return;
+    archiveMode = true;
     selectedFacets.clear();
     searchInput.value = "";
     selectedFacets.set(key, facet);
@@ -244,6 +267,34 @@
     searchInput.value = "";
     render();
     searchInput.focus();
+  }
+
+  function showArchive({ focus = false } = {}) {
+    archiveMode = true;
+    render();
+    if (focus) document.querySelector("#archive-title")?.focus();
+  }
+
+  function showSelectedProjects() {
+    archiveMode = false;
+    selectedFacets.clear();
+    searchInput.value = "";
+    render();
+    document.querySelector("#projects-title")?.focus();
+  }
+
+  function decodeHashId() {
+    if (!location.hash) return "";
+    try {
+      return decodeURIComponent(location.hash.slice(1));
+    } catch {
+      return location.hash.slice(1);
+    }
+  }
+
+  function scrollToHash() {
+    const hashId = decodeHashId();
+    if (hashId) requestAnimationFrame(() => document.getElementById(hashId)?.scrollIntoView());
   }
 
   function updateMedia(root, project, index) {
@@ -262,7 +313,7 @@
     const facetButton = event.target.closest("[data-add-facet]");
     if (facetButton) {
       pivotToFacet(facetButton.dataset.addFacet);
-      document.querySelector(".filter-section").scrollIntoView({ behavior: "smooth", block: "start" });
+      archiveTools.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
 
@@ -305,7 +356,23 @@
   });
   searchInput.addEventListener("input", render);
   clearButton.addEventListener("click", clearFilters);
+  browseArchive.addEventListener("click", (event) => {
+    event.preventDefault();
+    showArchive({ focus: true });
+  });
+  showSelected.addEventListener("click", (event) => {
+    event.preventDefault();
+    showSelectedProjects();
+  });
   emptyState.querySelector("[data-clear-filters]").addEventListener("click", clearFilters);
+  window.addEventListener("hashchange", () => {
+    const hashProjectId = decodeHashId();
+    const needsArchive = hashProjectId
+      && projects.some((project) => project.id === hashProjectId)
+      && !selectedProjectIds.has(hashProjectId);
+    if (needsArchive && !archiveMode) showArchive();
+    scrollToHash();
+  });
 
   const params = new URLSearchParams(location.search);
   searchInput.value = params.get("q") || "";
@@ -317,11 +384,14 @@
     const facet = facetLookup.get(normalizedKey);
     if (facet) selectedFacets.set(normalizedKey, facet);
   });
+  const hashProjectId = decodeHashId();
+  archiveMode = params.get("view") === "archive"
+    || Boolean(searchInput.value.trim())
+    || selectedFacets.size > 0
+    || Boolean(hashProjectId && projects.some((project) => project.id === hashProjectId) && !selectedProjectIds.has(hashProjectId));
 
   buildCuratedFilters();
   render();
 
-  if (location.hash) {
-    requestAnimationFrame(() => document.querySelector(location.hash)?.scrollIntoView());
-  }
+  scrollToHash();
 })();
