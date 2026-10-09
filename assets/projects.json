@@ -70,7 +70,7 @@
     ],
     "images": [],
     "descriptionSummaryHtml": "The follow-up of <a href=\"?filter=projects%3AAdapta+Solva+Legacy\">Adapta Solva Legacy</a>, where I handled sound design, original music composition, FMOD implementation, and the organization of the game&#039;s audio pipeline alongside my studies.",
-    "descriptionHtml": "<p>The follow-up of <a href=\"?filter=projects%3AAdapta+Solva+Legacy\">Adapta Solva Legacy</a>, where I handled sound design, original music composition, FMOD implementation, and the organization of the game&#039;s audio pipeline alongside my studies.</p>\n<p>Developed a substantially more advanced dynamic music system, rebuilt and expanded earlier audio work for the new production, and coordinated work for two friends who helped with the project.</p>\n<p>The total workload was about 180 hours. 10 of which my friend helped me with sound design and another 20 of which another friend supported the project with music composition.</p>"
+    "descriptionHtml": "<p>The follow-up of <a href=\"?filter=projects%3AAdapta+Solva+Legacy\">Adapta Solva Legacy</a>, where I handled sound design, original music composition, FMOD implementation, and the organization of the game&#039;s audio pipeline alongside my studies.</p>\n<p>Developed a substantially more advanced dynamic music system around my own orchestral compositions, rebuilt and expanded earlier audio work for the new production, and coordinated work for two friends who helped with the project.</p>\n<p>The FMOD system uses puzzle progress to shape musical intensity. Completing a puzzle increases progress and can lift the music, while long periods without progress lower the intensity so that ambience takes over. These gradual changes are designed to support the player&#039;s emotional experience without drawing attention away from the puzzles.</p>\n<p>The total workload was about 180 hours. 10 of which my friend helped me with sound design and another 20 of which another friend supported the project with music composition.</p>"
   },
   {
     "id": "high-performance-unity-ecs-audio-pipeline",
@@ -148,9 +148,77 @@
     "descriptionHtml": "<p>Designed and evaluated a custom data-oriented Unity audio system built with ECS and the Scriptable Audio Pipeline. And benchmarked it against the GameObject Audio Pipeline. The results of that show a clear performance benefit in my ECS-based audio pipeline. The game object-based system, runs max 255 looping voices at approximately 15% DSP CPU. While the ECS system plays the same voices at about 4% DSP CPU and can run many more total voices. That&#039;s already a 3x performance increase.</p>\n<p>This system used a custom ECS Root Output capable of rendering large numbers of voices independently of the GameObject hierarchy. Benchmarking was done using the Unity Profiler running standalone next to a release build. Measurements were repeated multiple times in multiple configurations to reduce errors. Additional tests also showed that my system could safely be multithreaded, resulting in at least another doubling of performance under higher loads.</p>"
   },
   {
+    "id": "unity-granular-synth",
+    "title": "Unity Granular Synth",
+    "description": "Created a granular synth package in Unity using the Scriptable Audio Pipeline. The synth was built using data-oriented principles for performance. It uses a custom Unity UI on a ScriptableObject to make configuration easy.",
+    "hasMoreDescription": true,
+    "context": "MTS4 - Audiolab",
+    "role": "Audio Programmer",
+    "status": "complete",
+    "collection": "Personal",
+    "disciplines": [
+      "Audio Programming",
+      "Interactive Audio",
+      "Music Technology"
+    ],
+    "focus": [
+      "Audio Programming"
+    ],
+    "skills": [
+      "Audio Plugin Development",
+      "Audio Programming",
+      "Unity Development",
+      "Unity Plugin Development"
+    ],
+    "technologies": [
+      "Unity",
+      "Git"
+    ],
+    "tools": [],
+    "concepts": [
+      "Granular Synthesis",
+      "Data-Oriented Design",
+      "Scriptable Audio Pipeline"
+    ],
+    "relevantFor": [
+      "Audio Programmer",
+      "Audio Software Developer",
+      "DSP Engineer",
+      "Technical Sound Designer"
+    ],
+    "quality": "excellent",
+    "qualityRank": 5,
+    "priority": 97,
+    "videos": [
+      {
+        "label": "Car Engine Demo",
+        "url": "https://youtu.be/KJUccFhehDM?si=hfqt0I7Ah9gv9Hq6",
+        "type": "youtube",
+        "youtubeId": "KJUccFhehDM"
+      },
+      {
+        "label": "Old UI",
+        "url": "https://www.youtube.com/watch?v=ev3UDn1Lr18",
+        "type": "youtube",
+        "youtubeId": "ev3UDn1Lr18"
+      }
+    ],
+    "links": [
+      {
+        "label": "Package",
+        "url": "https://marketplace.unity.com/packages/tools/granular-synth-3703711",
+        "type": "link",
+        "youtubeId": null
+      }
+    ],
+    "images": [],
+    "descriptionSummaryHtml": "Created a granular synth package in Unity using the Scriptable Audio Pipeline. The synth was built using data-oriented principles for performance. It uses a custom Unity UI on a ScriptableObject to make configuration easy.",
+    "descriptionHtml": "<p>Created a granular synth package in Unity using the Scriptable Audio Pipeline. The synth was built using data-oriented principles for performance. It uses a custom Unity UI on a ScriptableObject to make configuration easy.</p>\n<p><strong>Features:</strong></p>\n<ul><li>Granular Synth, configurable as a ScriptableObject.</li><li>Controls: Rate, Playback Position Range, Pitch Range, Volume Range, Pan Range, Grain Size Range.</li><li>Configurable Grain Shape.</li><li>Stereo Sample Support.</li><li>Live Preview.</li><li>Toggleable Anti-Phasing.</li><li>Modulation Matrix for easily assigning multiparameter changes.</li></ul>\n<h5>Vehicle Audio</h5>\n<p>I used this granular synth to create my own car audio system. It uses a linear ramp dyno recording of 0% load 50% load and 100% load and crossfades between 3 granular synths depending on the load and changes the playback position depending on the rpm of the car. We then do this for both the engine and the exhaust sound and as a result we get a dynamic spatial audio representation of the car. The granular system can also be used for the other sounds such as tire noise, wind noise and tire screach.</p>"
+  },
+  {
     "id": "into-the-deep",
     "title": "Into the Deep",
-    "description": "Developed the core rhythm and dynamic music systems for Into the Deep, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.",
+    "description": "Developed the core rhythm and dynamic music systems for Into the Deep, a top-down isometric rhythm-based roguelike made entirely in Unreal Engine where enemy behavior synchronizes with the music. Built the system in C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition…",
     "hasMoreDescription": true,
     "context": "Group Projects",
     "role": "Technical Sound Designer",
@@ -211,8 +279,8 @@
       }
     ],
     "images": [],
-    "descriptionSummaryHtml": "Developed the core rhythm and dynamic music systems for <strong><a href=\"?filter=projects%3AInto+the+Deep\">Into the Deep</a></strong>, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.",
-    "descriptionHtml": "<p>Developed the core rhythm and dynamic music systems for <strong><a href=\"?filter=projects%3AInto+the+Deep\">Into the Deep</a></strong>, a top-down isometric rhythm-based roguelike where enemy behavior synchronizes with the music. Built the system in Unreal Engine using C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix.</p>\n<h5>Highlights</h5>\n<ul><li>Created a dynamic rhythm system built on MIDI. The music can transition to different sections on request while remaining synchronized for beat prediction.</li><li>Using MIDI makes it easy to program dynamic attack patterns.</li></ul>"
+    "descriptionSummaryHtml": "Developed the core rhythm and dynamic music systems for Into the Deep, a top-down isometric rhythm-based roguelike made entirely in Unreal Engine where enemy behavior synchronizes with the music. Built the system in C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition…",
+    "descriptionHtml": "<p>Developed the core rhythm and dynamic music systems for <strong><a href=\"?filter=projects%3AInto+the+Deep\">Into the Deep</a></strong>, a top-down isometric rhythm-based roguelike made entirely in Unreal Engine where enemy behavior synchronizes with the music. Built the system in C++ and MetaSounds, exposed instrument-specific rhythm events to gameplay programmers, implemented adaptive music for boss encounters, designed and integrated sound effects, and contributed to the composition and mix. The custom rhythm architecture supported both gameplay synchronisation and dynamic musical changes.</p>\n<h5>Highlights</h5>\n<ul><li>Created a dynamic rhythm system built on MIDI. The music can transition to different sections on request while remaining synchronized for beat prediction.</li><li>Using MIDI makes it easy to program dynamic attack patterns.</li></ul>"
   },
   {
     "id": "lego-databasing",
@@ -267,7 +335,7 @@
   {
     "id": "space-racer",
     "title": "Space Racer",
-    "description": "I composed the music for a futuristic racing game in Reaper and FL Studio, then built the adaptive music system in Wwise. The soundtrack reacts to vehicle speed, collisions, gravity, race sections, and the paused state.",
+    "description": "I created a self-directed futuristic racing-game concept inspired by games such as WipEout, composed its music in Reaper and FL Studio, and built the adaptive music system in Wwise. This was a designed concept rather than an implemented game. The soundtrack reacts to vehicle speed, collisions, gravity, race sections, and the paused state.",
     "hasMoreDescription": true,
     "context": "MTS4 - Music for Games",
     "role": "Interactive Music Designer",
@@ -317,14 +385,14 @@
     ],
     "links": [],
     "images": [],
-    "descriptionSummaryHtml": "I composed the music for a futuristic racing game in Reaper and FL Studio, then built the adaptive music system in Wwise. The soundtrack reacts to vehicle speed, collisions, gravity, race sections, and the paused state.",
-    "descriptionHtml": "<p>I composed the music for a futuristic racing game in Reaper and FL Studio, then built the adaptive music system in Wwise. The soundtrack reacts to vehicle speed, collisions, gravity, race sections, and the paused state.</p>\n<h5>Highlights</h5>\n<ul><li><strong>Speed:</strong> At lower speeds, the bass is reduced and drum hits become shorter through ADSR changes.</li><li><strong>Collisions:</strong> Collision strength drives a decaying parameter that feeds glitch-delay effects, so larger impacts produce a stronger musical interruption.</li><li><strong>Gravity:</strong> Black holes control a parameter that changes the pitch of the reverb.</li><li><strong>Race sections:</strong> Standard, asteroid-tunnel, and gravity sections use different arrangements. Pausing moves the music into a slower, low-pass-filtered state.</li><li><strong>Beat synchronization:</strong> Gameplay sound effects are triggered in time with the music.</li><li><strong>Memory use:</strong> MIDI-triggered breakbeat slices produce approximately twelve drum variations from a small set of samples. The bass uses Wwise&#039;s internal synthesizer, and musical phrases are rearranged between sections instead of being stored as separate rendered tracks.</li></ul>"
+    "descriptionSummaryHtml": "I created a self-directed futuristic racing-game concept inspired by games such as *WipEout*, composed its music in Reaper and FL Studio, and built the adaptive music system in Wwise. This was a designed concept rather than an implemented game. The soundtrack reacts to vehicle speed, collisions, gravity, race sections, and the paused state.",
+    "descriptionHtml": "<p>I created a self-directed futuristic racing-game concept inspired by games such as *WipEout*, composed its music in Reaper and FL Studio, and built the adaptive music system in Wwise. This was a designed concept rather than an implemented game. The soundtrack reacts to vehicle speed, collisions, gravity, race sections, and the paused state.</p>\n<h5>Highlights</h5>\n<ul><li><strong>Speed:</strong> Vehicle speed changes the feel of the music by opening the bass filters, making the drums hit harder, and making the pads more plucky as speed rises.</li><li><strong>Collisions:</strong> Collision strength drives a parameter with an ADSR envelope, so harder impacts produce stronger bitcrushing, distortion, pitch-shifting, and delay effects. Different instruments respond differently, making the music itself sound as if it has crashed while the simultaneous speed change reinforces the effect.</li><li><strong>Gravity:</strong> Black holes control a parameter that changes the pitch of the reverb.</li><li><strong>Race sections:</strong> Standard, asteroid-tunnel, and gravity sections use different arrangements. Pausing moves the music into a slower, low-pass-filtered state.</li><li><strong>Beat synchronization:</strong> Gameplay sound effects are triggered in time with the music.</li><li><strong>Variation:</strong> Each segment uses vertical randomisation. The drums, for example, draw from nine break patterns so repeated sections do not sound identical.</li><li><strong>Memory use:</strong> Rather than storing nine complete rendered drum-break clips, the system uses sliced drum samples triggered through MIDI. The bass uses Wwise&#039;s internal synthesizer, and musical phrases are rearranged between sections instead of being stored as separate rendered tracks.</li></ul>"
   },
   {
     "id": "umbrellas-in-the-sun",
     "title": "Umbrellas in the Sun",
     "description": "Created the complete sound design and final mix for the animated short Umbrellas in the Sun, collaborating closely with an animation team and a conservatory composer. Iterated extensively with the team to refine key sounds such as the thunder, integrated orchestral recording stems into the mix, and delivered production-ready assets on schedule while coordinating expectations across multiple disciplines.",
-    "hasMoreDescription": false,
+    "hasMoreDescription": true,
     "context": "MTS3 - Sound Integration 1",
     "role": "Sound Designer",
     "status": "complete",
@@ -371,7 +439,7 @@
     "links": [],
     "images": [],
     "descriptionSummaryHtml": "Created the complete sound design and final mix for the animated short <strong>Umbrellas in the Sun</strong>, collaborating closely with an animation team and a conservatory composer. Iterated extensively with the team to refine key sounds such as the thunder, integrated orchestral recording stems into the mix, and delivered production-ready assets on schedule while coordinating expectations across multiple disciplines.",
-    "descriptionHtml": "<p>Created the complete sound design and final mix for the animated short <strong>Umbrellas in the Sun</strong>, collaborating closely with an animation team and a conservatory composer. Iterated extensively with the team to refine key sounds such as the thunder, integrated orchestral recording stems into the mix, and delivered production-ready assets on schedule while coordinating expectations across multiple disciplines.</p>"
+    "descriptionHtml": "<p>Created the complete sound design and final mix for the animated short <strong>Umbrellas in the Sun</strong>, collaborating closely with an animation team and a conservatory composer. Iterated extensively with the team to refine key sounds such as the thunder, integrated orchestral recording stems into the mix, and delivered production-ready assets on schedule while coordinating expectations across multiple disciplines.</p>\n<p>The orchestral music was composed by the collaborating composer rather than by me. This was linear orchestral mixing and music integration, not a dynamic-music implementation.</p>"
   },
   {
     "id": "space-harbor-tycoon",
@@ -423,68 +491,6 @@
     "images": [],
     "descriptionSummaryHtml": "Designed and implemented the complete audio palette for <strong>Space Harbor Tycoon</strong> in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.",
     "descriptionHtml": "<p>Designed and implemented the complete audio palette for <strong>Space Harbor Tycoon</strong> in Wwise, creating a dynamic soundscape that evolved with player actions and camera position. Recorded original alien vocalizations and public announcement voice-overs, implemented adaptive crowd density and height-based mixing using RTPCs, and produced an immersive spaceport atmosphere with responsive ships, UI, ambience, and environmental audio.</p>"
-  },
-  {
-    "id": "unity-granular-synth",
-    "title": "Unity Granular Synth",
-    "description": "Created a granular synth package in Unity using the Scriptable Audio Pipeline. The synth was built using data-oriented principles for performance. It uses a custom Unity UI on a ScriptableObject to make configuration easy.",
-    "hasMoreDescription": true,
-    "context": "MTS4 - Audiolab",
-    "role": "Audio Programmer",
-    "status": "complete",
-    "collection": "Personal",
-    "disciplines": [
-      "Audio Programming",
-      "Interactive Audio",
-      "Music Technology"
-    ],
-    "focus": [
-      "Audio Programming"
-    ],
-    "skills": [
-      "Audio Plugin Development",
-      "Audio Programming",
-      "Unity Development",
-      "Unity Plugin Development"
-    ],
-    "technologies": [
-      "Unity",
-      "Git"
-    ],
-    "tools": [],
-    "concepts": [
-      "Granular Synthesis",
-      "Data-Oriented Design",
-      "Scriptable Audio Pipeline"
-    ],
-    "relevantFor": [
-      "Audio Programmer",
-      "Audio Software Developer",
-      "DSP Engineer",
-      "Technical Sound Designer"
-    ],
-    "quality": "excellent",
-    "qualityRank": 5,
-    "priority": 93,
-    "videos": [
-      {
-        "label": "YouTube",
-        "url": "https://youtu.be/ev3UDn1Lr18?si=Y_Z4-cFAbL5eNFfC",
-        "type": "youtube",
-        "youtubeId": "ev3UDn1Lr18"
-      }
-    ],
-    "links": [
-      {
-        "label": "Package",
-        "url": "https://marketplace.unity.com/packages/tools/granular-synth-3703711",
-        "type": "link",
-        "youtubeId": null
-      }
-    ],
-    "images": [],
-    "descriptionSummaryHtml": "Created a granular synth package in Unity using the Scriptable Audio Pipeline. The synth was built using data-oriented principles for performance. It uses a custom Unity UI on a ScriptableObject to make configuration easy.",
-    "descriptionHtml": "<p>Created a granular synth package in Unity using the Scriptable Audio Pipeline. The synth was built using data-oriented principles for performance. It uses a custom Unity UI on a ScriptableObject to make configuration easy.</p>\n<h5>Vehicle Audio Use</h5>\n<p>The first example in the linked video demonstrates the granular synth as a vehicle-engine audio system. Its modulation and multiparameter controls allow the engine sound to respond dynamically, while the same configurable architecture can be used for other granular-audio applications.</p>\n<p><strong>Features:</strong></p>\n<ul><li>Granular Synth, configurable as a ScriptableObject.</li><li>Controls: Rate, Playback Position Range, Pitch Range, Volume Range, Pan Range, Grain Size Range.</li><li>Configurable Grain Shape.</li><li>Stereo Sample Support.</li><li>Live Preview.</li><li>Toggleable Anti-Phasing.</li><li>Modulation Matrix for easily assigning multiparameter changes.</li></ul>"
   },
   {
     "id": "lego-psycho-acoustic-analysis",
@@ -546,7 +552,7 @@
     "id": "beats-from-the-deep",
     "title": "Beats From the Deep",
     "description": "Developed the audio systems for Beats from the Deep, a four-player cooperative rhythm game in which players work together to defeat a cosmic horror boss. Composed the music, designed the sound effects, programmed a custom DSP-driven rhythm system in Unreal Engine that exposed timing events to gameplay systems, and authored the project's Sound Bible while contributing to the broader technical documentation.",
-    "hasMoreDescription": false,
+    "hasMoreDescription": true,
     "context": "MTS4 - Game Projects",
     "role": "Technical Sound Designer",
     "status": "complete",
@@ -621,7 +627,7 @@
     ],
     "images": [],
     "descriptionSummaryHtml": "Developed the audio systems for <strong>Beats from the Deep</strong>, a four-player cooperative rhythm game in which players work together to defeat a cosmic horror boss. Composed the music, designed the sound effects, programmed a custom DSP-driven rhythm system in Unreal Engine that exposed timing events to gameplay systems, and authored the project&#039;s <strong>Sound Bible</strong> while contributing to the broader technical documentation.",
-    "descriptionHtml": "<p>Developed the audio systems for <strong>Beats from the Deep</strong>, a four-player cooperative rhythm game in which players work together to defeat a cosmic horror boss. Composed the music, designed the sound effects, programmed a custom DSP-driven rhythm system in Unreal Engine that exposed timing events to gameplay systems, and authored the project&#039;s <strong>Sound Bible</strong> while contributing to the broader technical documentation.</p>"
+    "descriptionHtml": "<p>Developed the audio systems for <strong>Beats from the Deep</strong>, a four-player cooperative rhythm game in which players work together to defeat a cosmic horror boss. Composed the music, designed the sound effects, programmed a custom DSP-driven rhythm system in Unreal Engine that exposed timing events to gameplay systems, and authored the project&#039;s <strong>Sound Bible</strong> while contributing to the broader technical documentation.</p>\n<p>The composed music itself was not dynamic; the custom system synchronised rhythm-game behaviour to the music.</p>"
   },
   {
     "id": "rain-granular-synth",
@@ -1113,6 +1119,8 @@
       "Sound Design",
       "Synthesizer Programming",
       "Interactive Audio",
+      "Dynamic Music",
+      "Music Composition",
       "Stakeholder Communication"
     ],
     "technologies": [],
@@ -1137,7 +1145,7 @@
       }
     ],
     "descriptionSummaryHtml": "Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within a synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds that fit the interactions. My role here was mostly for prototyping and learning the architecture. However I also freely experimented to come up with systems of my own.",
-    "descriptionHtml": "<p>Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within a synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds that fit the interactions. My role here was mostly for prototyping and learning the architecture. However I also freely experimented to come up with systems of my own.</p>\n<p>*For more information, reach out to designtalent@lego.com.*</p>"
+    "descriptionHtml": "<p>Contributed sound design to <strong>LEGO SMART Play</strong>, creating sounds within a synth-based audio system. Worked within the project&#039;s existing audio framework to design sounds that fit the interactions. My role here was mostly for prototyping and learning the architecture. However I also freely experimented to come up with systems of my own.</p>\n<p>During a hackathon, I used the SMART Brick system for a small dynamic-music experiment outside my assigned work. I wrote an 8-bit song inside the system and made its note playback vary slightly on each loop.</p>\n<p>*For more information, reach out to designtalent@lego.com.*</p>"
   },
   {
     "id": "umbrellas-5-1-surround-mix",
